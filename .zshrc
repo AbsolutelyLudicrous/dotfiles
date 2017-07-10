@@ -31,6 +31,7 @@ open(){
 
 upmusic(){
 	#redownload music playlist
+	#WARNING overwrites your shit, TODO
 	cd ~/Music
 	youtube-dl https://www.youtube.com/playlist\?list=PLU6u2aLdEBuPrq2NydvfyTFW6nBOSr6c3\
 		 --yes-playlist\
