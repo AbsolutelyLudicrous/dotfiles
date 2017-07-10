@@ -1,5 +1,5 @@
 #greeting screen
-repeat 10 echo
+repeat 8 echo
 neofetch
 echo 'Welcome, '$USER
 echo 'The time is currently '$(date)
@@ -9,7 +9,7 @@ alias ls='ls -a --color'
 alias tyls='tyls -a -m' #Terminology's fancy-schmancy ls replacement
 alias grep='grep --color'
 alias ssh='ssh -v'
-alias clear='clear && neofetch'
+alias clear='clear && . ~/.zshrc'	#pretends we have a new terminal
 alias df='df -h'
 alias 'maven'='mvn'
 alias vim='nvim'
@@ -17,8 +17,8 @@ alias vi='nvim'
 alias emacs='nvim' #Muahahahahaahhaahaahahahaahhahaa!
 
 #environ vars
-export EDITOR=vim
-export VISUAL=vim
+export EDITOR=nvim
+export VISUAL=nvim
 
 #options
 setopt interactivecomments
