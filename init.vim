@@ -6,7 +6,8 @@ set autoindent			"automatically indent
 set visualbell			"don't play a sound when I balls up
 set nobackup			"dont make .fileextension~ files
 "set backupdir=~/foo/bar/baz	"backup directory, if the above is turned off
-set clipboard=unnamedplus	"enable copy/pasting in and out of Vim
+"set clipboard=unnamedplus	"enable copy/pasting in and out of Vim
+set clipboard+=unnamedplus	"neovim style
 set noexpandtab			"use tabs, not spaces
 
 "macros
