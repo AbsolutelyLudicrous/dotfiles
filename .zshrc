@@ -19,6 +19,7 @@ alias emacs='nvim' #Muahahahahaahhaahaahahahaahhahaa!
 #environ vars
 export EDITOR=nvim
 export VISUAL=nvim
+export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=32
 
 #options
 setopt interactivecomments
@@ -167,6 +168,7 @@ HIST_STAMPS="dd.mm.yyyy"
 plugins=(git)
 
 source $ZSH/oh-my-zsh.sh
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	#fish-style autocompletion, available from https://github.com/zsh-users/zsh-autosuggestions
 
 # User configuration
 
