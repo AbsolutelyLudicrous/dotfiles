@@ -19,95 +19,22 @@ alias emacs='nvim' #Muahahahahaahhaahaahahahaahhahaa!
 #environ vars
 export EDITOR=nvim
 export VISUAL=nvim
-export ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=32
+ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=32
 
 #options
 setopt interactivecomments
 setopt dotglob
 
-#function definitions
-open(){
-	#provide OSX-style file opening
-	nautilus $1 & disown && echo
-}
-
-upmusic(){
-	#redownload music playlist
-	#WARNING takes fucking forever
-	mkdir ~/Music/downloaded_tempdir
-	cd ~/Music/downloaded_tempdir
-	youtube-dl https://www.youtube.com/playlist\?list=PLU6u2aLdEBuPrq2NydvfyTFW6nBOSr6c3\
-		 --yes-playlist\
-		 --no-call-home\
-		 --ignore-config\
-		 --no-overwrites
-		# --embed-thumbnail - screwed for now
-	cp ../0\ convert.sh .
-	./0\ convert.sh
-	mv --no-clobber ./* --target ../
-	cd ..
-	rm --recursive downloaded_tempdir
-	echo \'Music placed in $USER/Music.\'
-	cd
-}
-
-man(){
-	#Colored manpages
-	#Credit goes to
-	#https://github.com/da-edra/dotfiles 
-	env \
-		LESS_TERMCAP_mb=$(printf "\e[1;31m") \
-		LESS_TERMCAP_md=$(printf "\e[1;31m") \
-		LESS_TERMCAP_me=$(printf "\e[0m") \
-		LESS_TERMCAP_se=$(printf "\e[0m") \
-		LESS_TERMCAP_so=$(printf "\e[1;44;33m") \
-		LESS_TERMCAP_ue=$(printf "\e[0m") \
-		LESS_TERMCAP_us=$(printf "\e[1;32m") \
-		man "$@"
-}
-
-alias 'music'='muse'
-muse(){
-	#//TODO
-	#Add some kind of Rhythmbox/Cava autostart config
-	notify-send TODO
-}
-
-alias 'bs'='brightset'
-brightset(){
-	#Set the brightness via command line
-	echo $(</root/assworld) | sudo -S\
-	light -S $1 ||\
-	echo 'An error occurred.  Did you input a value to be set?'
-	echo $(</root/assworld) | sudo -S light -G
-}
-
-alias 'bd'='brightdown'
-brightdown(){
-	#Decrease brightness via command line
-	echo $(</root/assworld) | sudo -S bash -c '
-	light -U 10
-	light -G
-'}
-
-alias 'bu'='brightup'
-brightup(){
-	#Increase brightness via command line
-	echo $(</root/assworld) | sudo -S bash -c '
-	light -A 10
-	light -G
-'}
-
-alias 'dj'='dadjoke'
-dadjoke(){
-	curl -s https://icanhazdadjoke.com/
-	echo #newline needed
-}
-
-FIXME(){
-	#Used in my own shell scripts
-	notify-send 'Process with ID '$$' is sending an SOS, fix it!'
-}
+#functions
+open()					{ ~/Documents/dotfiles/open.sh $@;	}
+upmusic()				{ ~/Documents/dotfiles/upmusic.sh $@;	}
+man()					{ ~/Documents/dotfiles/man.sh $@;	}
+alias 'music'='muse'; muse()		{ ~/Documents/dotfiles/muse.sh $@;	}
+alias 'bs'='brightset'; brightset()	{ ~/Documents/dotfiles/brightset.sh $@;	}
+alias 'bd'='brightdown'; brightdown()	{ ~/Documents/dotfiles/brightdown.sh $@;}
+alias 'bu'='brightup'; brightup()	{ ~/Documents/dotfiles/brightup.sh $@;	}
+alias 'dj'='dadjoke'; dadjoke()		{ ~/Documents/dotfiles/dadjoke.sh $@;	}
+FIXME()					{ ~/Documents/dotfiles/FIXME.sh $@;	}
 
 # ^^	Mason-Generated	^^
 # vv	Auto-generated	vv
@@ -121,6 +48,7 @@ FIXME(){
 # Set name of the theme to load. Optionally, if you set this to "random"
 # it'll load a random theme each time that oh-my-zsh is loaded.
 # See https://github.com/robbyrussell/oh-my-zsh/wiki/Themes
+#agnoster requires a powerline font, bureau works OOTB.
 ZSH_THEME='agnoster' #or bureau
 
 # Uncomment the following line to use case-sensitive completion.
