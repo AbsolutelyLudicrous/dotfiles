@@ -26,15 +26,16 @@ setopt interactivecomments
 setopt dotglob
 
 #functions
-open()					{ ~/Documents/dotfiles/open.sh $@;	}
-upmusic()				{ ~/Documents/dotfiles/upmusic.sh $@;	}
-man()					{ ~/Documents/dotfiles/man.sh $@;	}
-alias 'music'='muse'; muse()		{ ~/Documents/dotfiles/muse.sh $@;	}
-alias 'bs'='brightset'; brightset()	{ ~/Documents/dotfiles/brightset.sh $@;	}
-alias 'bd'='brightdown'; brightdown()	{ ~/Documents/dotfiles/brightdown.sh $@;}
-alias 'bu'='brightup'; brightup()	{ ~/Documents/dotfiles/brightup.sh $@;	}
-alias 'dj'='dadjoke'; dadjoke()		{ ~/Documents/dotfiles/dadjoke.sh $@;	}
-FIXME()					{ ~/Documents/dotfiles/FIXME.sh $@;	}
+SHELL_MACRO_LOCATION=$HOME/Documents/dotfiles/shell-macros	#set this to wherever your macros are
+open()					{ $SHELL_MACRO_LOCATION/open.sh $@;		}
+upmusic()				{ $SHELL_MACRO_LOCATION/upmusic.sh $@;		}
+man()					{ $SHELL_MACRO_LOCATION/man.sh $@;		}
+alias 'music'='muse'; muse()		{ $SHELL_MACRO_LOCATION/muse.sh $@;		}
+alias 'bs'='brightset'; brightset()	{ $SHELL_MACRO_LOCATION/brightset.sh $@;	}
+alias 'bd'='brightdown'; brightdown()	{ $SHELL_MACRO_LOCATION/brightdown.sh $@;	}
+alias 'bu'='brightup'; brightup()	{ $SHELL_MACRO_LOCATION/brightup.sh $@;		}
+alias 'dj'='dadjoke'; dadjoke()		{ $SHELL_MACRO_LOCATION/dadjoke.sh $@;		}
+FIXME()					{ $SHELL_MACRO_LOCATION/FIXME.sh $@;		}
 
 # ^^	Mason-Generated	^^
 # vv	Auto-generated	vv
