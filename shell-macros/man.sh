@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 #Colored manpages
 #Credit goes to
 #https://github.com/da-edra/dotfiles 

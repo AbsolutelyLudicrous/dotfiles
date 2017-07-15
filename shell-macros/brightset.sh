@@ -1,3 +1,4 @@
+#!/usr/bin/bash
 main(){
 	#Set the brightness via command line
 	echo $(</root/assworld) | sudo -S\
