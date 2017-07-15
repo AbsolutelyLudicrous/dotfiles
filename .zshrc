@@ -36,7 +36,7 @@ setopt interactivecomments
 setopt dotglob
 
 #functions
-SHELL_MACRO_LOCATION=$HOME/Documents/dotfiles/shell-macros	#set this to wherever your macros are
+SHELL_MACRO_LOCATION=$HOME/Documents/dotfiles/shell-macros	#set this to wherever you cloned these macros
 open()		{ $SHELL_MACRO_LOCATION/open.sh $@;		};
 upmusic()	{ $SHELL_MACRO_LOCATION/upmusic.sh $@;		};
 man()		{ $SHELL_MACRO_LOCATION/man.sh $@;		};
