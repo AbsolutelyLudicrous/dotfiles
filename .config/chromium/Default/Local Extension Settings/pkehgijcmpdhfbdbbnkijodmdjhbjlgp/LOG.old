@@ -1,0 +1,18 @@
+2017/08/04-06:34:06.615 22959 Reusing MANIFEST /home/masondanne/.config/chromium/Default/Local Extension Settings/pkehgijcmpdhfbdbbnkijodmdjhbjlgp/MANIFEST-000001
+2017/08/04-06:34:06.615 22959 Recovering log #143
+2017/08/04-06:34:06.632 22959 Reusing old log /home/masondanne/.config/chromium/Default/Local Extension Settings/pkehgijcmpdhfbdbbnkijodmdjhbjlgp/000143.log 
+2017/08/04-06:41:56.133 23691 Level-0 table #147: started
+2017/08/04-06:41:56.162 23691 Level-0 table #147: 909867 bytes OK
+2017/08/04-06:41:56.171 23691 Delete type=0 #143
+2017/08/04-11:01:30.357 23691 Level-0 table #149: started
+2017/08/04-11:01:30.377 23691 Level-0 table #149: 913852 bytes OK
+2017/08/04-11:01:30.381 23691 Delete type=0 #146
+2017/08/04-11:01:30.382 23691 Compacting 4@0 + 1@1 files
+2017/08/04-11:01:30.413 23691 Generated table #150@0: 4 keys, 47871 bytes
+2017/08/04-11:01:30.413 23691 Compacted 4@0 + 1@1 files => 47871 bytes
+2017/08/04-11:01:30.424 23691 compacted to: files[ 0 1 1 0 0 0 0 ]
+2017/08/04-11:01:30.425 23691 Delete type=2 #149
+2017/08/04-11:01:30.429 23691 Delete type=2 #147
+2017/08/04-11:01:30.430 23691 Delete type=2 #140
+2017/08/04-11:01:30.430 23691 Delete type=2 #144
+2017/08/04-11:01:30.431 23691 Delete type=2 #142

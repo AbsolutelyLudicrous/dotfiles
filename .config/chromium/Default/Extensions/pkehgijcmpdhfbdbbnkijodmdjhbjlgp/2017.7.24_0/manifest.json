@@ -1,0 +1,58 @@
+{
+   "applications": {
+      "gecko": {
+         "id": "jid1-MnnxcxisBPnSXQ@jetpack"
+      }
+   },
+   "author": {
+      "email": "eff.software.projects@gmail.com"
+   },
+   "background": {
+      "scripts": [ "js/bootstrap.js", "lib/punycode.js", "lib/publicSuffixList.js", "lib/basedomain.js", "lib/underscore-min.js", "data/surrogates.js", "js/surrogates.js", "js/multiDomainFirstParties.js", "js/incognito.js", "js/constants.js", "js/storage.js", "js/utils.js", "js/htmlutils.js", "js/webrequest.js", "js/heuristicblocking.js", "js/socialwidgetloader.js", "js/migrations.js", "js/background.js" ]
+   },
+   "browser_action": {
+      "default_icon": {
+         "19": "icons/badger-19.png",
+         "38": "icons/badger-38.png"
+      },
+      "default_popup": "skin/popup.html",
+      "default_title": "__MSG_name__"
+   },
+   "content_scripts": [ {
+      "js": [ "js/firstparties/twitter.js" ],
+      "matches": [ "https://twitter.com/*", "http://twitter.com/*" ],
+      "run_at": "document_idle"
+   }, {
+      "all_frames": true,
+      "js": [ "js/contentscripts/clobbercookie.js", "js/contentscripts/clobberlocalstorage.js", "js/contentscripts/fingerprinting.js", "js/contentscripts/supercookie.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_start"
+   }, {
+      "all_frames": true,
+      "js": [ "js/contentscripts/socialwidgets.js" ],
+      "matches": [ "\u003Call_urls>" ],
+      "run_at": "document_idle"
+   } ],
+   "default_locale": "en_US",
+   "description": "__MSG_description__",
+   "icons": {
+      "128": "icons/badger-128.png",
+      "16": "icons/badger-16.png",
+      "170": "icons/badger-170.png",
+      "19": "icons/badger-19.png",
+      "24": "icons/badger-24.png",
+      "32": "icons/badger-32.png",
+      "38": "icons/badger-38.png",
+      "48": "icons/badger-48.png",
+      "64": "icons/badger-64.png"
+   },
+   "incognito": "spanning",
+   "key": "MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApjB2HfNGaSUpDrozPCN+0/1UarkE5sRrbk306T5OcMfYigJeCWDocLvdbHQ9/SZe9DXjsvGP6I85xUd9mdNkuUi2oCL6MhR+9NUvoDol4zAD26MgVA1m9lOhynMJO/LS3RRCcUrzjflOQbleNjg71v55SMkUN4E3o1YKQ3x1set4eFlkVnIXTf15yBoLVYGejcDlsMIoyQjuV7wsihZ7mB7koLwETWnamqlqvGUiMWTRthRgEcT6/6PNXLXmbgG/bBfcgmbIRgGy2BOsfT5qo+UgNTMJwrYc3H0PAn5yHhUnbUrVq5yPdXutu/d0X5HGYoiBEauCQ2P3j7hlMvsYhQIDAQAB",
+   "manifest_version": 2,
+   "minimum_chrome_version": "18.0",
+   "name": "__MSG_name__",
+   "options_page": "/skin/options.html",
+   "permissions": [ "tabs", "http://*/*", "https://*/*", "contextMenus", "webRequest", "webRequestBlocking", "webNavigation", "storage", "cookies", "privacy" ],
+   "version": "2017.7.24",
+   "web_accessible_resources": [ "skin/socialwidgets/*" ]
+}
