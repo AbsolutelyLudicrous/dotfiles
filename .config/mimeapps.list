@@ -149,3 +149,4 @@ video/x-matroska=vlc.desktop;
 video/webm=vlc.desktop;
 video/vnd.mpegurl=vlc.desktop;
 image/x-ico=eog.desktop;
+image/x-xcf=gimp.desktop;feh.desktop;

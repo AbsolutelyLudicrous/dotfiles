@@ -15,6 +15,7 @@ alias 'maven'='mvn'
 alias vim='nvim'
 alias vi='nvim'
 alias emacs='nvim' #Muahahahahaahhaahaahahahaahhahaa!
+alias 'fuck'='sudo $!!';alias 'redo'='sudo !!'
 
 #environ vars
 export EDITOR=nvim			#editor
@@ -53,3 +54,4 @@ plugins=(git)
 #sourcing shenaninigans
 source $ZSH/oh-my-zsh.sh
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	#fish-style autocompletion, available from https://github.com/zsh-users/zsh-autosuggestions
+source /home/masondanne/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh

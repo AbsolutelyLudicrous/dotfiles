@@ -1,0 +1,9 @@
+(2){"type":"deviceInfo","ts":1501874726265,"os_ver":"Linux 4.12 Arch rolling 64bit","app_ver":"1.0","engine_ver":"5.5.3p1","rooted_jailbroken":false,"debug_build":false,"device_info_hash":640805170,"make":"LinuxPlayer","model":"PC","cpu":"Intel(R) Core(TM) i7-6500U CPU @ 2.50GHz","cpu_count":4,"cpu_freq":1638,"ram":7852,"vram":512,"screen":"1920 x 1080","dpi":0,"platformid":13,"lang":"en","sensors":0,"flags":2198042570,"deviceid":"aa957a32f0024c2bb01e3a83b09c36ec","app_name":"com.Company.ProductName","app_install_mode":"","app_install_store":"","app_build_ver":"5.5.3p1","license_type":"advanced_pro","gfx_name":"Mesa DRI Intel(R) HD Graphics 520 (Skylake GT2) ","gfx_vendor":"Intel Open Source Technology Center","gfx_ver":"OpenGL 4.5 (Core Profile) Mesa 17.1.5","gfx_driver":"n/a","gfx_shader":50,"gfx_api":17,"gfx_tex":1003,"gfx_rt":255,"gfx_flags":64191}
+{"type":"custom","ts":1501874725806,"name":"unity.sceneLoad","custom_params":{"level_name":"Setup","level_num":0,"total_levels":4}}
+{"type":"sceneLoadingTime","ts":1501874725814,"scene_name":"","background_time":35248000,"integrate_time":903928000,"ts_integrate_time":11000,"total_time":950775040}
+{"type":"custom","ts":1501874746951,"name":"unity.sceneLoad","custom_params":{"level_name":"Menu","level_num":1,"total_levels":4}}
+{"type":"sceneLoadingTime","ts":1501874746966,"scene_name":"","background_time":31366002,"integrate_time":62825000,"ts_integrate_time":1280423936,"total_time":1385526016}
+{"type":"custom","ts":1501874768316,"name":"unity.sceneLoad","custom_params":{"level_name":"Menu","level_num":1,"total_levels":4}}
+{"type":"sceneLoadingTime","ts":1501874768334,"scene_name":"","background_time":12122000,"integrate_time":45273000,"ts_integrate_time":765963968,"total_time":840169024}
+{"type":"appRunning","ts":1501874768344,"duration":43,"local_time_offset":18000000}
+(1){"type":"appStop","ts":1501874768345}

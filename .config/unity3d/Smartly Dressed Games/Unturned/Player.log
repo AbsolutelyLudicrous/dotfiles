@@ -23,7 +23,7 @@ ERROR: ld.so: object '/home/masondanne/.local/share/Steam/ubuntu12_32/gameoverla
 parameters GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_AR
 B_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_textu
 re_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
-OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 55219856
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 68813456
 AudioManager: Using PulseAudio: Default Output Device
 Begin MonoManager ReloadAssembly
 Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Unturned_Data/Managed/UnityEngine.dll (this message is harmless)
@@ -54,7 +54,7 @@ Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned
 Loading /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Unturned_Data/Managed/Newtonsoft.Json.dll into Unity Child Domain
 Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Unturned_Data/Managed/UnityEngine.CrashLog.dll (this message is harmless)
 Loading /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Unturned_Data/Managed/UnityEngine.CrashLog.dll into Unity Child Domain
-- Completed reload, in  0.062 seconds
+- Completed reload, in  0.052 seconds
 Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Unturned_Data/Managed/System.Core.dll (this message is harmless)
 Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Unturned_Data/Managed/System.dll (this message is harmless)
 Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Unturned_Data/Managed/System.Xml.dll (this message is harmless)
@@ -67,7 +67,7 @@ Using libudev for joystick management
 
 
 Importing game controller configs
-UnloadTime: 2.517000 ms
+UnloadTime: 1.425000 ms
 Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Unturned_Data/Managed/System.Data.dll (this message is harmless)
 Non platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Modules/Framework/Framework.dll (this message is harmless)
 Non platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Modules/Unturned/Unturned.dll (this message is harmless)
@@ -77,8 +77,8 @@ Non platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Untu
 Non platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Modules/Unturned/Unturned.dll (this message is harmless)
 Unloading 4 Unused Serialized files (Serialized files now loaded: 0)
 
-Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1845.
-Total: 2.751000 ms (FindLiveObjects: 0.109000 ms CreateObjectMapping: 0.061000 ms MarkObjects: 2.558000 ms  DeleteObjects: 0.022000 ms)
+Unloading 2 unused Assets to reduce memory usage. Loaded Objects now: 1853.
+Total: 2.974000 ms (FindLiveObjects: 0.126000 ms CreateObjectMapping: 0.050000 ms MarkObjects: 2.789000 ms  DeleteObjects: 0.008000 ms)
 
 Changing real window size to 1920 x 1026
 Changing real window size to 1920 x 1026
@@ -4196,87 +4196,22 @@ WARNING: Shader Unsupported: 'Standard' - Pass 'META' has no vertex shader
 WARNING: Shader Unsupported: 'Standard' - All passes removed
 Unloading 3 Unused Serialized files (Serialized files now loaded: 2)
 
-Unloading 3110 unused Assets to reduce memory usage. Loaded Objects now: 121186.
-Total: 1965.226074 ms (FindLiveObjects: 9.596001 ms CreateObjectMapping: 15.228000 ms MarkObjects: 57.365997 ms  DeleteObjects: 1883.034912 ms)
+Unloading 3136 unused Assets to reduce memory usage. Loaded Objects now: 122554.
+Total: 1908.970947 ms (FindLiveObjects: 7.969000 ms CreateObjectMapping: 12.792000 ms MarkObjects: 57.032001 ms  DeleteObjects: 1831.176025 ms)
 
 Unloading 4 Unused Serialized files (Serialized files now loaded: 2)
-UnloadTime: 11.111000 ms
+UnloadTime: 4.082000 ms
 
-Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 122720.
-Total: 106.278999 ms (FindLiveObjects: 7.340000 ms CreateObjectMapping: 13.589001 ms MarkObjects: 49.692001 ms  DeleteObjects: 35.656002 ms)
+Unloading 22 unused Assets to reduce memory usage. Loaded Objects now: 124088.
+Total: 113.014000 ms (FindLiveObjects: 9.017000 ms CreateObjectMapping: 13.957999 ms MarkObjects: 52.160000 ms  DeleteObjects: 37.877998 ms)
 
 Unloading 1 Unused Serialized files (Serialized files now loaded: 2)
 
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 122720.
-Total: 73.389999 ms (FindLiveObjects: 8.176000 ms CreateObjectMapping: 14.283000 ms MarkObjects: 50.702999 ms  DeleteObjects: 0.228000 ms)
-
-Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/Unturned/Unturned_Data/Managed/Boo.Lang.dll (this message is harmless)
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-Survival
- 
-(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
-
-Unloading 3 Unused Serialized files (Serialized files now loaded: 2)
-UnloadTime: 45.345001 ms
-
-Unloading 52 unused Assets to reduce memory usage. Loaded Objects now: 121444.
-Total: 293.947021 ms (FindLiveObjects: 5.539000 ms CreateObjectMapping: 10.889000 ms MarkObjects: 242.875000 ms  DeleteObjects: 34.641998 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 2)
-
-Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 121444.
-Total: 275.593994 ms (FindLiveObjects: 9.683000 ms CreateObjectMapping: 13.918000 ms MarkObjects: 251.796997 ms  DeleteObjects: 0.194000 ms)
-
-Desired shader compiler platform 15 is not available in shader blob
- 
-(Filename:  Line: 539)
-
-WARNING: Shader Unsupported: 'Standard (Decalable)' - Pass 'FORWARD' has no vertex shader
-WARNING: Shader Unsupported: 'Standard (Decalable)' - Pass 'FORWARD_DELTA' has no vertex shader
-WARNING: Shader Unsupported: 'Standard (Decalable)' - Pass 'SHADOWCASTER' has no vertex shader
-WARNING: Shader Unsupported: 'Standard (Decalable)' - Pass 'META' has no vertex shader
-WARNING: Shader Unsupported: 'Standard (Decalable)' - All passes removed
-WARNING: Shader Unsupported: 'Standard (Decalable)' - Pass 'FORWARD' has no vertex shader
-WARNING: Shader Unsupported: 'Standard (Decalable)' - Pass 'FORWARD_DELTA' has no vertex shader
-WARNING: Shader Unsupported: 'Standard (Decalable)' - Pass 'SHADOWCASTER' has no vertex shader
-WARNING: Shader Unsupported: 'Standard (Decalable)' - Pass 'DEFERRED' has no vertex shader
-WARNING: Shader Unsupported: 'Standard (Decalable)' - Pass 'META' has no vertex shader
-WARNING: Shader Unsupported: 'Standard (Decalable)' - All passes removed
-Unloading 3 Unused Serialized files (Serialized files now loaded: 2)
-
-Unloading 367 unused Assets to reduce memory usage. Loaded Objects now: 1036502.
-Total: 801.835999 ms (FindLiveObjects: 84.402000 ms CreateObjectMapping: 29.784000 ms MarkObjects: 413.648987 ms  DeleteObjects: 274.000000 ms)
+Unloading 0 unused Assets to reduce memory usage. Loaded Objects now: 124088.
+Total: 74.834000 ms (FindLiveObjects: 7.758000 ms CreateObjectMapping: 13.717999 ms MarkObjects: 53.112000 ms  DeleteObjects: 0.246000 ms)
 
 GfxDevice: creating device client; threaded=1
 GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-GfxDevice: creating device client; threaded=1
-Unloading 4 Unused Serialized files (Serialized files now loaded: 2)
-UnloadTime: 1166.079956 ms
-
-Unloading 1610 unused Assets to reduce memory usage. Loaded Objects now: 123697.
-Total: 207.209000 ms (FindLiveObjects: 8.573999 ms CreateObjectMapping: 11.705000 ms MarkObjects: 71.245003 ms  DeleteObjects: 115.684006 ms)
-
-Unloading 1 Unused Serialized files (Serialized files now loaded: 2)
-
-Unloading 1 unused Assets to reduce memory usage. Loaded Objects now: 123696.
-Total: 99.385002 ms (FindLiveObjects: 10.060000 ms CreateObjectMapping: 13.127000 ms MarkObjects: 75.987999 ms  DeleteObjects: 0.209000 ms)
-
-Unloading 4 Unused Serialized files (Serialized files now loaded: 2)
-UnloadTime: 23.778002 ms
-
-Unloading 25 unused Assets to reduce memory usage. Loaded Objects now: 123698.
-Total: 153.078003 ms (FindLiveObjects: 9.226000 ms CreateObjectMapping: 12.372000 ms MarkObjects: 73.604004 ms  DeleteObjects: 57.874001 ms)
-
+UnloadTime: 11.635000 ms
 Setting up 1 worker threads for Enlighten.
-  Thread -> id: 7f2405305700 -> priority: 1 
+  Thread -> id: 7fbb7e7fc700 -> priority: 1 

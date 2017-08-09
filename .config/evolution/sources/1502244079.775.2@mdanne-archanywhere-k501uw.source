@@ -1,0 +1,25 @@
+[Data Source]
+DisplayName=dannefamily01@gmail.com
+Enabled=true
+Parent=1502244079.775.0@mdanne-archanywhere-k501uw
+
+[Mail Composition]
+Bcc=
+Cc=
+DraftsFolder=folder://local/Drafts
+ReplyStyle=default
+SignImip=true
+TemplatesFolder=
+
+[Mail Identity]
+Address=dannefamily01@gmail.com
+Aliases=
+Name=
+Organization=
+ReplyTo=
+SignatureUid=none
+
+[Mail Submission]
+SentFolder=folder://local/Sent
+TransportUid=1502244079.775.3@mdanne-archanywhere-k501uw
+RepliesToOriginFolder=false
