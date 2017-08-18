@@ -20,14 +20,11 @@ function termopen () {
 		alias ls='tyls -s -a'
 		ufetch
 	fi
-	neofetch | grep 'gnome-term' > /dev/null && uname -a | grep -i arch > /dev/null
+	neofetch | grep 'gnome-term' > /dev/null
 	if [[ ($? -eq 0) ]];then;	#if this is gnome-terminal
 		export ZSH_THEME='bureau'
 		alias ls='ls -a --color'
-		ufetch
-	#else
-	#	export ZSH_THEME='avit'
-	#	alias ls='ls -a --color'
+		ufetch || top -n 1 | head -n 5
 	fi
 	echo 'Welcome, '$USER
 	echo 'The time is currently '$(date)
