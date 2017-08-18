@@ -1,0 +1,16 @@
+[KFileDialog Settings]
+Recent Files[$e]=color-changing-mountains.xml,file:$HOME/Pictures/color-changing-mountains.xml
+Recent URLs[$e]=file:$HOME/Pictures/
+
+[PlasmaViews][Panel 2]
+alignment=132
+panelVisibility=0
+
+[PlasmaViews][Panel 2][Horizontal1920]
+thickness=30
+
+[ScreenConnectors]
+0=eDP1
+
+[Updates]
+performed=/usr/share/plasma/shells/org.kde.plasma.desktop/contents/updates/obsolete_kickoffrc.js

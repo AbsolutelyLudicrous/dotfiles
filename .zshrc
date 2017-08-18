@@ -6,6 +6,7 @@ function termopen () {
 		alias ls='ls -a --color'
 		repeat 8 echo
 		neofetch
+		gtop
 	fi
 	neofetch | grep 'java' > /dev/null
 	if [[ ($? -eq 0) ]];then;	#if this is Eclipse's terminal
@@ -13,11 +14,20 @@ function termopen () {
 		alias ls='ls -a --color'
 		export ZSH_THEME='avit'
 	fi
-	neofetch | grep 'terminology'
+	neofetch | grep 'terminology' > /dev/null
 	if [[ ($? -eq 0) ]];then;	#if this is Terminology
 		export ZSH_THEME='agnoster' #or bureau. agnoster requires a powerline font, bureau works OOTB.
-		alias ls='tyls -s -m'	#S&M, oh yeah!
-		neofetch
+		alias ls='tyls -s -a'
+		ufetch
+	fi
+	neofetch | grep 'gnome-term' > /dev/null && uname -a | grep -i arch > /dev/null
+	if [[ ($? -eq 0) ]];then;	#if this is gnome-terminal
+		export ZSH_THEME='bureau'
+		alias ls='ls -a --color'
+		ufetch
+	else
+		export ZSH_THEME='avit'
+		alias ls='ls -a --color'
 	fi
 	echo 'Welcome, '$USER
 	echo 'The time is currently '$(date)
@@ -63,6 +73,7 @@ function brightset()	{ $SHELL_MACRO_LOCATION/brightset.sh $@;	};alias 'bs'='brig
 function brightdown()	{ $SHELL_MACRO_LOCATION/brightdown.sh $@;	};alias 'bd'='brightdown'
 function brightup()	{ $SHELL_MACRO_LOCATION/brightup.sh $@;		};alias 'bu'='brightup'
 function dadjoke()	{ $SHELL_MACRO_LOCATION/dadjoke.sh $@;		};alias 'dj'='dadjoke'
+function termdate()	{ $SHELL_MACRO_LOCATION/termdate.sh $@;		};alias 'td'='termdate'
 function FIXME()	{ $SHELL_MACRO_LOCATION/FIXME.sh $@;		};
 
 #plugins; may be added to ~/.oh-my-zsh/custom/plugins/
@@ -70,5 +81,17 @@ plugins=(git)
 
 #sourcing shenaninigans
 source $ZSH/oh-my-zsh.sh
-source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	#fish-style autocompletion, available from https://github.com/zsh-users/zsh-autosuggestions
-source /home/masondanne/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+uname -a | grep --ignore-case arch > /dev/null
+if [[ $? -eq 0 ]];then
+	source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	#fish-style autocompletion, available from https://github.com/zsh-users/zsh-autosuggestions
+else
+	source $HOME/zsh-autosuggestions/zsh-autosuggestions.zsh	#when we haven't installed via the AUR
+fi
+source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+
+
+
+
+
+

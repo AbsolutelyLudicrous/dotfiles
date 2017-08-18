@@ -3,10 +3,10 @@
   "generate_png" : "true",
   "show_preview" : "true",
   "show_list" : "true",
-  "pane_position" : "396",
+  "pane_position" : "392",
   "window_width" : "716",
   "window_height" : "620",
-  "startup_delay" : "4",
+  "startup_delay" : "0",
   "search-locations" : [
   ]
 }

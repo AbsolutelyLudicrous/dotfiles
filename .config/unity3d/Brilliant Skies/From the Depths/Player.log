@@ -1,0 +1,1327 @@
+Setting breakpad minidump AppID = 268650
+Steam_SetMinidumpSteamID:  Caching Steam ID:  76561198090322227 [API loaded no]
+Preloaded type GtkListStore
+Preloaded type GtkWindow
+Preloaded type GtkVBox
+Preloaded type GtkImage
+Preloaded type GtkNotebook
+Preloaded type GtkHBox
+Preloaded type GtkFrame
+Preloaded type GtkAlignment
+Preloaded type GtkTreeView
+Preloaded type GtkLabel
+Preloaded type GtkCheckButton
+Preloaded type GtkScrolledWindow
+Preloaded type GtkComboBox
+Couldn't find OnScreenSelectorQuit in main module; checking child
+Couldn't find OnScreenSelectorOK in main module; checking child
+Couldn't find OnScreenSelectorQuit in main module; checking child
+Couldn't find OnInputListRowActivated in main module; checking child
+Couldn't find OnSelectedDisplayChanged in main module; checking child
+_ARB_base_instance GL_ARB_blend_func_extended GL_ARB_buffer_storage GL_ARB_clear_buffer_object GL_ARB_clear_texture GL_ARB_clip_control GL_ARB_compressed_texture_pixel_storage GL_ARB_compute_shader GL_ARB_conditional_render_inverted GL_ARB_conservative_depth GL_ARB_copy_buffer GL_ARB_copy_image GL_ARB_cull_distance GL_ARB_debug_output GL_ARB_depth_buffer_float GL_ARB_depth_clamp GL_ARB_derivative_control GL_ARB_direct_state_access GL_ARB_draw_buffers GL_ARB_draw_buffers_blend GL_ARB_draw_elements_base_vertex GL_ARB_draw_indirect GL_ARB_draw_instanced
+ GL_ARB_enhanced_layouts GL_ARB_explicit_attrib_location GL_ARB_explicit_uniform_location GL_ARB_fragment_coord_conventions GL_ARB_fragment_layer_viewport GL_ARB_fragment_shader GL_ARB_framebuffer_no_attachments GL_ARB_framebuffer_object GL_ARB_framebuffer_sRGB GL_ARB_get_program_binary GL_ARB_get_texture_sub_image GL_ARB_gpu_shader5 GL_ARB_gpu_shader_fp64 GL_ARB_gpu_shader_int64 GL_ARB_half_float_pixel GL_ARB_half_float_vertex GL_ARB_instanced_arrays GL_ARB_internalformat_query GL_ARB_internalformat_query2 GL_ARB_invalidate_subdata GL_ARB_map_buffer_alignment GL_ARB_map_buffer_range GL_ARB_multi_bind GL_ARB_multi_draw_indirect GL_ARB_occlusion_query2 GL_ARB_pipeline_statistics_query GL_ARB_pixel_buffer_object GL_ARB_point_sprite GL_ARB_post_depth_coverage GL_ARB_program_interface_query GL_ARB_provoking_vertex GL_ARB_query_buffer_object GL_ARB_robust_buffer_access_behavior GL_ARB_robustness GL_ARB_sample_shading GL_ARB_sampler_objects GL_ARB_seamless_cube_map GL_ARB_seamless_cubemap_per_texture GL_ARB_separa
+te_shader_objects GL_ARB_shader_atomic_counter_ops GL_ARB_shader_atomic_counters GL_ARB_shader_bit_encoding GL_ARB_shader_clock GL_ARB_shader_draw_parameters GL_ARB_shader_image_load_store GL_ARB_shader_image_size GL_ARB_shader_objects GL_ARB_shader_precision GL_ARB_shader_stencil_export GL_ARB_shader_storage_buffer_object GL_ARB_shader_subroutine GL_ARB_shader_texture_image_samples GL_ARB_shader_texture_lod GL_ARB_shader_viewport_layer_array GL_ARB_shading_language_420pack GL_ARB_shading_language_packing GL_ARB_stencil_texturing GL_ARB_sync GL_ARB_tessellation_shader GL_ARB_texture_barrier GL_ARB_texture_buffer_object GL_ARB_texture_buffer_object_rgb32 GL_ARB_texture_buffer_range GL_ARB_texture_compression_bptc GL_ARB_texture_compression_rgtc GL_ARB_texture_cube_map_array GL_ARB_texture_float GL_ARB_texture_gather GL_ARB_texture_mirror_clamp_to_edge GL_ARB_texture_multisample GL_ARB_texture_non_power_of_two GL_ARB_texture_query_levels GL_ARB_texture_query_lod GL_ARB_texture_rectangle GL_ARB_texture_rg GL_AR
+B_texture_rgb10_a2ui GL_ARB_texture_stencil8 GL_ARB_texture_storage GL_ARB_texture_storage_multisample GL_ARB_texture_swizzle GL_ARB_texture_view GL_ARB_timer_query GL_ARB_transform_feedback2 GL_ARB_transform_feedback3 GL_ARB_transform_feedback_instanced GL_ARB_transform_feedback_overflow_query GL_ARB_uniform_buffer_object GL_ARB_vertex_array_bgra GL_ARB_vertex_array_object GL_ARB_vertex_attrib_64bit GL_ARB_vertex_attrib_binding GL_ARB_vertex_shader GL_ARB_vertex_type_10f_11f_11f_rev GL_ARB_vertex_type_2_10_10_10_rev GL_ARB_viewport_array GL_ATI_blend_equation_separate GL_ATI_texture_float GL_EXT_abgr GL_EXT_blend_equation_separate GL_EXT_draw_buffers2 GL_EXT_draw_instanced GL_EXT_framebuffer_blit GL_EXT_framebuffer_multisample GL_EXT_framebuffer_multisample_blit_scaled GL_EXT_framebuffer_sRGB GL_EXT_packed_depth_stencil GL_EXT_packed_float GL_EXT_pixel_buffer_object GL_EXT_polygon_offset_clamp GL_EXT_provoking_vertex GL_EXT_shader_integer_mix GL_EXT_shader_samples_identical GL_EXT_texture_array GL_EXT_textu
+re_compression_dxt1 GL_EXT_texture_compression_rgtc GL_EXT_texture_compression_s3tc GL_EXT_texture_filter_anisotropic GL_EXT_texture_integer GL_EXT_texture_sRGB GL_EXT_texture_sRGB_decode GL_EXT_texture_shared_exponent GL_EXT_texture_snorm GL_EXT_texture_swizzle GL_EXT_timer_query GL_EXT_transform_feedback GL_EXT_vertex_array_bgra GL_IBM_multimode_draw_arrays GL_INTEL_conservative_rasterization GL_INTEL_performance_query GL_KHR_blend_equation_advanced GL_KHR_blend_equation_advanced_coherent GL_KHR_context_flush_control GL_KHR_debug GL_KHR_robust_buffer_access_behavior GL_KHR_robustness GL_KHR_texture_compression_astc_ldr GL_KHR_texture_compression_astc_sliced_3d GL_MESA_pack_invert GL_MESA_shader_integer_functions GL_MESA_texture_signed_rgba GL_NV_conditional_render GL_NV_depth_clamp GL_NV_packed_depth_stencil GL_NV_texture_barrier GL_OES_EGL_image GL_S3_s3tc
+OPENGL LOG: Creating OpenGL 4.5 graphics device ; Context level  <OpenGL 4.5> ; Context handle 72650832
+AudioManager: Using PulseAudio: Default Output Device
+Begin MonoManager ReloadAssembly
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/UnityEngine.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/UnityEngine.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Assembly-CSharp-firstpass.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Assembly-CSharp-firstpass.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Assembly-CSharp.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Assembly-CSharp.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Assembly-UnityScript-firstpass.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Assembly-UnityScript-firstpass.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Assembly-UnityScript.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Assembly-UnityScript.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/UnityEngine.UI.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/UnityEngine.UI.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/UnityEngine.Networking.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/UnityEngine.Networking.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/ES2.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/ES2.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/MoodkieSecurity.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/MoodkieSecurity.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Newtonsoft.Json.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Newtonsoft.Json.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/AmplifyColor.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/AmplifyColor.dll into Unity Child Domain
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Vectrosity.dll (this message is harmless)
+Loading /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/Vectrosity.dll into Unity Child Domain
+- Completed reload, in  0.046 seconds
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/System.Core.dll (this message is harmless)
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/System.dll (this message is harmless)
+OnLevelWasLoaded was found on SpaceBox
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 376)
+
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/System.Xml.dll (this message is harmless)
+OnLevelWasLoaded was found on DirectionalSun
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 376)
+
+OnLevelWasLoaded was found on MonoBehaviourProxy
+This message has been deprecated and will be removed in a later version of Unity.
+Add a delegate to SceneManager.sceneLoaded instead to get notifications after scene loading has completed
+ 
+(Filename:  Line: 376)
+
+ERROR: Shader Shader is not supported on this GPU (none of subshaders/fallbacks are suitable)WARNING: Shader Unsupported: 'FTD/BlocksWithOutline' - Setting to default shader.
+New context 0x6a31e00 created with attributes:
+Default vsync count 0
+requesting resize 1920 x 1080
+Using native desktop resolution 1920 x 1080
+requesting fullscreen 1920 x 1080 at 0 Hz
+Desktop is 1920 x 1080 @ 60 Hz
+UnloadTime: 2.509000 ms
+Unloading 5 Unused Serialized files (Serialized files now loaded: 0)
+UnloadTime: 0.356000 ms
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+Plugin loader initializing...
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Loading types from Assembly-CSharp, Version=0.0.0.0, Culture=neutral, PublicKeyToken=null...
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Checking /home/masondanne/From The Depths/Mods/ for plugins...
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Done with plugins.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Recognizing 0 built-in assets
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/System.Runtime.Serialization.dll (this message is harmless)
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/System.Xml.Linq.dll (this message is harmless)
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/System.Data.dll (this message is harmless)
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=fbf439af-f29a-43ac-ab5c-b6608bac3933, Name=Turret Block Two Axis, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=37bdb55d-7df3-4fe1-9368-0f6b4984efc4, Name=Two Axis Turret, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=4ff9cbaf-1c15-4f02-b5af-1f2cc409e52f, Name=Turret Block One Axis, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=9d9e187c-1a60-4f91-b0e2-986eb0743262, Name=One Axis Turret, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=a6ae94db-ecaf-4fc9-ac0e-c5b72a7a95ec, Name=Spin block, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=87a14a81-8fe9-409c-91d3-895c6dbe4782, Name=Spin / Turn block, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=2d43ca1f-3b8b-4afa-8e5b-6aff25bab3a0, Name=Spin block, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=c34cf6d8-e1be-4463-9ac7-13f6048ea708, Name=Spin / Turn block, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=dd5186fb-4307-4484-9899-472edbf46343, Name=Turret Block Two Axis, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=e421db99-97a7-470f-a058-9387731815ea, Name=Two Axis Turret, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=7dd68a65-0877-42f4-a13d-72f7608966d8, Name=Extra mesh 0 of Poster holder, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Could not retrive the 'linked' reference for [ReferenceToComponentId: Reference=[Guid=88b62167-63ae-45aa-8c8d-fb496b7c13e5, Name=Ammo Parts Box, RuntimeId=-1]]
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=28e3bb10-95af-4c63-934b-880f03d52be0, Name=Range Finder 7m, RuntimeId=-1] and it is held by [Guid=28e3bb10-95af-4c63-934b-880f03d52be0, Name=Range Finder 7m, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=cd06f23c-9a61-448a-864e-529298e5bbd1, Name=Range Finder 7m armour, RuntimeId=-1] and it is held by [Guid=cd06f23c-9a61-448a-864e-529298e5bbd1, Name=Range Finder 7m armour, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=933a73ef-fb60-429f-9126-4f7d2a01605f, Name=Range Finder 9m, RuntimeId=-1] and it is held by [Guid=933a73ef-fb60-429f-9126-4f7d2a01605f, Name=Range Finder 9m, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=3d540639-ac08-4e71-a233-3b483f594c1b, Name=Range Finder 9m armour, RuntimeId=-1] and it is held by [Guid=3d540639-ac08-4e71-a233-3b483f594c1b, Name=Range Finder 9m armour, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=c2dd399b-3563-496c-a7f3-5cc9984e2bd7, Name=Heavy Barrel End, RuntimeId=-1] and it is held by [Guid=c2dd399b-3563-496c-a7f3-5cc9984e2bd7, Name=Heavy Barrel End, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=279f21cf-ea0b-4e4d-9b89-cff016a72e24, Name=Heavy Barrel Start, RuntimeId=-1] and it is held by [Guid=279f21cf-ea0b-4e4d-9b89-cff016a72e24, Name=Heavy Barrel Start, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=8f9dbf41-6c2d-4e7b-855d-b2432c6942a2, Name=Alloy beam (2m), RuntimeId=-1] and it is held by [Guid=8f9dbf41-6c2d-4e7b-855d-b2432c6942a2, Name=Alloy beam (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=649f2aec-6f59-4157-ac01-0122ce2e6dad, Name=Alloy beam (3m), RuntimeId=-1] and it is held by [Guid=649f2aec-6f59-4157-ac01-0122ce2e6dad, Name=Alloy beam (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=9411e401-27da-4546-b805-3334f200f055, Name=Alloy beam (4m), RuntimeId=-1] and it is held by [Guid=9411e401-27da-4546-b805-3334f200f055, Name=Alloy beam (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=9af822b3-80d9-46bd-9ce0-e6e5c2e61da4, Name=Alloy beam slope diagonal cut (4m), RuntimeId=-1] and it is held by [Guid=9af822b3-80d9-46bd-9ce0-e6e5c2e61da4, Name=Alloy beam slope diagonal cut (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=b5d46bb7-d49e-42f6-817b-323fbf6d62b0, Name=Alloy beam slope diagonal cut (4m) mirrored, RuntimeId=-1] and it is held by [Guid=b5d46bb7-d49e-42f6-817b-323fbf6d62b0, Name=Alloy beam slope diagonal cut (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=911fe222-f9b2-4892-9cd6-8b154d55b2aa, Name=Alloy down slope (1m), RuntimeId=-1] and it is held by [Guid=911fe222-f9b2-4892-9cd6-8b154d55b2aa, Name=Alloy down slope (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=c6176cb5-0a32-4d68-a749-8ee33b2230c1, Name=Alloy down slope (2m), RuntimeId=-1] and it is held by [Guid=c6176cb5-0a32-4d68-a749-8ee33b2230c1, Name=Alloy down slope (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=2a3905ff-2030-421d-a2bf-90fba71c1c5e, Name=Alloy down slope (4m), RuntimeId=-1] and it is held by [Guid=2a3905ff-2030-421d-a2bf-90fba71c1c5e, Name=Alloy down slope (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=a3ea61a8-018c-4277-afd9-ac0a34faa759, Name=Alloy down slope 3m, RuntimeId=-1] and it is held by [Guid=a3ea61a8-018c-4277-afd9-ac0a34faa759, Name=Alloy down slope 3m, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=62f61c31-a453-44ce-87a2-b5ce142fb052, Name=Alloy inverted corner (right) (1m), RuntimeId=-1] and it is held by [Guid=62f61c31-a453-44ce-87a2-b5ce142fb052, Name=Alloy inverted corner (right) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=95a626e6-f1b8-491a-aa31-8de5a2beb513, Name=Alloy inverted triangle corner (left) (1m), RuntimeId=-1] and it is held by [Guid=95a626e6-f1b8-491a-aa31-8de5a2beb513, Name=Alloy inverted triangle corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=51b37dbf-2beb-425b-a817-89434838c857, Name=Alloy inverted triangle corner (left) (2m), RuntimeId=-1] and it is held by [Guid=51b37dbf-2beb-425b-a817-89434838c857, Name=Alloy inverted triangle corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=8c2aaf82-442e-46a7-9ea5-1b7862cacb87, Name=Alloy inverted triangle corner (left) (3m), RuntimeId=-1] and it is held by [Guid=8c2aaf82-442e-46a7-9ea5-1b7862cacb87, Name=Alloy inverted triangle corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ba5c8d03-9093-47a9-a8cd-b721ceeee1dd, Name=Alloy inverted triangle corner (left) (4m), RuntimeId=-1] and it is held by [Guid=ba5c8d03-9093-47a9-a8cd-b721ceeee1dd, Name=Alloy inverted triangle corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=967f98c3-d708-4602-9c71-0f34562cdfca, Name=Alloy inverted triangle corner (right) (2m), RuntimeId=-1] and it is held by [Guid=967f98c3-d708-4602-9c71-0f34562cdfca, Name=Alloy inverted triangle corner (right) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=2cdbdb66-132e-4202-90c6-e0a2d8022cc6, Name=Alloy inverted triangle corner (right) (3m), RuntimeId=-1] and it is held by [Guid=2cdbdb66-132e-4202-90c6-e0a2d8022cc6, Name=Alloy inverted triangle corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=afb33fc2-3071-408a-b312-da22478c0a14, Name=Alloy inverted triangle corner (right) (4m) mirrored, RuntimeId=-1] and it is held by [Guid=afb33fc2-3071-408a-b312-da22478c0a14, Name=Alloy inverted triangle corner (right) (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=f2df1943-1ebf-47c6-9b81-ad613b7c5d5b, Name=Alloy square corner (left) (1m), RuntimeId=-1] and it is held by [Guid=f2df1943-1ebf-47c6-9b81-ad613b7c5d5b, Name=Alloy square corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=272f0dea-8aac-4ca9-98e6-79897e7df0f9, Name=Alloy square corner (left) (2m), RuntimeId=-1] and it is held by [Guid=272f0dea-8aac-4ca9-98e6-79897e7df0f9, Name=Alloy square corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=7dd4933f-8a0d-478e-b0a2-1e2c2f1c6957, Name=Alloy square corner (left) (3m), RuntimeId=-1] and it is held by [Guid=7dd4933f-8a0d-478e-b0a2-1e2c2f1c6957, Name=Alloy square corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=1e5247be-25c1-45bc-92a6-e2ab1bfaaa8c, Name=Alloy square corner (left) (4m), RuntimeId=-1] and it is held by [Guid=1e5247be-25c1-45bc-92a6-e2ab1bfaaa8c, Name=Alloy square corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=d7b990f8-86fc-476c-bc8d-44ba9ecd1c05, Name=Alloy square corner (right) (3m), RuntimeId=-1] and it is held by [Guid=d7b990f8-86fc-476c-bc8d-44ba9ecd1c05, Name=Alloy square corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=7530d72e-1b5b-408c-9abc-59957a90970f, Name=Alloy square corner (right) (4m), RuntimeId=-1] and it is held by [Guid=7530d72e-1b5b-408c-9abc-59957a90970f, Name=Alloy square corner (right) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=902446c4-ff32-4118-83ac-1f4bf89c56d1, Name=Alloy square corner (right)(1m), RuntimeId=-1] and it is held by [Guid=902446c4-ff32-4118-83ac-1f4bf89c56d1, Name=Alloy square corner (right)(1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=29c40e04-59fb-45dc-a80b-31ee1c4f82ac, Name=Alloy square corner (right)(2m), RuntimeId=-1] and it is held by [Guid=29c40e04-59fb-45dc-a80b-31ee1c4f82ac, Name=Alloy square corner (right)(2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=a4b0d100-c480-4697-b606-489d80a6d376, Name=Alloy triangle corner (left) (1m), RuntimeId=-1] and it is held by [Guid=a4b0d100-c480-4697-b606-489d80a6d376, Name=Alloy triangle corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=90c9965a-1dcc-4786-a2d2-6299fed7260f, Name=Alloy triangle corner (left) (2m), RuntimeId=-1] and it is held by [Guid=90c9965a-1dcc-4786-a2d2-6299fed7260f, Name=Alloy triangle corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=b2ca635d-350c-4977-b8d4-2b2dd28cd2d7, Name=Alloy triangle corner (left) (3m), RuntimeId=-1] and it is held by [Guid=b2ca635d-350c-4977-b8d4-2b2dd28cd2d7, Name=Alloy triangle corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=a6cfd078-bc39-4ad8-a47f-49097913a27b, Name=Alloy triangle corner (left) (4m), RuntimeId=-1] and it is held by [Guid=a6cfd078-bc39-4ad8-a47f-49097913a27b, Name=Alloy triangle corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ad3e7665-cf63-4135-835f-2f743c69bb36, Name=Alloy triangle corner (right) (1m), RuntimeId=-1] and it is held by [Guid=ad3e7665-cf63-4135-835f-2f743c69bb36, Name=Alloy triangle corner (right) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=27692d7a-c05f-4ac4-ac98-f25e359faebc, Name=Alloy triangle corner (right) (2m), RuntimeId=-1] and it is held by [Guid=27692d7a-c05f-4ac4-ac98-f25e359faebc, Name=Alloy triangle corner (right) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=8aceae65-2dce-44b7-94b1-b4bd34d287a5, Name=Alloy triangle corner (right) (3m), RuntimeId=-1] and it is held by [Guid=8aceae65-2dce-44b7-94b1-b4bd34d287a5, Name=Alloy triangle corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=2b1b3011-0b81-472e-aa42-26383f453268, Name=Alloy triangle corner (right) (4m) mirrored, RuntimeId=-1] and it is held by [Guid=2b1b3011-0b81-472e-aa42-26383f453268, Name=Alloy triangle corner (right) (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=f1a3f1bd-b5f7-43bf-9b72-c7a060c24f73, Name=Alloy wedge (1m), RuntimeId=-1] and it is held by [Guid=f1a3f1bd-b5f7-43bf-9b72-c7a060c24f73, Name=Alloy wedge (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=efb3284f-bedc-453f-9519-043f77f2e85d, Name=Alloy wedge (2m), RuntimeId=-1] and it is held by [Guid=efb3284f-bedc-453f-9519-043f77f2e85d, Name=Alloy wedge (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=0d915e65-114c-4945-9585-ac58ad90223f, Name=Alloy wedge (3m), RuntimeId=-1] and it is held by [Guid=0d915e65-114c-4945-9585-ac58ad90223f, Name=Alloy wedge (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=791dfc7d-24d9-4e87-b639-d19561b6cb26, Name=Alloy wedge (4m), RuntimeId=-1] and it is held by [Guid=791dfc7d-24d9-4e87-b639-d19561b6cb26, Name=Alloy wedge (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=aa355fd9-295c-43f3-9f11-7a781a9808b0, Name=Glass beam (2m), RuntimeId=-1] and it is held by [Guid=aa355fd9-295c-43f3-9f11-7a781a9808b0, Name=Glass beam (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=049b9d0c-1cb3-4511-be7f-9fad6e0a607e, Name=Glass beam (3m), RuntimeId=-1] and it is held by [Guid=049b9d0c-1cb3-4511-be7f-9fad6e0a607e, Name=Glass beam (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=395179c1-37a0-4250-851b-5bc19fd601b6, Name=Glass beam (4m), RuntimeId=-1] and it is held by [Guid=395179c1-37a0-4250-851b-5bc19fd601b6, Name=Glass beam (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=35abb89b-33b8-4cb4-b3d0-ee132247de8d, Name=Glass beam slope diagonal cut (4m), RuntimeId=-1] and it is held by [Guid=35abb89b-33b8-4cb4-b3d0-ee132247de8d, Name=Glass beam slope diagonal cut (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=0c64d302-c6df-42eb-a0ff-7c90f867ba4b, Name=Glass beam slope diagonal cut (4m) mirrored, RuntimeId=-1] and it is held by [Guid=0c64d302-c6df-42eb-a0ff-7c90f867ba4b, Name=Glass beam slope diagonal cut (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=174b5b41-b70e-485d-b00a-a61cc9826b2c, Name=Glass down slope (1m), RuntimeId=-1] and it is held by [Guid=174b5b41-b70e-485d-b00a-a61cc9826b2c, Name=Glass down slope (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=69feebc3-e241-4dff-a000-736def80c851, Name=Glass down slope (2m), RuntimeId=-1] and it is held by [Guid=69feebc3-e241-4dff-a000-736def80c851, Name=Glass down slope (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=c4ef6072-822a-4fa5-b618-e7fc0508c499, Name=Glass down slope (4m), RuntimeId=-1] and it is held by [Guid=c4ef6072-822a-4fa5-b618-e7fc0508c499, Name=Glass down slope (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=b148f5b4-e237-41a0-a1a3-30c455321149, Name=Glass down slope 3m, RuntimeId=-1] and it is held by [Guid=b148f5b4-e237-41a0-a1a3-30c455321149, Name=Glass down slope 3m, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=729b7ea3-59d5-4182-9177-684da6fbe0a9, Name=Glass inverted corner (right) (1m), RuntimeId=-1] and it is held by [Guid=729b7ea3-59d5-4182-9177-684da6fbe0a9, Name=Glass inverted corner (right) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=e42929f1-ccd0-4fff-8413-6cb94cf08405, Name=Glass inverted triangle corner (left) (1m), RuntimeId=-1] and it is held by [Guid=e42929f1-ccd0-4fff-8413-6cb94cf08405, Name=Glass inverted triangle corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=bb0337d9-69f7-48f1-9c12-2de83ceff42d, Name=Glass inverted triangle corner (left) (2m), RuntimeId=-1] and it is held by [Guid=bb0337d9-69f7-48f1-9c12-2de83ceff42d, Name=Glass inverted triangle corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=c34145c5-bc8c-48c3-bafb-ebda44f1e300, Name=Glass inverted triangle corner (left) (3m), RuntimeId=-1] and it is held by [Guid=c34145c5-bc8c-48c3-bafb-ebda44f1e300, Name=Glass inverted triangle corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=04993e98-6b77-46d3-ad80-5278550e9b65, Name=Glass inverted triangle corner (left) (4m), RuntimeId=-1] and it is held by [Guid=04993e98-6b77-46d3-ad80-5278550e9b65, Name=Glass inverted triangle corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=5e73653e-519c-4f13-9f69-1d80c19151d8, Name=Glass inverted triangle corner (right) (2m), RuntimeId=-1] and it is held by [Guid=5e73653e-519c-4f13-9f69-1d80c19151d8, Name=Glass inverted triangle corner (right) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=217d4bdc-4b0d-4986-be2c-de98efd00f62, Name=Glass inverted triangle corner (right) (3m), RuntimeId=-1] and it is held by [Guid=217d4bdc-4b0d-4986-be2c-de98efd00f62, Name=Glass inverted triangle corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=7434948c-1b56-4dd0-bb0c-a3d291653f09, Name=Glass inverted triangle corner (right) (4m) mirrored, RuntimeId=-1] and it is held by [Guid=7434948c-1b56-4dd0-bb0c-a3d291653f09, Name=Glass inverted triangle corner (right) (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=d3a729d9-c25f-419c-ba7e-63cd2cac1a4d, Name=Glass square corner (left) (1m), RuntimeId=-1] and it is held by [Guid=d3a729d9-c25f-419c-ba7e-63cd2cac1a4d, Name=Glass square corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=09957acb-9916-41ea-8799-66b0359ccb31, Name=Glass square corner (left) (2m), RuntimeId=-1] and it is held by [Guid=09957acb-9916-41ea-8799-66b0359ccb31, Name=Glass square corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=84cf449c-e1ae-49a4-a170-c63464106cfe, Name=Glass square corner (left) (3m), RuntimeId=-1] and it is held by [Guid=84cf449c-e1ae-49a4-a170-c63464106cfe, Name=Glass square corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=13d4b7b9-897b-4c71-be66-13aba3c3310b, Name=Glass square corner (left) (4m), RuntimeId=-1] and it is held by [Guid=13d4b7b9-897b-4c71-be66-13aba3c3310b, Name=Glass square corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=699ccf4d-45a4-4635-ba4d-850a40ba6e0a, Name=Glass square corner (right) (3m), RuntimeId=-1] and it is held by [Guid=699ccf4d-45a4-4635-ba4d-850a40ba6e0a, Name=Glass square corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=0bc8fd97-b7ae-4a59-98b8-2f60fe4cf874, Name=Glass square corner (right) (4m), RuntimeId=-1] and it is held by [Guid=0bc8fd97-b7ae-4a59-98b8-2f60fe4cf874, Name=Glass square corner (right) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=87103032-b0e5-47c4-a632-ba33da2cbe1b, Name=Glass square corner (right)(1m), RuntimeId=-1] and it is held by [Guid=87103032-b0e5-47c4-a632-ba33da2cbe1b, Name=Glass square corner (right)(1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=585d7b93-955d-4099-b9f5-2ea41797f419, Name=Glass square corner (right)(2m), RuntimeId=-1] and it is held by [Guid=585d7b93-955d-4099-b9f5-2ea41797f419, Name=Glass square corner (right)(2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=0375d846-a203-4813-a330-0d8fd1e6586e, Name=Glass triangle corner (left) (1m), RuntimeId=-1] and it is held by [Guid=0375d846-a203-4813-a330-0d8fd1e6586e, Name=Glass triangle corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=3f349a8a-e5a1-4f43-9cc4-cea2f0f5b623, Name=Glass triangle corner (left) (2m), RuntimeId=-1] and it is held by [Guid=3f349a8a-e5a1-4f43-9cc4-cea2f0f5b623, Name=Glass triangle corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ea84e01f-5fac-4269-9754-c2c934e4b7d6, Name=Glass triangle corner (left) (3m), RuntimeId=-1] and it is held by [Guid=ea84e01f-5fac-4269-9754-c2c934e4b7d6, Name=Glass triangle corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=48360916-a894-4bd8-b8b5-4595bb7ccf2e, Name=Glass triangle corner (left) (4m), RuntimeId=-1] and it is held by [Guid=48360916-a894-4bd8-b8b5-4595bb7ccf2e, Name=Glass triangle corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=787524d3-1b60-44d8-bef2-d42156c55446, Name=Glass triangle corner (right) (1m), RuntimeId=-1] and it is held by [Guid=787524d3-1b60-44d8-bef2-d42156c55446, Name=Glass triangle corner (right) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=d9952f54-1e40-4e5e-87af-b1011ca18b83, Name=Glass triangle corner (right) (2m), RuntimeId=-1] and it is held by [Guid=d9952f54-1e40-4e5e-87af-b1011ca18b83, Name=Glass triangle corner (right) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=2e691f79-065c-42bb-879a-a91a3cda67e9, Name=Glass triangle corner (right) (3m), RuntimeId=-1] and it is held by [Guid=2e691f79-065c-42bb-879a-a91a3cda67e9, Name=Glass triangle corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=37999ce4-4189-4d46-bd77-4b7b5ec4be62, Name=Glass triangle corner (right) (4m) mirrored, RuntimeId=-1] and it is held by [Guid=37999ce4-4189-4d46-bd77-4b7b5ec4be62, Name=Glass triangle corner (right) (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=573f6de1-1379-49f8-8342-588bd81a50b7, Name=Glass wedge (1m), RuntimeId=-1] and it is held by [Guid=573f6de1-1379-49f8-8342-588bd81a50b7, Name=Glass wedge (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=a2922c8c-4da3-433a-a6b9-85ee0620d876, Name=Glass wedge (2m), RuntimeId=-1] and it is held by [Guid=a2922c8c-4da3-433a-a6b9-85ee0620d876, Name=Glass wedge (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=f163ed91-e4c2-40f0-bb83-0540f4dc9706, Name=Glass wedge (3m), RuntimeId=-1] and it is held by [Guid=f163ed91-e4c2-40f0-bb83-0540f4dc9706, Name=Glass wedge (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=6bc790f3-c15a-4aa4-adb1-a1f9c8265b4b, Name=Glass wedge (4m), RuntimeId=-1] and it is held by [Guid=6bc790f3-c15a-4aa4-adb1-a1f9c8265b4b, Name=Glass wedge (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ec907a52-f1aa-40df-8d63-cf1911a42abc, Name=Heavy amour wedge (2m), RuntimeId=-1] and it is held by [Guid=ec907a52-f1aa-40df-8d63-cf1911a42abc, Name=Heavy amour wedge (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=867cea4e-6ea4-4fe2-a4a1-b6230308f8f1, Name=Heavy armour beam, RuntimeId=-1] and it is held by [Guid=867cea4e-6ea4-4fe2-a4a1-b6230308f8f1, Name=Heavy armour beam, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=242e07fa-399f-4caa-bfc2-1b77bd2bd538, Name=Heavy armour beam (2m), RuntimeId=-1] and it is held by [Guid=242e07fa-399f-4caa-bfc2-1b77bd2bd538, Name=Heavy armour beam (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=49714981-369a-4158-aff6-e562ee5f98d5, Name=Heavy armour beam (3m), RuntimeId=-1] and it is held by [Guid=49714981-369a-4158-aff6-e562ee5f98d5, Name=Heavy armour beam (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=6e5c9f1d-160b-49b1-9b74-606d2f695c7e, Name=Heavy armour beam slope diagonal cut (4m), RuntimeId=-1] and it is held by [Guid=6e5c9f1d-160b-49b1-9b74-606d2f695c7e, Name=Heavy armour beam slope diagonal cut (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=c61c1c19-cc53-49a2-b207-9de6b9ce328a, Name=Heavy armour beam slope diagonal cut (4m) mirrored, RuntimeId=-1] and it is held by [Guid=c61c1c19-cc53-49a2-b207-9de6b9ce328a, Name=Heavy armour beam slope diagonal cut (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=78b81c0a-44df-4c24-b2a5-5d273737da60, Name=Heavy armour down slope 1m, RuntimeId=-1] and it is held by [Guid=78b81c0a-44df-4c24-b2a5-5d273737da60, Name=Heavy armour down slope 1m, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=525d85fc-f4d4-49ea-bebd-dc51bc562adf, Name=Heavy armour down slope 2m, RuntimeId=-1] and it is held by [Guid=525d85fc-f4d4-49ea-bebd-dc51bc562adf, Name=Heavy armour down slope 2m, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=98467918-ec0c-47e1-8ce6-55949326eb4f, Name=Heavy armour down slope 3m, RuntimeId=-1] and it is held by [Guid=98467918-ec0c-47e1-8ce6-55949326eb4f, Name=Heavy armour down slope 3m, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=983ebe9d-535e-4bdb-a37f-6b681a96f5a3, Name=Heavy armour down slope 4m, RuntimeId=-1] and it is held by [Guid=983ebe9d-535e-4bdb-a37f-6b681a96f5a3, Name=Heavy armour down slope 4m, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=1a48f832-e111-430b-9639-38bb63ec749e, Name=Heavy armour inverted triangle corner (left) (1m), RuntimeId=-1] and it is held by [Guid=1a48f832-e111-430b-9639-38bb63ec749e, Name=Heavy armour inverted triangle corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=5f579567-d069-4a88-b866-d9ef5d85c8c5, Name=Heavy armour inverted triangle corner (left) (2m), RuntimeId=-1] and it is held by [Guid=5f579567-d069-4a88-b866-d9ef5d85c8c5, Name=Heavy armour inverted triangle corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=1fcaab1e-18b8-4eb0-a36b-0451b58cf403, Name=Heavy armour inverted triangle corner (left) (3m), RuntimeId=-1] and it is held by [Guid=1fcaab1e-18b8-4eb0-a36b-0451b58cf403, Name=Heavy armour inverted triangle corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=882c8ced-9183-4fa2-9661-2b150e3bf769, Name=Heavy armour inverted triangle corner (left) (4m), RuntimeId=-1] and it is held by [Guid=882c8ced-9183-4fa2-9661-2b150e3bf769, Name=Heavy armour inverted triangle corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=29506948-3688-4a66-999b-05b8aca583f3, Name=Heavy armour inverted triangle corner (right) (1m), RuntimeId=-1] and it is held by [Guid=29506948-3688-4a66-999b-05b8aca583f3, Name=Heavy armour inverted triangle corner (right) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=4de90e1c-b6e4-48e6-8304-f624123ea33b, Name=Heavy armour inverted triangle corner (right) (2m), RuntimeId=-1] and it is held by [Guid=4de90e1c-b6e4-48e6-8304-f624123ea33b, Name=Heavy armour inverted triangle corner (right) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=75941ed5-78d5-41e9-8dca-e3fd9a5ce9ab, Name=Heavy armour inverted triangle corner (right) (3m), RuntimeId=-1] and it is held by [Guid=75941ed5-78d5-41e9-8dca-e3fd9a5ce9ab, Name=Heavy armour inverted triangle corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=6de2590c-63bc-4f65-bc4d-edaa7b79a342, Name=Heavy armour inverted triangle corner (right) (4m) mirrored, RuntimeId=-1] and it is held by [Guid=6de2590c-63bc-4f65-bc4d-edaa7b79a342, Name=Heavy armour inverted triangle corner (right) (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=e5e9f07e-d956-495c-bd47-8749b51916ac, Name=Heavy armour square corner (left) (1m), RuntimeId=-1] and it is held by [Guid=e5e9f07e-d956-495c-bd47-8749b51916ac, Name=Heavy armour square corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=c9ec7ef3-0fe9-4e52-8e92-d6259775b38e, Name=Heavy armour square corner (left) (2m), RuntimeId=-1] and it is held by [Guid=c9ec7ef3-0fe9-4e52-8e92-d6259775b38e, Name=Heavy armour square corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ecfa83b1-fe79-414d-a529-cb72c18e1806, Name=Heavy armour square corner (left) (3m), RuntimeId=-1] and it is held by [Guid=ecfa83b1-fe79-414d-a529-cb72c18e1806, Name=Heavy armour square corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=3f6eb436-9c32-4e9a-8dc2-cef5acc17478, Name=Heavy armour square corner (left) (4m), RuntimeId=-1] and it is held by [Guid=3f6eb436-9c32-4e9a-8dc2-cef5acc17478, Name=Heavy armour square corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=73141f86-d17d-4362-91a5-a885fbb815d7, Name=Heavy armour square corner (right) (3m), RuntimeId=-1] and it is held by [Guid=73141f86-d17d-4362-91a5-a885fbb815d7, Name=Heavy armour square corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=d3e683bf-14e4-482c-90da-d2220018517e, Name=Heavy armour square corner (right) (4m), RuntimeId=-1] and it is held by [Guid=d3e683bf-14e4-482c-90da-d2220018517e, Name=Heavy armour square corner (right) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=a2b2dfdc-d014-466b-8d45-9432c9866f6a, Name=Heavy armour square corner (right)(1m), RuntimeId=-1] and it is held by [Guid=a2b2dfdc-d014-466b-8d45-9432c9866f6a, Name=Heavy armour square corner (right)(1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=21de9d6e-f13f-4c1d-862e-17a1428a0c50, Name=Heavy armour square corner (right)(2m), RuntimeId=-1] and it is held by [Guid=21de9d6e-f13f-4c1d-862e-17a1428a0c50, Name=Heavy armour square corner (right)(2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=b9948d0c-d9da-4c22-adb3-ed3fd8509806, Name=Heavy armour triangle corner (left) (1m), RuntimeId=-1] and it is held by [Guid=b9948d0c-d9da-4c22-adb3-ed3fd8509806, Name=Heavy armour triangle corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=e1bb3954-5a2f-4039-bb6c-3b6489cc007c, Name=Heavy armour triangle corner (left) (2m), RuntimeId=-1] and it is held by [Guid=e1bb3954-5a2f-4039-bb6c-3b6489cc007c, Name=Heavy armour triangle corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=49be6be8-e17b-4bc6-b206-3aece5fb3708, Name=Heavy armour triangle corner (left) (3m), RuntimeId=-1] and it is held by [Guid=49be6be8-e17b-4bc6-b206-3aece5fb3708, Name=Heavy armour triangle corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=503161e4-286e-48d3-bcab-61b8769c806e, Name=Heavy armour triangle corner (left) (4m), RuntimeId=-1] and it is held by [Guid=503161e4-286e-48d3-bcab-61b8769c806e, Name=Heavy armour triangle corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=bb9ea0e4-c446-49bc-b4f1-3d2daec6c9f0, Name=Heavy armour triangle corner (right) (1m), RuntimeId=-1] and it is held by [Guid=bb9ea0e4-c446-49bc-b4f1-3d2daec6c9f0, Name=Heavy armour triangle corner (right) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=d557b2d6-4e84-49fc-ba75-35f6c87036c2, Name=Heavy armour triangle corner (right) (2m), RuntimeId=-1] and it is held by [Guid=d557b2d6-4e84-49fc-ba75-35f6c87036c2, Name=Heavy armour triangle corner (right) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ca49a92a-1ae1-45c6-9b8f-aad28d9859c1, Name=Heavy armour triangle corner (right) (3m), RuntimeId=-1] and it is held by [Guid=ca49a92a-1ae1-45c6-9b8f-aad28d9859c1, Name=Heavy armour triangle corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=a8aebdd1-1479-4b00-8415-8f6da2018dc6, Name=Heavy armour triangle corner (right) (4m) mirrored, RuntimeId=-1] and it is held by [Guid=a8aebdd1-1479-4b00-8415-8f6da2018dc6, Name=Heavy armour triangle corner (right) (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=a0945b5c-2f1e-45ce-95fb-721e5657afa7, Name=Heavy armour wedge (1m), RuntimeId=-1] and it is held by [Guid=a0945b5c-2f1e-45ce-95fb-721e5657afa7, Name=Heavy armour wedge (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=4fa0ea70-46da-4fed-bde1-01dea3f3056b, Name=Heavy armour wedge (3m), RuntimeId=-1] and it is held by [Guid=4fa0ea70-46da-4fed-bde1-01dea3f3056b, Name=Heavy armour wedge (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=9435a1c1-00a3-4a9c-9aa5-05713a221bc5, Name=Heavy armour wedge (4m), RuntimeId=-1] and it is held by [Guid=9435a1c1-00a3-4a9c-9aa5-05713a221bc5, Name=Heavy armour wedge (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=2a22f176-01c2-42f2-a7d2-2c7054504aa9, Name=Metal beam (2m), RuntimeId=-1] and it is held by [Guid=2a22f176-01c2-42f2-a7d2-2c7054504aa9, Name=Metal beam (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=46f54639-5f91-4731-93eb-e5c0a7460538, Name=Metal beam (3m), RuntimeId=-1] and it is held by [Guid=46f54639-5f91-4731-93eb-e5c0a7460538, Name=Metal beam (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=a7f5d8de-4882-4111-9d01-436493e5b2d8, Name=Metal beam (4m), RuntimeId=-1] and it is held by [Guid=a7f5d8de-4882-4111-9d01-436493e5b2d8, Name=Metal beam (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=0d554a9d-7d06-48b3-8aea-ffaeaa30380a, Name=Metal beam slope diagonal cut (4m), RuntimeId=-1] and it is held by [Guid=0d554a9d-7d06-48b3-8aea-ffaeaa30380a, Name=Metal beam slope diagonal cut (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=e5d065f6-907b-450d-b998-213cdc54eec1, Name=Metal beam slope diagonal cut (4m) mirrored, RuntimeId=-1] and it is held by [Guid=e5d065f6-907b-450d-b998-213cdc54eec1, Name=Metal beam slope diagonal cut (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=5548037e-8428-43f8-bcb6-d730dbcd0a79, Name=Metal down slope (1m), RuntimeId=-1] and it is held by [Guid=5548037e-8428-43f8-bcb6-d730dbcd0a79, Name=Metal down slope (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=8477bbec-974c-45bf-a1ce-49a48d5b5307, Name=Metal down slope (2m), RuntimeId=-1] and it is held by [Guid=8477bbec-974c-45bf-a1ce-49a48d5b5307, Name=Metal down slope (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=db9ed060-d556-435b-945c-19c923e233d3, Name=Metal down slope (4m), RuntimeId=-1] and it is held by [Guid=db9ed060-d556-435b-945c-19c923e233d3, Name=Metal down slope (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=a09be1c6-93fd-4b54-b9ca-62e60efbc818, Name=Metal down slope 3m, RuntimeId=-1] and it is held by [Guid=a09be1c6-93fd-4b54-b9ca-62e60efbc818, Name=Metal down slope 3m, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=de50f4f6-3d7e-4d6b-ae34-e6a34b24b104, Name=Metal inverted corner (right) (1m), RuntimeId=-1] and it is held by [Guid=de50f4f6-3d7e-4d6b-ae34-e6a34b24b104, Name=Metal inverted corner (right) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=442f3ea3-c7cd-4759-84ee-a0d2fac5a711, Name=Metal inverted triangle corner (left) (1m), RuntimeId=-1] and it is held by [Guid=442f3ea3-c7cd-4759-84ee-a0d2fac5a711, Name=Metal inverted triangle corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=b9d21957-633f-4926-9562-4cfab38badee, Name=Metal inverted triangle corner (left) (2m), RuntimeId=-1] and it is held by [Guid=b9d21957-633f-4926-9562-4cfab38badee, Name=Metal inverted triangle corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=91183077-8eac-4e29-a197-9190429ef0ba, Name=Metal inverted triangle corner (left) (3m), RuntimeId=-1] and it is held by [Guid=91183077-8eac-4e29-a197-9190429ef0ba, Name=Metal inverted triangle corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ac09f902-8921-4a58-aad5-c679706697f6, Name=Metal inverted triangle corner (left) (4m), RuntimeId=-1] and it is held by [Guid=ac09f902-8921-4a58-aad5-c679706697f6, Name=Metal inverted triangle corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=2ddec223-13c2-4bf9-ba05-66338c51bd45, Name=Metal inverted triangle corner (right) (2m), RuntimeId=-1] and it is held by [Guid=2ddec223-13c2-4bf9-ba05-66338c51bd45, Name=Metal inverted triangle corner (right) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=098917ec-d86a-4cee-9c65-7997295bc248, Name=Metal inverted triangle corner (right) (3m), RuntimeId=-1] and it is held by [Guid=098917ec-d86a-4cee-9c65-7997295bc248, Name=Metal inverted triangle corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=5f07c608-acf2-4cc5-97d0-1a0a96acb9e3, Name=Metal inverted triangle corner (right) (4m) mirrored, RuntimeId=-1] and it is held by [Guid=5f07c608-acf2-4cc5-97d0-1a0a96acb9e3, Name=Metal inverted triangle corner (right) (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=2f5f91c0-bebf-4de2-bf70-8d9bc1816997, Name=Metal square corner (left) (1m), RuntimeId=-1] and it is held by [Guid=2f5f91c0-bebf-4de2-bf70-8d9bc1816997, Name=Metal square corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=f6f120ee-fbc3-49f8-a2a3-a49e8674b8c8, Name=Metal square corner (left) (2m), RuntimeId=-1] and it is held by [Guid=f6f120ee-fbc3-49f8-a2a3-a49e8674b8c8, Name=Metal square corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=d09c2121-c7e4-4d99-9556-02b92d17a652, Name=Metal square corner (left) (3m), RuntimeId=-1] and it is held by [Guid=d09c2121-c7e4-4d99-9556-02b92d17a652, Name=Metal square corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ca924c87-8012-448a-a6c7-a7ff91b0e801, Name=Metal square corner (left) (4m), RuntimeId=-1] and it is held by [Guid=ca924c87-8012-448a-a6c7-a7ff91b0e801, Name=Metal square corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=225daaae-6f35-4489-aeb5-73e66e0664a4, Name=Metal square corner (right) (3m), RuntimeId=-1] and it is held by [Guid=225daaae-6f35-4489-aeb5-73e66e0664a4, Name=Metal square corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=b183f553-ce82-47c5-a4ed-6470b83b0d45, Name=Metal square corner (right) (4m), RuntimeId=-1] and it is held by [Guid=b183f553-ce82-47c5-a4ed-6470b83b0d45, Name=Metal square corner (right) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=6f820954-63e4-4bc9-a299-8266e712d838, Name=Metal square corner (right)(1m), RuntimeId=-1] and it is held by [Guid=6f820954-63e4-4bc9-a299-8266e712d838, Name=Metal square corner (right)(1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=686e9438-d86e-4504-b9f6-7029b264924e, Name=Metal square corner (right)(2m), RuntimeId=-1] and it is held by [Guid=686e9438-d86e-4504-b9f6-7029b264924e, Name=Metal square corner (right)(2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=bcaf33a4-98c3-41d7-b416-438670e97d53, Name=Metal triangle corner (left) (1m), RuntimeId=-1] and it is held by [Guid=bcaf33a4-98c3-41d7-b416-438670e97d53, Name=Metal triangle corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=40659614-1b34-497a-b745-78497e4b2025, Name=Metal triangle corner (left) (2m), RuntimeId=-1] and it is held by [Guid=40659614-1b34-497a-b745-78497e4b2025, Name=Metal triangle corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=6641c0af-44e6-4f6c-8558-f5cdf3c3feee, Name=Metal triangle corner (left) (3m), RuntimeId=-1] and it is held by [Guid=6641c0af-44e6-4f6c-8558-f5cdf3c3feee, Name=Metal triangle corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=52a61c5e-07be-4bb9-9649-d3375c66e97e, Name=Metal triangle corner (left) (4m), RuntimeId=-1] and it is held by [Guid=52a61c5e-07be-4bb9-9649-d3375c66e97e, Name=Metal triangle corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ee18a848-1319-4ff9-b5e5-3f3710635dbf, Name=Metal triangle corner (right) (1m), RuntimeId=-1] and it is held by [Guid=ee18a848-1319-4ff9-b5e5-3f3710635dbf, Name=Metal triangle corner (right) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=a30c0bb3-3f38-46da-8cd3-a813aabaccc9, Name=Metal triangle corner (right) (3m), RuntimeId=-1] and it is held by [Guid=a30c0bb3-3f38-46da-8cd3-a813aabaccc9, Name=Metal triangle corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=d48733e2-f003-4643-86a2-cb350fd0dc04, Name=Metal triangle corner (right) (4m) mirrored, RuntimeId=-1] and it is held by [Guid=d48733e2-f003-4643-86a2-cb350fd0dc04, Name=Metal triangle corner (right) (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=369eefd9-0c39-412e-a294-d0bb2251c509, Name=Metal triangle corner (right)(2m), RuntimeId=-1] and it is held by [Guid=369eefd9-0c39-412e-a294-d0bb2251c509, Name=Metal triangle corner (right)(2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ea2f8200-a920-40fc-9715-d0f66ae5f492, Name=Metal wedge (1m), RuntimeId=-1] and it is held by [Guid=ea2f8200-a920-40fc-9715-d0f66ae5f492, Name=Metal wedge (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=f07f759c-41d1-4095-8054-dc471687884b, Name=Metal wedge (2m), RuntimeId=-1] and it is held by [Guid=f07f759c-41d1-4095-8054-dc471687884b, Name=Metal wedge (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=5c51a13b-a083-43dd-80ea-f340e6ef88f8, Name=Metal wedge (3m), RuntimeId=-1] and it is held by [Guid=5c51a13b-a083-43dd-80ea-f340e6ef88f8, Name=Metal wedge (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=1278df17-e3e8-4d29-aa8d-0f779cb60b1d, Name=Metal wedge (4m), RuntimeId=-1] and it is held by [Guid=1278df17-e3e8-4d29-aa8d-0f779cb60b1d, Name=Metal wedge (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=de36c624-8c78-4b52-8d86-431cec16a306, Name=Wood beam (2m), RuntimeId=-1] and it is held by [Guid=de36c624-8c78-4b52-8d86-431cec16a306, Name=Wood beam (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=39553630-8281-40e4-96fb-b01c1f3537e6, Name=Wood beam (3m), RuntimeId=-1] and it is held by [Guid=39553630-8281-40e4-96fb-b01c1f3537e6, Name=Wood beam (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=05475442-0e52-4e0b-9fbb-2715f0e54f97, Name=Wood beam (4m), RuntimeId=-1] and it is held by [Guid=05475442-0e52-4e0b-9fbb-2715f0e54f97, Name=Wood beam (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=2ee817c1-f2a3-407a-847d-b97ffb844e45, Name=Wood beam slope diagonal cut (4m), RuntimeId=-1] and it is held by [Guid=2ee817c1-f2a3-407a-847d-b97ffb844e45, Name=Wood beam slope diagonal cut (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=d077c2a4-4578-4965-9318-c14bb7ac1bd6, Name=Wood beam slope diagonal cut (4m) mirrored, RuntimeId=-1] and it is held by [Guid=d077c2a4-4578-4965-9318-c14bb7ac1bd6, Name=Wood beam slope diagonal cut (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=5631c137-ebe8-463b-880b-f7a6992d84d9, Name=Wood Block Variant 10, RuntimeId=-1] and it is held by [Guid=5631c137-ebe8-463b-880b-f7a6992d84d9, Name=Wood Block Variant 10, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=e4786dcc-b1d5-4380-a0b9-c55d32ae6d82, Name=Wood Block Variant 11, RuntimeId=-1] and it is held by [Guid=e4786dcc-b1d5-4380-a0b9-c55d32ae6d82, Name=Wood Block Variant 11, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=7854121c-adb3-4615-9646-25ed8bd13b53, Name=Wood Block Variant 12, RuntimeId=-1] and it is held by [Guid=7854121c-adb3-4615-9646-25ed8bd13b53, Name=Wood Block Variant 12, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=26d9ad5a-baf7-473d-a43a-dcc6e6d7ebf6, Name=Wood Block Variant 13, RuntimeId=-1] and it is held by [Guid=26d9ad5a-baf7-473d-a43a-dcc6e6d7ebf6, Name=Wood Block Variant 13, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=26e35912-060b-4a13-a299-a2b0019ab6bc, Name=Wood Block Variant 2, RuntimeId=-1] and it is held by [Guid=26e35912-060b-4a13-a299-a2b0019ab6bc, Name=Wood Block Variant 2, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=e5d3c632-b2dc-4be7-a5bc-623415f76d28, Name=Wood Block Variant 3, RuntimeId=-1] and it is held by [Guid=e5d3c632-b2dc-4be7-a5bc-623415f76d28, Name=Wood Block Variant 3, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=4927aa86-8882-4b04-8ca7-44052bd00aa9, Name=Wood Block Variant 4, RuntimeId=-1] and it is held by [Guid=4927aa86-8882-4b04-8ca7-44052bd00aa9, Name=Wood Block Variant 4, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ee5463c9-b9f8-4438-bb79-7f2364f69b61, Name=Wood Block Variant 5, RuntimeId=-1] and it is held by [Guid=ee5463c9-b9f8-4438-bb79-7f2364f69b61, Name=Wood Block Variant 5, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=2db5d925-700e-4375-abcd-f79bb17a1855, Name=Wood Block Variant 6, RuntimeId=-1] and it is held by [Guid=2db5d925-700e-4375-abcd-f79bb17a1855, Name=Wood Block Variant 6, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=5a2c1219-d4e6-4bf4-a67d-c2b6478dc1e0, Name=Wood Block Variant 7, RuntimeId=-1] and it is held by [Guid=5a2c1219-d4e6-4bf4-a67d-c2b6478dc1e0, Name=Wood Block Variant 7, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=b335e984-7bc1-4bb7-a3a6-44139d991f63, Name=Wood Block Variant 8, RuntimeId=-1] and it is held by [Guid=b335e984-7bc1-4bb7-a3a6-44139d991f63, Name=Wood Block Variant 8, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=1e311aa8-7a58-4ed9-a62e-bf236cf32982, Name=Wood Block Variant 9, RuntimeId=-1] and it is held by [Guid=1e311aa8-7a58-4ed9-a62e-bf236cf32982, Name=Wood Block Variant 9, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=bdafa446-f615-49cb-94f3-d7652dde6cec, Name=Wood down slope (1m), RuntimeId=-1] and it is held by [Guid=bdafa446-f615-49cb-94f3-d7652dde6cec, Name=Wood down slope (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=b88679fb-0325-4c85-942f-ad9c6ed6545b, Name=Wood down slope (2m), RuntimeId=-1] and it is held by [Guid=b88679fb-0325-4c85-942f-ad9c6ed6545b, Name=Wood down slope (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=3296c67d-6ace-44dd-8e86-335b9a90ad80, Name=Wood down slope (4m), RuntimeId=-1] and it is held by [Guid=3296c67d-6ace-44dd-8e86-335b9a90ad80, Name=Wood down slope (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=caec26b3-847c-4876-80e1-e6206003ecb5, Name=Wood down slope 3m, RuntimeId=-1] and it is held by [Guid=caec26b3-847c-4876-80e1-e6206003ecb5, Name=Wood down slope 3m, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=c545a97c-6ac6-4181-a704-28031244aeb1, Name=Wood inverted corner (right) (1m), RuntimeId=-1] and it is held by [Guid=c545a97c-6ac6-4181-a704-28031244aeb1, Name=Wood inverted corner (right) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=17575457-18fa-43e0-a8cb-1331efc1c77e, Name=Wood inverted triangle corner (left) (1m), RuntimeId=-1] and it is held by [Guid=17575457-18fa-43e0-a8cb-1331efc1c77e, Name=Wood inverted triangle corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=90ca403c-ddb5-4a55-ac6f-2ca2c970d6ad, Name=Wood inverted triangle corner (left) (2m), RuntimeId=-1] and it is held by [Guid=90ca403c-ddb5-4a55-ac6f-2ca2c970d6ad, Name=Wood inverted triangle corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=cefc210e-a06a-4e34-ace5-d24e5a525592, Name=Wood inverted triangle corner (left) (3m), RuntimeId=-1] and it is held by [Guid=cefc210e-a06a-4e34-ace5-d24e5a525592, Name=Wood inverted triangle corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ba05b02a-f2b2-4c5e-ba73-00a519535763, Name=Wood inverted triangle corner (left) (4m), RuntimeId=-1] and it is held by [Guid=ba05b02a-f2b2-4c5e-ba73-00a519535763, Name=Wood inverted triangle corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=6cc4ec54-404c-4989-9f85-9b59824faf96, Name=Wood inverted triangle corner (right) (2m), RuntimeId=-1] and it is held by [Guid=6cc4ec54-404c-4989-9f85-9b59824faf96, Name=Wood inverted triangle corner (right) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=6c6cbf7a-6133-425b-8b29-41471889a67e, Name=Wood inverted triangle corner (right) (3m), RuntimeId=-1] and it is held by [Guid=6c6cbf7a-6133-425b-8b29-41471889a67e, Name=Wood inverted triangle corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=fe628646-64da-462c-ac5c-1d4f976a129a, Name=Wood inverted triangle corner (right) (4m) mirrored, RuntimeId=-1] and it is held by [Guid=fe628646-64da-462c-ac5c-1d4f976a129a, Name=Wood inverted triangle corner (right) (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=9c0d97cf-0c99-4565-a931-b1c5bdf8fc1b, Name=Wood square corner (left) (1m), RuntimeId=-1] and it is held by [Guid=9c0d97cf-0c99-4565-a931-b1c5bdf8fc1b, Name=Wood square corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=c7b07df3-6afe-4616-9dd4-64f7687e98e9, Name=Wood square corner (left) (2m), RuntimeId=-1] and it is held by [Guid=c7b07df3-6afe-4616-9dd4-64f7687e98e9, Name=Wood square corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=63fd0968-5f9e-4afd-bde5-0a7f36645ce5, Name=Wood square corner (left) (3m), RuntimeId=-1] and it is held by [Guid=63fd0968-5f9e-4afd-bde5-0a7f36645ce5, Name=Wood square corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=27e60f25-016f-49ca-a7f2-8b1e194f1d78, Name=Wood square corner (left) (4m), RuntimeId=-1] and it is held by [Guid=27e60f25-016f-49ca-a7f2-8b1e194f1d78, Name=Wood square corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=d61cc329-1652-4b93-9756-ac4380e5bd04, Name=Wood square corner (right) (3m), RuntimeId=-1] and it is held by [Guid=d61cc329-1652-4b93-9756-ac4380e5bd04, Name=Wood square corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=7d55bbc8-8692-40ee-944b-6b172680075a, Name=Wood square corner (right) (4m), RuntimeId=-1] and it is held by [Guid=7d55bbc8-8692-40ee-944b-6b172680075a, Name=Wood square corner (right) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=f878fa09-cb47-4e1c-8f1e-df2544a6882a, Name=Wood square corner (right)(1m), RuntimeId=-1] and it is held by [Guid=f878fa09-cb47-4e1c-8f1e-df2544a6882a, Name=Wood square corner (right)(1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=12bfb5a0-772e-4d14-bb1a-00077211f70b, Name=Wood square corner (right)(2m), RuntimeId=-1] and it is held by [Guid=12bfb5a0-772e-4d14-bb1a-00077211f70b, Name=Wood square corner (right)(2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=1ae7e9fe-c0c4-4bb4-a0d6-28e21789a66c, Name=Wood triangle corner (left) (1m), RuntimeId=-1] and it is held by [Guid=1ae7e9fe-c0c4-4bb4-a0d6-28e21789a66c, Name=Wood triangle corner (left) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=dee106ea-3e91-4b03-92ef-33038c5681a0, Name=Wood triangle corner (left) (2m), RuntimeId=-1] and it is held by [Guid=dee106ea-3e91-4b03-92ef-33038c5681a0, Name=Wood triangle corner (left) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=93cbaa78-9185-424f-814b-b568c3358316, Name=Wood triangle corner (left) (3m), RuntimeId=-1] and it is held by [Guid=93cbaa78-9185-424f-814b-b568c3358316, Name=Wood triangle corner (left) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=ae98ddb2-901d-402b-8ab0-149b778acdb8, Name=Wood triangle corner (left) (4m), RuntimeId=-1] and it is held by [Guid=ae98ddb2-901d-402b-8ab0-149b778acdb8, Name=Wood triangle corner (left) (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=6448ddc8-a3df-465f-b819-52f1cf347983, Name=Wood triangle corner (right) (1m), RuntimeId=-1] and it is held by [Guid=6448ddc8-a3df-465f-b819-52f1cf347983, Name=Wood triangle corner (right) (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=92159a6b-a1b6-4f8b-9c08-503f2cbbd572, Name=Wood triangle corner (right) (2m), RuntimeId=-1] and it is held by [Guid=92159a6b-a1b6-4f8b-9c08-503f2cbbd572, Name=Wood triangle corner (right) (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=1e8bb65d-51b6-42bb-813c-1fba696454e8, Name=Wood triangle corner (right) (3m), RuntimeId=-1] and it is held by [Guid=1e8bb65d-51b6-42bb-813c-1fba696454e8, Name=Wood triangle corner (right) (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=e2ea58d4-ee32-432b-8086-29bf5675e5f7, Name=Wood triangle corner (right) (4m) mirrored, RuntimeId=-1] and it is held by [Guid=e2ea58d4-ee32-432b-8086-29bf5675e5f7, Name=Wood triangle corner (right) (4m) mirrored, RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=0b73f42f-ff32-4654-8857-aa13413bff33, Name=Wood wedge (1m), RuntimeId=-1] and it is held by [Guid=0b73f42f-ff32-4654-8857-aa13413bff33, Name=Wood wedge (1m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=0cc588ec-037a-4eb1-b498-9f49a0669a36, Name=Wood wedge (2m), RuntimeId=-1] and it is held by [Guid=0cc588ec-037a-4eb1-b498-9f49a0669a36, Name=Wood wedge (2m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=c82449ab-668c-4720-a641-381877751984, Name=Wood wedge (3m), RuntimeId=-1] and it is held by [Guid=c82449ab-668c-4720-a641-381877751984, Name=Wood wedge (3m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Key already held for [Guid=2daf5d7e-b7bc-4017-bc0d-6fe32a676fa0, Name=Wood wedge (4m), RuntimeId=-1] and it is held by [Guid=2daf5d7e-b7bc-4017-bc0d-6fe32a676fa0, Name=Wood wedge (4m), RuntimeId=-1]. CURRENTLY THESE WARNINGS ONLY GIVEN FOR ITEMDUPLICATEANDMODIFY.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Connecting mods...
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Platform assembly: /home/masondanne/.local/share/Steam/steamapps/common/From The Depths/From_The_Depths_Data/Managed/System.Configuration.dll (this message is harmless)
+Injecting CharacterItem class AIPathViewer
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for AI Path Viewer, and yet we found a pre-exiting AIPathViewer in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class Binoculars
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Binoculars, and yet we found a pre-exiting Binoculars in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class Blunderbuss
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Blunderbuss, and yet we found a pre-exiting Blunderbuss in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class DeathRay
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Debug - Death ray, and yet we found a pre-exiting DeathRay in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class ExplosionSkill
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Debug - Explosion, and yet we found a pre-exiting ExplosionSkill in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class ImpactSkill
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Debug - Impact, and yet we found a pre-exiting ImpactSkill in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class RepairSkill
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Debug - Repair, and yet we found a pre-exiting RepairSkill in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class TeleportSkill
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Debug - Teleport, and yet we found a pre-exiting TeleportSkill in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class HeatSensor
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Detection Viewer, and yet we found a pre-exiting HeatSensor in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+The AnimationClip 'GL_Idle' used by the Animation component 'grenade launcher(Clone)' must be marked as Legacy.
+ 
+(Filename:  Line: 2008)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+The AnimationClip 'GL_Fire' used by the Animation component 'grenade launcher(Clone)' must be marked as Legacy.
+ 
+(Filename:  Line: 2008)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+The AnimationClip 'GL_Reload' used by the Animation component 'grenade launcher(Clone)' must be marked as Legacy.
+ 
+(Filename:  Line: 2008)
+
+Injecting CharacterItem class GrenadeLauncher
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Grenade Launcher, and yet we found a pre-exiting GrenadeLauncher in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class InputCheckerTool
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Input Assigner Tool, and yet we found a pre-exiting InputCheckerTool in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class Minigun
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for MiniGun, and yet we found a pre-exiting Minigun in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class PaintSprayer
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Paint sprayer, and yet we found a pre-exiting PaintSprayer in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+Can't use AnimationClip::SetCurve at Runtime on non Legacy AnimationClips
+ 
+(Filename:  Line: 1251)
+
+The AnimationClip 'pistol fire' used by the Animation component 'pistol(Clone)' must be marked as Legacy.
+ 
+(Filename:  Line: 2008)
+
+Injecting CharacterItem class Pistol002
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Pistol, and yet we found a pre-exiting Pistol002 in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class SMG
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for SMG, and yet we found a pre-exiting SMG in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class Spade
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Spade, and yet we found a pre-exiting Spade in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class SuicidePill
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Suicide pill, and yet we found a pre-exiting SuicidePill in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Injecting CharacterItem class TelekinesisTorque
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Class Name is set in the .charitem for Telekinesis - torque, and yet we found a pre-exiting TelekinesisTorque in this object!  Skipping duplicate injection.
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+No need to regenerate map
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Terrain Master Reset
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Precision correction set: (30720.0, 0.0, 25600.0)
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+
+Unloading 857 unused Assets to reduce memory usage. Loaded Objects now: 14236.
+Total: 31.945002 ms (FindLiveObjects: 0.650000 ms CreateObjectMapping: 0.251000 ms MarkObjects: 28.191000 ms  DeleteObjects: 2.853000 ms)
+
+DontDestroyOnLoad only work for root GameObjects or components on root GameObjects.
+ 
+(Filename:  Line: 462)
+
+Error: Cannot create FMOD::Sound instance for resource °)5, (Operation could not be performed because specified sound/DSP connection is not ready. )
+ 
+(Filename:  Line: 880)
+
+ThreadPoolScheduler.OnApplicationQuit!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Setting up 2 worker threads for Enlighten.
+  Thread -> id: 7f74e00ae700 -> priority: 1 
+  Thread -> id: 7f74df8ad700 -> priority: 1 
+Camera Disabled
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+ThreadPoolScheduler.OnDestroy!
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Camera Disabled
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+
+Camera Destroyed
+ 
+(Filename: /home/builduser/buildslave/unity/build/artifacts/generated/common/runtime/DebugBindings.gen.cpp Line: 51)
+

@@ -1,1 +1,1 @@
-plank &
+plank --name dock1 &
