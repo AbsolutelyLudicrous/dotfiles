@@ -25,9 +25,9 @@ function termopen () {
 		export ZSH_THEME='bureau'
 		alias ls='ls -a --color'
 		ufetch
-	else
-		export ZSH_THEME='avit'
-		alias ls='ls -a --color'
+	#else
+	#	export ZSH_THEME='avit'
+	#	alias ls='ls -a --color'
 	fi
 	echo 'Welcome, '$USER
 	echo 'The time is currently '$(date)
