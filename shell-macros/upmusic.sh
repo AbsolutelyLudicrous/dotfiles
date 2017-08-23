@@ -1,4 +1,4 @@
-#!/usr/bin/bash
+#!/bin/bash
 #redownload music playlist
 #WARNING takes fucking forever
 mkdir ~/Music/downloaded_tempdir
