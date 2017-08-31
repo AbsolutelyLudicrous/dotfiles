@@ -22,8 +22,8 @@ double_buffer yes
 no_buffers yes
 text_buffer_size 2048
 
-gap_x 10
-gap_y 50
+gap_x 20
+gap_y 55
 minimum_size 300 900
 maximum_width 350
 

@@ -1,30 +1,38 @@
 #greeting screen
 function termopen () {
-	neofetch | grep 'tilda' > /dev/null
-	if [[ ($? -eq 0) ]];then;	#if this is our desktop Tilda window
-		export ZSH_THEME='agnoster' #or bureau. agnoster requires a powerline font, bureau works OOTB.
+	neofetch | grep -o 	-ie 'tilda' \
+				-ie 'neovim' \
+				> /dev/null	#these are our 'large' terminals
+	if [[ ($? -eq 0) ]];then;
+		export ZSH_THEME='agnoster' 			#or bureau. agnoster requires a powerline font, bureau works OOTB.
 		alias ls='ls -a --color'
 		repeat 8 echo
 		neofetch
 		gtop
 	fi
+	neofetch | grep -o 	-ie 'gnome-term' \
+				-ie 'xterm' \
+				-ie 'rxvt' \
+				> /dev/null	#these are our 'small' terminals
+	if [[ ($? -eq 0) ]];then;
+		export ZSH_THEME='bureau'
+		alias ls='ls -a --color'
+		ufetch || top -n 1 | head -n 5
+	fi
+	#################
+	# Special Cases #
+	#################
 	neofetch | grep 'java' > /dev/null
-	if [[ ($? -eq 0) ]];then;	#if this is Eclipse's terminal
+	if [[ ($? -eq 0) ]];then;				#if this is Eclipse's terminal
 		cd $HOME/Documents/workspaces/javaWorkspace
 		alias ls='ls -a --color'
 		export ZSH_THEME='avit'
 	fi
-	neofetch | grep 'terminology' > /dev/null
-	if [[ ($? -eq 0) ]];then;	#if this is Terminology
-		export ZSH_THEME='agnoster' #or bureau. agnoster requires a powerline font, bureau works OOTB.
+	neofetch | grep -o -ie 'terminology' > /dev/null
+	if [[ ($? -eq 0) ]];then;				#if this is Terminology
+		export ZSH_THEME='agnoster' 			#or bureau. agnoster requires a powerline font, bureau works OOTB.
 		alias ls='tyls -s -a'
 		ufetch
-	fi
-	neofetch | grep 'gnome-term' > /dev/null
-	if [[ ($? -eq 0) ]];then;	#if this is gnome-terminal
-		export ZSH_THEME='bureau'
-		alias ls='ls -a --color'
-		ufetch || top -n 1 | head -n 5
 	fi
 	echo 'Welcome, '$USER
 	echo 'The time is currently '$(date)
@@ -82,7 +90,7 @@ uname -a | grep --ignore-case arch > /dev/null
 if [[ $? -eq 0 ]];then
 	source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	#fish-style autocompletion, available from https://github.com/zsh-users/zsh-autosuggestions
 else
-	source $HOME/zsh-autosuggestions/zsh-autosuggestions.zsh	#when we haven't installed via the AUR
+	source $HOME/zsh-autosuggestions/zsh-autosuggestions.zsh	#when we aren't in Arch
 fi
 source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
