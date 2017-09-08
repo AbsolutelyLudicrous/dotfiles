@@ -24,7 +24,7 @@ DialogWidth=720
 
 [Containments][1][General]
 ToolBoxButtonState=left
-ToolBoxButtonY=30
+ToolBoxButtonY=201
 
 [Containments][1][Wallpaper][org.kde.image][General]
 Image=file:///home/masondanne/Pictures/color-changing-mountains.xml

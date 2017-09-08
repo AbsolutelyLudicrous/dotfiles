@@ -10,7 +10,7 @@ _k_friendly_name=Accessibility
 Disable Touchpad=Touchpad Off,Touchpad Off,Disable Touchpad
 Enable Touchpad=Touchpad On,Touchpad On,Enable Touchpad
 Toggle Touchpad=Touchpad Toggle,Touchpad Toggle,Toggle Touchpad
-_k_friendly_name=KDE Daemon
+_k_friendly_name=System Settings
 
 [kded5]
 Decrease Keyboard Brightness=Keyboard Brightness Down,Keyboard Brightness Down,Decrease Keyboard Brightness
@@ -27,7 +27,11 @@ display=Display\tMeta+P,Display\tMeta+P,Switch Display
 
 [khotkeys]
 _k_friendly_name=KDE Daemon
+{06191782-8dc6-4b50-9cf2-109e81966ea3}=Meta+Shift+Print,none,Take Rectangular Region Screenshot
+{45f48dc4-3250-45c9-84f2-a4ab411a95fd}=Print,none,Start Screenshot Tool
+{6993baf8-c925-4023-8860-7e423fc5f501}=Meta+Print,none,Take Active Window Screenshot
 {d03619b6-9b3c-48cc-9d9c-a2aadb485550}=Search,none,Search
+{d547e3d8-b6c2-478f-b4a8-e37b335d5eaa}=Shift+Print,none,Take Full Screen Screenshot
 
 [kmix]
 _k_friendly_name=Audio Volume

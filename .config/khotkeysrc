@@ -1,5 +1,5 @@
 [Data]
-DataCount=3
+DataCount=4
 
 [Data_1]
 Comment=KMenuEdit Global Shortcuts
@@ -857,6 +857,135 @@ Key=Meta+E
 Type=SHORTCUT
 Uuid={d8de8d22-77b2-4878-b37c-b788d5870d12}
 
+[Data_4]
+Comment=Shortcuts for taking screenshots
+DataCount=4
+Enabled=true
+ImportId=spectacle
+Name=Screenshots
+SystemGroup=0
+Type=ACTION_DATA_GROUP
+
+[Data_4Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_4_1]
+Comment=Start the screenshot tool and show the GUI
+Enabled=true
+Name=Start Screenshot Tool
+Type=SIMPLE_ACTION_DATA
+
+[Data_4_1Actions]
+ActionsCount=1
+
+[Data_4_1Actions0]
+Arguments=
+Call=StartAgent
+RemoteApp=org.kde.Spectacle
+RemoteObj=/
+Type=DBUS
+
+[Data_4_1Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_4_1Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_4_1Triggers0]
+Key=Print
+Type=SHORTCUT
+Uuid={45f48dc4-3250-45c9-84f2-a4ab411a95fd}
+
+[Data_4_2]
+Comment=Take a full screen (all monitors) screenshot and save it
+Enabled=true
+Name=Take Full Screen Screenshot
+Type=SIMPLE_ACTION_DATA
+
+[Data_4_2Actions]
+ActionsCount=1
+
+[Data_4_2Actions0]
+Arguments=false
+Call=FullScreen
+RemoteApp=org.kde.Spectacle
+RemoteObj=/
+Type=DBUS
+
+[Data_4_2Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_4_2Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_4_2Triggers0]
+Key=Shift+Print
+Type=SHORTCUT
+Uuid={d547e3d8-b6c2-478f-b4a8-e37b335d5eaa}
+
+[Data_4_3]
+Comment=Take a screenshot of the currently active window and save it
+Enabled=true
+Name=Take Active Window Screenshot
+Type=SIMPLE_ACTION_DATA
+
+[Data_4_3Actions]
+ActionsCount=1
+
+[Data_4_3Actions0]
+Arguments=true, false
+Call=ActiveWindow
+RemoteApp=org.kde.Spectacle
+RemoteObj=/
+Type=DBUS
+
+[Data_4_3Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_4_3Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_4_3Triggers0]
+Key=Meta+Print
+Type=SHORTCUT
+Uuid={6993baf8-c925-4023-8860-7e423fc5f501}
+
+[Data_4_4]
+Comment=Take a screenshot of a rectangular region you specify and save it
+Enabled=true
+Name=Take Rectangular Region Screenshot
+Type=SIMPLE_ACTION_DATA
+
+[Data_4_4Actions]
+ActionsCount=1
+
+[Data_4_4Actions0]
+Arguments=true
+Call=RectangularRegion
+RemoteApp=org.kde.Spectacle
+RemoteObj=/
+Type=DBUS
+
+[Data_4_4Conditions]
+Comment=
+ConditionsCount=0
+
+[Data_4_4Triggers]
+Comment=Simple_action
+TriggersCount=1
+
+[Data_4_4Triggers0]
+Key=Meta+Shift+Print
+Type=SHORTCUT
+Uuid={06191782-8dc6-4b50-9cf2-109e81966ea3}
+
 [Gestures]
 Disabled=true
 MouseButton=2
@@ -867,7 +996,7 @@ Comment=
 WindowsCount=0
 
 [Main]
-AlreadyImported=defaults,konqueror_gestures_kde321,kde32b1
+AlreadyImported=defaults,konqueror_gestures_kde321,kde32b1,spectacle
 Disabled=false
 Version=2
 

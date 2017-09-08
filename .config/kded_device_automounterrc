@@ -19,3 +19,20 @@ LastSeenMounted=false
 Icon=drive-harddisk
 LastNameSeen=500.0 MiB Hard Drive
 LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda2]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=home
+LastSeenMounted=true
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda3]
+Icon=drive-harddisk
+LastNameSeen=solus root
+LastSeenMounted=false
+
+[Devices][/org/freedesktop/UDisks2/block_devices/sda5]
+EverMounted=true
+Icon=drive-harddisk
+LastNameSeen=100.0 GiB Hard Drive
+LastSeenMounted=true

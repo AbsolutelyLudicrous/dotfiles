@@ -49,6 +49,7 @@ alias vim='nvim'
 alias vi='nvim'
 alias emacs='nvim' #Muahahahahaahhaahaahahahaahhahaa!
 alias 'fuck'='sudo $(fc -ln -1)';alias 'redo'='sudo $(fc -ln -1)'
+alias vlock="echo fucked up for now, don\'t try it"
 
 #environ vars
 export EDITOR=nvim			#editor
