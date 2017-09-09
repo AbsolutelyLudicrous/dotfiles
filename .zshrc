@@ -50,6 +50,7 @@ alias vi='nvim'
 alias emacs='nvim' #Muahahahahaahhaahaahahahaahhahaa!
 alias 'fuck'='sudo $(fc -ln -1)';alias 'redo'='sudo $(fc -ln -1)'
 alias vlock="echo fucked up for now, don\'t try it"
+alias python=python3	#2.7 sucks
 
 #environ vars
 export EDITOR=nvim			#editor
