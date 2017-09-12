@@ -43,4 +43,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="sftp://mdanne@fish.post891.org/" added="2017-09-11T03:09:31Z" modified="2017-09-11T03:09:31Z" visited="2017-09-11T03:09:31Z">
+    <title>/ on fish.post891.org</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2017-09-11T03:09:31Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>
