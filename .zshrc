@@ -1,42 +1,58 @@
-#greeting screen
-
 function bigTermOpen () {
+	#run when we open a 'large' terminal
 	export ZSH_THEME='agnoster'
 	repeat 8 echo
 	neofetch
 }
 
 function smallTermOpen () {
+	#run when we open a 'small' terminal
 	export ZSH_THEME='bureau'
 	ufetch || top -n 1  | head -n 5
 }
 
 function eclipseTermOpen () {
+	#run when we're in Eclipse's terminal
 	export ZSH_THEME='avit'
 	cd $HOME/Documents/workspaces/javaWorkspace
 }
 
+function determinal () {
+	#determines which terminal open functions to call
+	width=$(tput cols)	#tput is weird
+	height=$(tput lines)
+
+	neofetch | grep -o -ie 'java' > /dev/null; 
+	if [[ ($? -eq 0) ]];then;
+		eclipseTermOpen;fi;
+
+	if [[ (height -ge 32) && (width -ge 128) ]];then;
+		bigTermOpen
+	elif [[ (height -lt 32) && (width -lt 128) ]];then;
+		smallTermOpen;fi;
+}
+
 function lsalias () {
+	#gives us the correct alias for ls
+	#TODO make this functionalprogrammingier and return an alias, not directly manipulate the alias
 	uname -a | grep -o -ie 'bsd' > /dev/null
 	if [[ ($? -eq 0) ]];then;	#if we're on the bsd box
-		return 'ls -aG';fi;	#equivalent to --all --color or -a --color
+		alias ls="ls -aG";	#equivalent to --all --color or -a --color
 	else;				#if we're on the linux box(es)
-		return 'ls --all --color'
+		alias ls="ls --all --color";fi;
 }
 
 function genericTermOpen () {
-#	alias ls=lsalias()
+	#should get run everytime, greets the user
 	echo 'Welcome, '$USER
 	echo 'The time is currently '$(date)
 }
 
 function termopen () {
-	neofetch | grep -o -ie 'terminology' > /dev/null
-	if [[ ($? -eq 0) ]];then;				#if this is Terminology
-		export ZSH_THEME='agnoster' 			#or bureau. agnoster requires a powerline font, bureau works OOTB.
-		alias ls='tyls -s -a'
-		ufetch
-	fi
+	#calls all the other terminal opener functions
+	determinal
+	lsalias
+	genericTermOpen
 }
 termopen
 
