@@ -1,41 +1,42 @@
 #greeting screen
+
+function bigTermOpen () {
+	export ZSH_THEME='agnoster'
+	repeat 8 echo
+	neofetch
+}
+
+function smallTermOpen () {
+	export ZSH_THEME='bureau'
+	ufetch || top -n 1  | head -n 5
+}
+
+function eclipseTermOpen () {
+	export ZSH_THEME='avit'
+	cd $HOME/Documents/workspaces/javaWorkspace
+}
+
+function lsalias () {
+	uname -a | grep -o -ie 'bsd' > /dev/null
+	if [[ ($? -eq 0) ]];then;	#if we're on the bsd box
+		return 'ls -aG';fi;	#equivalent to --all --color or -a --color
+	else;				#if we're on the linux box(es)
+		return 'ls --all --color'
+}
+
+function genericTermOpen () {
+#	alias ls=lsalias()
+	echo 'Welcome, '$USER
+	echo 'The time is currently '$(date)
+}
+
 function termopen () {
-	neofetch | grep -o 	-ie 'tilda' \
-				-ie 'neovim' \
-				> /dev/null	#these are our 'large' terminals
-	if [[ ($? -eq 0) ]];then;
-		export ZSH_THEME='agnoster' 			#or bureau. agnoster requires a powerline font, bureau works OOTB.
-		alias ls='ls -a --color'
-		repeat 8 echo
-		neofetch
-		gtop
-	fi
-	neofetch | grep -o 	-ie 'gnome-term' \
-				-ie 'xterm' \
-				-ie 'rxvt' \
-				> /dev/null	#these are our 'small' terminals
-	if [[ ($? -eq 0) ]];then;
-		export ZSH_THEME='bureau'
-		alias ls='ls -a --color'
-		ufetch || top -n 1 | head -n 5
-	fi
-	#################
-	# Special Cases #
-	#################
-	neofetch | grep 'java' > /dev/null
-	if [[ ($? -eq 0) ]];then;				#if this is Eclipse's terminal
-		cd $HOME/Documents/workspaces/javaWorkspace
-		alias ls='ls -a --color'
-		export ZSH_THEME='avit'
-	fi
 	neofetch | grep -o -ie 'terminology' > /dev/null
 	if [[ ($? -eq 0) ]];then;				#if this is Terminology
 		export ZSH_THEME='agnoster' 			#or bureau. agnoster requires a powerline font, bureau works OOTB.
 		alias ls='tyls -s -a'
 		ufetch
 	fi
-	echo 'Welcome, '$USER
-	echo 'The time is currently '$(date)
 }
 termopen
 
