@@ -1,0 +1,46 @@
+**** BEGIN LOGGING AT Mon Oct  2 15:05:51 2017
+
+Oct 02 15:05:51 *	ByteBitten has quit (Quit: Leaving)
+Oct 02 15:11:27 *	Konsieur has quit (Ping timeout: 258 seconds)
+Oct 02 15:12:41 *	JoshStrobl removes ban on *!*@unaffiliated/taaem
+Oct 02 15:13:01 *	taaem (~taaem@unaffiliated/taaem) has joined
+Oct 02 15:15:03 *	Geert80x24 has quit (Remote host closed the connection)
+Oct 02 15:15:21 *	Geert80x24 (~Geert@ptr-cyt6bp97ar74a15ueyz.18120a2.ip6.access.telenet.be) has joined
+Oct 02 15:16:59 *	Konsieur (~kabouik@239.72.95.88.customer.cdi.no) has joined
+Oct 02 15:17:40 *	cloudy (uid214606@gateway/web/irccloud.com/x-yyhmztznfwoyerpr) has joined
+Oct 02 15:19:58 <cloudy>	On the Budgie environment for Solus, how would I change the image on the Navigation Menu? I would like it to be the Budgie Bird.
+Oct 02 15:22:14 *	santi (~santi@S0106f0f249836343.su.shawcable.net) has joined
+Oct 02 15:25:21 *	Konsieur has quit (Ping timeout: 248 seconds)
+Oct 02 15:31:43 *	swift110 (~swift110@unaffiliated/swift110) has joined
+Oct 02 15:33:35 <Aph3x-WL>	do you mean the icon for budgie menu?
+Oct 02 15:36:02 <Geert80x24>	cloudy,  download it from here https://solus-project.com/branding/ and change the icon here https://i.imgur.com/8Vue1oW.png
+Oct 02 15:36:03 <bacon_bot>	[ Branding | Solus ] - solus-project.com
+Oct 02 15:44:02 *	vkivela has quit (Quit: vkivela)
+Oct 02 15:45:35 <swift110>	hey all
+Oct 02 15:47:00 <cloudy>	Thanks Geert80x24!
+Oct 02 15:49:21 <cloudy>	Hi swift110!
+Oct 02 15:57:34 *	void` (~void@2601:246:4300:1449::3658) has joined
+Oct 02 15:58:08 *	blaz_ has quit (Quit: Bye)
+Oct 02 15:58:22 *	blaz_ (~AndChat45@89.212.85.248) has joined
+Oct 02 15:58:59 *	cja_ has quit (Ping timeout: 258 seconds)
+Oct 02 15:59:43 *	cja_ (~cja@50-204-85-14-static.hfc.comcastbusiness.net) has joined
+Oct 02 16:04:46 <cloudy>	On Solus 3 Budgie, how do you have it auto-login? I used the setting in System Tools>Settings>Users but it doesn't seem to work.
+Oct 02 16:10:17 *	cja_ has quit (Quit: cja_)
+Oct 02 16:11:33 *	cja_ (~cja@50-204-85-14-static.hfc.comcastbusiness.net) has joined
+Oct 02 16:19:54 *	Geert80x24 has quit (Quit: Leaving)
+Oct 02 16:27:08 *	worldsnuts has quit (Ping timeout: 240 seconds)
+Oct 02 16:33:13 *	Keota (~Keota@cpc83603-ruth10-2-0-cust1248.14-1.cable.virginm.net) has joined
+Oct 02 16:42:58 *	cja_ has quit (Quit: cja_)
+Oct 02 16:44:02 *	mariosant (~mariosant@2a02:587:3e12:1000:363c:9ae4:95f3:1489) has joined
+Oct 02 16:47:01 *	chbmb (~CHBMB@gateway/vpn/privateinternetaccess/chbmb) has joined
+Oct 02 16:49:51 *	mariosant has quit (Quit: mariosant)
+Oct 02 16:53:42 *	mariosant (~mariosant@ppp-2-84-188-169.home.otenet.gr) has joined
+Oct 02 16:54:38 *	mariosant has quit (Remote host closed the connection)
+Oct 02 16:54:44 *	mariosant (~mariosant@ppp-2-84-188-169.home.otenet.gr) has joined
+Oct 02 17:09:51 *	n0rse (~n0rse@131.94.186.11) has joined
+Oct 02 17:18:57 *	Keota has quit (Ping timeout: 248 seconds)
+Oct 02 17:20:36 *	n0rse has quit (Ping timeout: 240 seconds)
+Oct 02 17:24:57 <swift110>	how are oyou cloudy 
+Oct 02 17:28:20 *	alatiera has quit (Quit: WeeChat 1.9)
+**** ENDING LOGGING AT Mon Oct  2 17:38:56 2017
+

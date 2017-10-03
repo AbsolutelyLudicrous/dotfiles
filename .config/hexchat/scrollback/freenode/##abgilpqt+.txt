@@ -1,0 +1,32 @@
+T 1506974321 24*	GridCube has quit ()
+T 1506978281 23*	qaqaplpl (~Malachi@123.201.168.15223) has joined
+T 1506978306 18<26qaqaplpl18>	anyone online?
+T 1506978314 18<24macksting[m]18>	Somewhat
+T 1506978320 18<24macksting[m]18>	o/
+T 1506978356 18<26qaqaplpl18>	this is my first time trying IRC
+T 1506978375 18<24macksting[m]18>	Oh! Welcome to the neighborhood.
+T 1506978377 18<26qaqaplpl18>	anything I should know
+T 1506978383 18<24macksting[m]18>	Me mum got me into IRC when I was 12 or so.
+T 1506978393 18<26qaqaplpl18>	nice
+T 1506978398 18<26qaqaplpl18>	where are you from?
+T 1506978413 18<24macksting[m]18>	Um. Gosh. I've been using just whatever client I can bother to find for so long... I'm from the Pacific Northwest of the US.
+T 1506978443 18<26qaqaplpl18>	Okay. Nice. I am from India.
+T 1506978448 18<24macksting[m]18>	Frankly, at this point I'd almost think *I* could use some pointers.
+T 1506978455 18<24macksting[m]18>	My knowledge is probably quite dated.
+T 1506978476 18<26qaqaplpl18>	are you an AI?
+T 1506978500 18<20LordRyan18>	Everyone on IRC is a bot except you.
+T 1506978501 18<24macksting[m]18>	Best thing I can figure? Entropy can be fought, but eventually spoils any system's order and goodliness, so enjoy any good place you can while it lasts, fight against corruption and cruelty, and be ready to move on and just enjoy the good times you had if it all goes sour.
+T 1506978507 18<24macksting[m]18>	Nah, I'm a human.
+T 1506978542 18<26qaqaplpl18>	what?
+T 1506978546 18<24macksting[m]18>	I know that all sounds very general, but it's how I interact with IRC.
+T 1506978585 24*	qaqaplpl (~Malachi@123.201.168.15224) has left ("Leaving")
+T 1506978590 18<24macksting[m]18>	...
+T 1506978595 18<24macksting[m]18>	Did I scare them?
+T 1506978641 18<24macksting[m]18>	I swear, I'm entirely incapable of casual conversation. lolshrug
+T 1506978720 18<20LordRyan18>	Usually casual conversation doesn't attempt to lead to existential crisis.
+T 1506978770 18<24macksting[m]18>	Then they're doing it wrong! http://existentialcomics.com/comic/204
+T 1506978772 -18Euforia/22##abgilpqt+-	Title: Existential Ad Agency - Existential Comics (at existentialcomics.com)
+T 1506979219 18<24macksting[m]18>	Wait, no, this one. http://existentialcomics.com/comic/178
+T 1506979221 -18Euforia/22##abgilpqt+-	Title: Door to Door Existentialism - Existential Comics (at existentialcomics.com)
+T 1506979273 18<24macksting[m]18>	"Sure, but do you ever feel an aimless anxiety about the weight of your choices in a short, meaningless life?" "Well, to be honest, sometimes..." "You see, through the teachings of existentialism, we can help you. You'll never have to not feel that way again." "Wait, did you say 'never have to NOT feel that way?'"
+T 1506980352 Python interface unloaded

@@ -1,5 +1,6 @@
 function bigTermOpen () {
 	#run when we open a 'large' terminal
+	echo $(date): opening large terminal >> ~/zshrcopenlog
 	export ZSH_THEME='agnoster'
 	repeat 8 echo
 	neofetch
@@ -7,12 +8,14 @@ function bigTermOpen () {
 
 function smallTermOpen () {
 	#run when we open a 'small' terminal
+	echo $(date):  opening small terminal >> ~/zshrcopenlog
 	export ZSH_THEME='bureau'
 	ufetch || top -n 1  | head -n 5
 }
 
 function eclipseTermOpen () {
 	#run when we're in Eclipse's terminal
+	echo $(date): opening eclipse terminal >> ~/zshrcopenlog
 	export ZSH_THEME='avit'
 	cd $HOME/Documents/workspaces/javaWorkspace
 }
@@ -21,29 +24,37 @@ function determinal () {
 	#determines which terminal open functions to call
 	width=$(tput cols)	#tput is weird
 	height=$(tput lines)
+	echo $(date): w:$width, h:$height >> ~/zshrcopenlog
 
 	neofetch | grep -o -ie 'java' > /dev/null; 
 	if [[ ($? -eq 0) ]];then;
+		echo $(date): chose eclipse terminal >> ~/zshrcopenlog
 		eclipseTermOpen;fi;
 
 	if [[ (height -ge 32) && (width -ge 128) ]];then;
+		echo $(date): chose big terminal >> ~/zshrcopenlog
 		bigTermOpen
 	elif [[ (height -lt 32) && (width -lt 128) ]];then;
+		echo $(date): chose small terminal >> ~/zshrcopenlog
 		smallTermOpen;fi;
 }
 
 function lsalias () {
 	#gives us the correct alias for ls
 	#TODO make this functionalprogrammingier and return an alias, not directly manipulate the alias
+	echo $(date): choosing ls-alias >> ~/zshrcopenlog
 	uname -a | grep -o -ie 'bsd' > /dev/null
 	if [[ ($? -eq 0) ]];then;	#if we're on the bsd box
+		echo $(date): chose bsd ls-aliases >> ~/zshrcopenlog
 		alias ls="ls -aG";	#equivalent to --all --color or -a --color
 	else;				#if we're on the linux box(es)
+		echo $(date): chose linux ls-aliases >> ~/zshrcopenlog
 		alias ls="ls --all --color";fi;
 }
 
 function genericTermOpen () {
 	#should get run everytime, greets the user
+	echo $(date): performing generic terminal open >> ~/zshrcopenlog
 	echo 'Welcome, '$USER
 	echo 'The time is currently '$(date)
 }
@@ -53,6 +64,8 @@ function termopen () {
 	determinal
 	lsalias
 	genericTermOpen
+	echo $(date): terminal open finished >> ~/zshrcopenlog
+	echo ''>> ~/zshrcopenlog
 }
 termopen
 
@@ -62,12 +75,14 @@ alias ssh='ssh -v'
 alias clear='clear && . ~/.zshrc'	#pretends we have a new terminal
 alias df='df -h'
 alias 'maven'='mvn'
+alias 'v'='nvim'
 alias vim='nvim'
 alias vi='nvim'
 alias emacs='nvim' #Muahahahahaahhaahaahahahaahhahaa!
 alias 'fuck'='sudo $(fc -ln -1)';alias 'redo'='sudo $(fc -ln -1)'
 alias vlock="echo fucked up for now, don\'t try it"
-alias python=python3	#2.7 sucks
+alias 'py'='python'
+alias 'py3'='python3'
 
 #environ vars
 export EDITOR=nvim			#editor
