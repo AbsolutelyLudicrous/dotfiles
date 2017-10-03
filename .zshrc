@@ -84,6 +84,7 @@ alias 'fuck'='sudo $(fc -ln -1)';alias 'redo'='sudo $(fc -ln -1)'
 alias vlock="echo fucked up for now, don\'t try it"
 alias 'py'='python'
 alias 'py3'='python3'
+alias 'book'='BOOKMARK=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd book'
 
 #environ vars
 export EDITOR=nvim			#editor
