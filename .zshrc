@@ -33,8 +33,8 @@ function determinal () {
 
 	if [[ (height -ge 32) && (width -ge 128) ]];then;
 		echo $(date): chose big terminal >> ~/zshrcopenlog
-		bigTermOpen
-	elif [[ (height -lt 32) && (width -lt 128) ]];then;
+		bigTermOpen;fi;
+	if [[ (height -lt 32) && (width -lt 128) ]];then;
 		echo $(date): chose small terminal >> ~/zshrcopenlog
 		smallTermOpen;fi;
 }
@@ -61,6 +61,7 @@ function genericTermOpen () {
 
 function termopen () {
 	#calls all the other terminal opener functions
+	sleep 0.1	#needed because tilda likes to 'open' at 80*24 and then resize itself
 	determinal
 	lsalias
 	genericTermOpen
