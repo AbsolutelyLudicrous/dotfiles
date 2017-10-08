@@ -61,13 +61,14 @@ function genericTermOpen () {
 
 function termopen () {
 	#calls all the other terminal opener functions
-	sleep 0.1	#needed because tilda likes to 'open' at 80*24 and then resize itself
+	sleep 0.2	#needed because tilda likes to 'open' at 80*24 and then resize itself
 	ps -p $(ps -p $$ -o ppid=) o args= >> ~/zshrcopenlog	#get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
 	determinal
 	lsalias
 	genericTermOpen
 	echo $(date): terminal open finished >> ~/zshrcopenlog
 	echo ''>> ~/zshrcopenlog
+	rm zshrcopenlog	#if we don't want to debug the terminal
 }
 termopen
 
