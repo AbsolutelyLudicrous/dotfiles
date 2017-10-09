@@ -41,7 +41,7 @@ function determinal () {
 
 function lsalias () {
 	#gives us the correct alias for ls
-	#TODO make this functionalprogrammingier and return an alias, not directly manipulate the alias
+	#//TODO make this functionalprogrammingier and return an alias, not directly manipulate the alias
 	echo $(date): choosing ls-alias >> ~/zshrcopenlog
 	uname -a | grep -o -ie 'bsd' > /dev/null
 	if [[ ($? -eq 0) ]];then;	#if we're on the bsd box
@@ -67,8 +67,8 @@ function termopen () {
 	lsalias
 	genericTermOpen
 	echo $(date): terminal open finished >> ~/zshrcopenlog
-	echo ''>> ~/zshrcopenlog
-	rm ~/zshrcopenlog	#if we don't want to debug the terminal
+	echo ''>> ~/zshrcopenlog	#adds a newline for better read flow
+	rm ~/zshrcopenlog		#if we don't want to debug the terminal
 }
 termopen
 
