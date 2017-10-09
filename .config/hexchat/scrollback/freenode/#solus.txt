@@ -98,3 +98,95 @@ T 1506980062 18<20zeratul18>	Aph3x-WL: Thanks, updates worked, was just 
 T 1506980063 18<20zeratul18>	panic over
 T 1506980150 24*	mramish has quit (Quit: Leaving)
 T 1506980352 FiSHLiM plugin unloaded
+T 1507074812 19*	Now talking on 22#Solus
+T 1507074812 22*	Topic for 22#Solus is: Solus Support | Off-topic: #Solus-Chat | Development: #Solus-Dev | Rules: https://goo.gl/nn5bhR | Help Center https://solus-project.com/help-center/home/ | Solus 3 Released!: https://solus-project.com/2017/08/15/solus-3-released/
+T 1507074812 22*	Topic for 22#Solus set by 26Justin`!~justin@198.12.70.245 (24Mon Sep 18 20:57:50 2017)
+T 1507074847 19*	Now talking on 22#Solus
+T 1507074847 22*	Topic for 22#Solus is: Solus Support | Off-topic: #Solus-Chat | Development: #Solus-Dev | Rules: https://goo.gl/nn5bhR | Help Center https://solus-project.com/help-center/home/ | Solus 3 Released!: https://solus-project.com/2017/08/15/solus-3-released/
+T 1507074847 22*	Topic for 22#Solus set by 26Justin`!~justin@198.12.70.245 (24Mon Sep 18 20:57:50 2017)
+T 1507074940 23*	ericnoan (~en@unaffiliated/ericnoan23) has joined
+T 1507075333 24*	smode has quit (Quit: smode)
+T 1507075534 23*	smode (~smode@205.175.118.20423) has joined
+T 1507075643 24*	smode has quit (Client Quit)
+T 1507075734 23*	santi (~santi@S0106f0f249836343.su.shawcable.net23) has joined
+T 1507075876 23*	mickotronic (~mickotron@149.60.168.202.static.comindico.com.au23) has joined
+T 1507076142 24*	fendor has quit (Ping timeout: 260 seconds)
+T 1507076183 24*	mickotronic has quit (Ping timeout: 258 seconds)
+T 1507076183 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1507076210 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1507076242 23*	Harvey (~Harvey@gateway/vpn/privateinternetaccess/harveybirdman23) has joined
+T 1507076354 24*	albertom has quit (Quit: Connection closed for inactivity)
+T 1507076505 24*	fcteixc has quit (Ping timeout: 258 seconds)
+T 1507076602 23*	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat23) has joined
+T 1507076645 24*	techquila has quit (Ping timeout: 255 seconds)
+T 1507076657 23*	fcteixc (fcteixc@gateway/shell/panicbnc/x-euzackdarlljrlkj23) has joined
+T 1507076897 24*	FunnyLookinHat has quit (Ping timeout: 248 seconds)
+T 1507077183 24*	ryenigma has quit (Ping timeout: 248 seconds)
+T 1507077249 24*	tassadar has quit (Ping timeout: 248 seconds)
+T 1507077434 24*	void` has quit (Ping timeout: 246 seconds)
+T 1507078130 24*	Justin`afk has quit (Ping timeout: 255 seconds)
+T 1507078147 24*	W-Floyd has quit (Quit: The Lounge - https://thelounge.github.io)
+T 1507078186 23*	Justin` (~justin@198.12.70.24523) has joined
+T 1507078186 22*	26ChanServ gives channel operator status to 18Justin`
+T 1507078207 24*	krc4267 has quit (Ping timeout: 248 seconds)
+T 1507078276 23*	krc4267 (~krc@198.12.70.24523) has joined
+T 1507078557 23*	W-Floyd (~W-Floyd@ip185.ip-145-239-174.eu23) has joined
+T 1507078571 23*	crucialhead (~bart@47.187.64.523) has joined
+T 1507078644 23*	MeansWell (~John_Poot@CPE-58-165-68-64.qld.bigpond.net.au23) has joined
+T 1507079560 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1507079570 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1507079914 23*	__asqrd (~asqrd@181.49.95.14523) has joined
+T 1507079914 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1507079942 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1507079968 24*	_asqrd has quit (Ping timeout: 240 seconds)
+T 1507080130 23*	asqrd__ (~asqrd@181.49.95.14523) has joined
+T 1507080214 24*	santi has quit (Ping timeout: 240 seconds)
+T 1507080254 24*	Sanderski has quit (Quit: Konversation terminated!)
+T 1507080265 23*	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat23) has joined
+T 1507080307 24*	__asqrd has quit (Ping timeout: 260 seconds)
+T 1507080505 24*	28JoshStrobl is now known as 18JoshStrobl|zzz
+T 1507080543 24*	FunnyLookinHat has quit (Ping timeout: 248 seconds)
+T 1507082322 23*	FunnyLookinHat (~funnylook@c-24-17-226-60.hsd1.wa.comcast.net23) has joined
+T 1507082322 24*	FunnyLookinHat has quit (Changing host)
+T 1507082322 23*	FunnyLookinHat (~funnylook@ubuntu/member/funnylookinhat23) has joined
+T 1507082495 24*	FunnyLookinHat has quit (Client Quit)
+T 1507082495 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1507082508 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1507082529 24*	tschan has quit (Ping timeout: 248 seconds)
+T 1507082782 24*	28feddasch_ is now known as 18feddasch
+T 1507082828 24*	feddasch has quit (Remote host closed the connection)
+T 1507082854 23*	feddasch (~feddasch@186.23.130.6723) has joined
+T 1507082918 24*	feddasch has quit (Read error: Connection reset by peer)
+T 1507082918 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1507082940 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1507082956 23*	tschan (~tschan@p5B32DB1E.dip0.t-ipconnect.de23) has joined
+T 1507082960 23*	feddasch (~feddasch@186.23.130.6723) has joined
+T 1507083008 24*	feddasch has quit (Remote host closed the connection)
+T 1507083976 23*	azertyieio (~azertyiei@47.182.8.10723) has joined
+T 1507084026 23*	nan0s7 (~nan0s7@c211-28-148-142.sunsh3.vic.optusnet.com.au23) has joined
+T 1507084027 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1507084043 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1507084045 24*	MeansWell has quit (Remote host closed the connection)
+T 1507084785 24*	Krennic has quit (Remote host closed the connection)
+T 1507084913 23*	swift110 (~swift110@unaffiliated/swift11023) has joined
+T 1507085110 23*	Irukandji (~irukandji@unaffiliated/irukandji23) has joined
+T 1507085549 23*	pduncan (~paul@2602:306:b800:b170:1acf:5eff:fe28:4e823) has joined
+T 1507085549 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1507085573 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1507085910 24*	biteagle has quit (Remote host closed the connection)
+T 1507085924 23*	biteagle (~biteagle@2600-6c56-7d7f-ef57-0000-d243-1138-24eb.dhcp6.chtrptr.net23) has joined
+T 1507085939 24*	pduncan has quit (Ping timeout: 246 seconds)
+T 1507086457 24*	Irukandji has quit (Quit: My MacBook has gone to sleep. ZZZzzz…)
+T 1507086855 24*	asqrd__ has quit (Read error: error:1408F119:SSL routines:SSL3_GET_RECORD:decryption failed or bad record mac)
+T 1507086880 23*	asqrd__ (~asqrd@181.49.95.14523) has joined
+T 1507087426 23*	vkivela (~vkivela@dc7t5wyycfzvs--3h4xmt-3.rev.dnainternet.fi23) has joined
+T 1507087834 23*	Irukandji (~irukandji@unaffiliated/irukandji23) has joined
+T 1507088070 24*	biteagle has quit (Read error: Connection reset by peer)
+T 1507088086 23*	biteagle (~biteagle@2600-6c56-7d7f-ef57-0000-d243-1138-24eb.dhcp6.chtrptr.net23) has joined
+T 1507088109 24*	jvrbanac has quit (Ping timeout: 252 seconds)
+T 1507088147 23*	jvrbanac (~jvrbanac@2604:a880:0:1010::55:800123) has joined
+T 1507116302 20*	Disconnected (20)
+T 1507116384 22*	26AbsolutelyLudicr sets mode 24+Z on 22AbsolutelyLudicr
+T 1507116384 22*	26AbsolutelyLudicr sets mode 24+i on 22AbsolutelyLudicr
+T 1507116388 Python interface unloaded
+T 1507116388 FiSHLiM plugin unloaded

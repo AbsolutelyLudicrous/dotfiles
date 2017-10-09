@@ -30,3 +30,24 @@ T 1506979219 18<24macksting[m]18>	Wait, no, this one. http://existential
 T 1506979221 -18Euforia/22##abgilpqt+-	Title: Door to Door Existentialism - Existential Comics (at existentialcomics.com)
 T 1506979273 18<24macksting[m]18>	"Sure, but do you ever feel an aimless anxiety about the weight of your choices in a short, meaningless life?" "Well, to be honest, sometimes..." "You see, through the teachings of existentialism, we can help you. You'll never have to not feel that way again." "Wait, did you say 'never have to NOT feel that way?'"
 T 1506980352 Python interface unloaded
+T 1507074812 19*	Now talking on 22##abgilpqt+
+T 1507074812 22*	Topic for 22##abgilpqt+ is: Channel for asexuals/aromantics, bi*, gays, intersex, pan*, queer, trans & other gender, romantic/sensual & sexual minorities ♥ | Rules: <https://abgilpqt.github.io/> | If you want to see chatting, chat! :)
+T 1507074812 22*	Topic for 22##abgilpqt+ set by 26Euforia (24Sat Apr  9 08:57:34 2016)
+T 1507074813 -18ChanServ-	[##abgilpqt+] Read https://abgilpqt.github.io/ before talking. | This channel is safe space! | If you miss the message from Euforia (umode +g), /msg Euforia herald default ##abgilpqt+
+T 1507074813 22*	Channel 22##abgilpqt+ url: 24https://abgilpqt.github.io/
+T 1507074814 -18Euforia-	[##abgilpqt+] Our pronouns can be read from https://gist.github.com/Mikaela/0b7b534bfbc4efe1a8ec9aea5c3fd2cd
+T 1507074847 19*	Now talking on 22##abgilpqt+
+T 1507074847 22*	Topic for 22##abgilpqt+ is: Channel for asexuals/aromantics, bi*, gays, intersex, pan*, queer, trans & other gender, romantic/sensual & sexual minorities ♥ | Rules: <https://abgilpqt.github.io/> | If you want to see chatting, chat! :)
+T 1507074847 22*	Topic for 22##abgilpqt+ set by 26Euforia (24Sat Apr  9 08:57:34 2016)
+T 1507074848 -18ChanServ-	[##abgilpqt+] Read https://abgilpqt.github.io/ before talking. | This channel is safe space! | If you miss the message from Euforia (umode +g), /msg Euforia herald default ##abgilpqt+
+T 1507074848 22*	Channel 22##abgilpqt+ url: 24https://abgilpqt.github.io/
+T 1507074848 -18Euforia-	[##abgilpqt+] Our pronouns can be read from https://gist.github.com/Mikaela/0b7b534bfbc4efe1a8ec9aea5c3fd2cd
+T 1507082332 24*	GridCube has quit (Quit: Leaving)
+T 1507084846 24*	ankh has quit (Read error: Connection reset by peer)
+T 1507084892 23*	ankh (~Liam@xplr-96-44-106-9.xplornet.com23) has joined
+T 1507084892 22*	26ChanServ gives channel operator status to 18ankh
+T 1507084892 22*	26Euforia gives channel operator status to 18ankh
+T 1507087532 24*	nicoo has quit (Ping timeout: 248 seconds)
+T 1507088456 23*	NickB[m] (firefurima@gateway/shell/matrix.org/x-hlcasfdvsgcslhcd23) has joined
+T 1507088456 22*	26ChanServ gives voice to 18NickB[m]
+T 1507116302 20*	Disconnected (20)

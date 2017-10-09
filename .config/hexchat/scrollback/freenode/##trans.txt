@@ -1,0 +1,10 @@
+T 1507074812 19*	Now talking on 22##trans
+T 1507074812 22*	Topic for 22##trans is: Welcome to ##trans. Come on in and stay a while.
+T 1507074812 22*	Topic for 22##trans set by 26JMcAfreak!~JMcAfreak@unaffiliated/jmcafreak (24Tue Jul  4 00:36:47 2017)
+T 1507074847 19*	Now talking on 22##trans
+T 1507074847 22*	Topic for 22##trans is: Welcome to ##trans. Come on in and stay a while.
+T 1507074847 22*	Topic for 22##trans set by 26JMcAfreak!~JMcAfreak@unaffiliated/jmcafreak (24Tue Jul  4 00:36:47 2017)
+T 1507083102 23*	Naia (~theriwolf@unaffiliated/werewolf23) has joined
+T 1507088607 24*	crash_n has quit (Ping timeout: 248 seconds)
+T 1507088670 23*	crash_n (~crash@212-183-121-78.adsl.highway.telekom.at23) has joined
+T 1507116302 20*	Disconnected (20)

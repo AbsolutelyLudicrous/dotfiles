@@ -1,0 +1,24 @@
+[Print Settings]
+cover-after=none
+print-at=now
+number-up=1
+reverse=false
+print-pages=all
+quality=normal
+print-at-time=
+duplex=simplex
+cups-InputSlot=Auto
+cups-job-sheets=none,none
+cups-ColorModel=RGB
+cups-Duplex=None
+cups-MediaType=Plain
+cups-job-priority=50
+cups-OutputMode=Normal
+collate=false
+media-type=Plain
+default-source=Auto
+cover-before=none
+printer=Officejet-5740-2
+page-set=all
+cups-number-up=1
+scale=100

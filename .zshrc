@@ -68,7 +68,7 @@ function termopen () {
 	genericTermOpen
 	echo $(date): terminal open finished >> ~/zshrcopenlog
 	echo ''>> ~/zshrcopenlog
-	rm zshrcopenlog	#if we don't want to debug the terminal
+	rm ~/zshrcopenlog	#if we don't want to debug the terminal
 }
 termopen
 

@@ -1,0 +1,42 @@
+**** BEGIN LOGGING AT Tue Oct  3 19:53:15 2017
+
+Oct 03 19:53:15 Checksum plugin loaded
+Oct 03 19:53:15 Sysinfo plugin loaded
+Oct 03 19:53:15 FiSHLiM plugin loaded
+Oct 03 19:53:15 Perl interface loaded
+Oct 03 19:53:16 Python interface loaded
+Oct 03 19:53:16 Lua version 1.3/5.1 loaded.
+**** BEGIN LOGGING AT Tue Oct  3 19:53:50 2017
+
+Oct 03 19:53:50 Checksum plugin loaded
+Oct 03 19:53:50 Sysinfo plugin loaded
+Oct 03 19:53:50 FiSHLiM plugin loaded
+Oct 03 19:53:50 Perl interface loaded
+Oct 03 19:53:50 Python interface loaded
+Oct 03 19:53:50 Lua version 1.3/5.1 loaded.
+Oct 03 19:53:50 *	Looking up chat.freenode.net
+Oct 03 19:53:50 *	Connecting to chat.freenode.net (162.213.39.42:6697)
+Oct 03 19:53:51 *	* Certification info:
+Oct 03 19:53:51 *	  Subject:
+Oct 03 19:53:51 *	    CN=weber.freenode.net
+Oct 03 19:53:51 *	  Issuer:
+Oct 03 19:53:51 *	    C=US
+Oct 03 19:53:51 *	    O=Let's Encrypt
+Oct 03 19:53:51 *	    CN=Let's Encrypt Authority X3
+Oct 03 19:53:51 *	  Public key algorithm: rsaEncryption (4096 bits)
+Oct 03 19:53:51 *	  Sign algorithm sha256WithRSAEncryption
+Oct 03 19:53:51 *	  Valid since Aug  7 05:01:00 2017 GM to Nov  5 05:01:00 2017 GM
+Oct 03 19:53:51 *	* Cipher info:
+Oct 03 19:53:51 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Oct 03 19:53:51 *	Connected. Now logging in.
+Oct 03 19:53:51 *	*** Looking up your hostname...
+Oct 03 19:53:51 *	*** Checking Ident
+Oct 03 19:53:51 *	*** Found your hostname
+Oct 03 19:54:00 *	*** No Ident response
+Oct 03 19:54:00 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Oct 03 19:54:00 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Oct 03 19:54:00 *	M. is erroneous. Retrying with Danne...
+Oct 03 19:54:00 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+Oct 03 19:54:00 *	Danne is already in use. Retrying with AbsolutelyLudicrous...
+**** ENDING LOGGING AT Tue Oct  3 19:54:01 2017
+

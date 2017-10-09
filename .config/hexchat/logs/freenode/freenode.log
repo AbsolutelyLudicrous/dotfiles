@@ -5,3 +5,309 @@ Oct 02 17:39:12 Sysinfo plugin unloaded
 Oct 02 17:39:12 Checksum plugin unloaded
 **** ENDING LOGGING AT Mon Oct  2 17:39:12 2017
 
+**** BEGIN LOGGING AT Tue Oct  3 19:53:26 2017
+
+Oct 03 19:53:26 *	Welcome to the freenode Internet Relay Chat Network mdanne
+Oct 03 19:53:26 *	Your host is weber.freenode.net[162.213.39.42/6697], running version ircd-seven-1.1.4
+Oct 03 19:53:26 *	This server was created Thu Jan 26 2017 at 20:12:59 UTC
+Oct 03 19:53:26 *	weber.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Oct 03 19:53:26 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Oct 03 19:53:26 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+Oct 03 19:53:26 *	CPRIVMSG CNOTICE WHOX ETRACE :are supported by this server
+Oct 03 19:53:26 *	There are 124 users and 84748 invisible on 31 servers
+Oct 03 19:53:26 *	33 :IRC Operators online
+Oct 03 19:53:26 *	15 :unknown connection(s)
+Oct 03 19:53:26 *	54306 :channels formed
+Oct 03 19:53:26 *	I have 5799 clients and 1 servers
+Oct 03 19:53:26 *	5799 6820 :Current local users 5799, max 6820
+Oct 03 19:53:26 *	84872 90889 :Current global users 84872, max 90889
+Oct 03 19:53:26 *	Highest connection count: 6821 (6820 clients) (716236 connections received)
+Oct 03 19:53:26 *	- weber.freenode.net Message of the Day - 
+Oct 03 19:53:26 *	- Welcome to weber.freenode.net in California, USA.
+Oct 03 19:53:26 *	- Thanks to https://www.cloudsigma.com/ for sponsoring
+Oct 03 19:53:26 *	- this server!
+Oct 03 19:53:26 *	-  
+Oct 03 19:53:26 *	- WEBER, DAVID M. (1952-), an American fantasy and scifi
+Oct 03 19:53:26 *	- author. Best known for his 'Honor Harrington' series, his
+Oct 03 19:53:26 *	- works span several genres, including alternate history,
+Oct 03 19:53:26 *	- epic fantasy, military scifi and space opera. He's also
+Oct 03 19:53:26 *	- done wargame design mainly for the StarFire tabletop
+Oct 03 19:53:26 *	- boardgame series, a job which later evolved into the novel,
+Oct 03 19:53:26 *	- 'Insurrection' (collaboration with Steve White, published
+Oct 03 19:53:26 *	- in 1990).
+Oct 03 19:53:26 *	-  
+Oct 03 19:53:26 *	-   __                               _          _  _   _     _____     _______ 
+Oct 03 19:53:26 *	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+Oct 03 19:53:26 *	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|  
+Oct 03 19:53:26 *	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___ 
+Oct 03 19:53:26 *	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+Oct 03 19:53:26 *	-                                                                              
+Oct 03 19:53:26 *	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+Oct 03 19:53:26 *	-  
+Oct 03 19:53:26 *	- freenode #live is a community-focused live event designed to build and
+Oct 03 19:53:26 *	- strengthen relationships between Free and Open Source Software (FOSS)
+Oct 03 19:53:26 *	- developers and users. freenode live seeks to raise awareness of and 
+Oct 03 19:53:26 *	- promote FOSS alternatives to proprietary software. 
+Oct 03 19:53:26 *	-  
+Oct 03 19:53:26 *	- Facilitating face-to-face interaction, creative workshops, talks and think 
+Oct 03 19:53:26 *	- tanks, freenode #live will bring developers and users together in a nurturing 
+Oct 03 19:53:26 *	- and dynamic environment stimulating the free exchange of ideas and 
+Oct 03 19:53:26 *	- information while fostering cross-project collaboration and dialogue for 
+Oct 03 19:53:26 *	- innovation.
+Oct 03 19:53:26 *	-  
+Oct 03 19:53:26 *	- Please join us in the #live channel on the freenode network, or send us an
+Oct 03 19:53:26 *	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+Oct 03 19:53:26 *	- get involved, and see https://freenode.live/ for more information and to get
+Oct 03 19:53:26 *	- your tickets!
+Oct 03 19:53:26 *	-  
+Oct 03 19:53:26 *	- A massive thank you to our sponsors and exibitors:
+Oct 03 19:53:26 *	-  
+Oct 03 19:53:26 *	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+Oct 03 19:53:26 *	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+Oct 03 19:53:26 *	-  
+Oct 03 19:53:26 *	-  
+Oct 03 19:53:26 *	- By connecting to freenode you indicate that you have read and agree with
+Oct 03 19:53:26 *	- our policies and guidelines as published on https://freenode.net
+Oct 03 19:53:26 *	End of /MOTD command.
+Oct 03 19:53:26 *	mdanne sets mode +Z on mdanne
+Oct 03 19:53:26 *	mdanne sets mode +i on mdanne
+**** BEGIN LOGGING AT Tue Oct  3 19:53:46 2017
+
+Oct 03 19:53:46 *	Welcome to the freenode Internet Relay Chat Network AbsolutelyLudicr
+Oct 03 19:53:46 *	Your host is weber.freenode.net[162.213.39.42/6697], running version ircd-seven-1.1.4
+Oct 03 19:53:46 *	This server was created Thu Jan 26 2017 at 20:12:59 UTC
+Oct 03 19:53:46 *	weber.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Oct 03 19:53:46 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Oct 03 19:53:46 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+Oct 03 19:53:46 *	CPRIVMSG CNOTICE WHOX ETRACE :are supported by this server
+Oct 03 19:53:46 *	There are 124 users and 84748 invisible on 31 servers
+Oct 03 19:53:46 *	33 :IRC Operators online
+Oct 03 19:53:46 *	17 :unknown connection(s)
+Oct 03 19:53:46 *	54304 :channels formed
+Oct 03 19:53:46 *	I have 5799 clients and 1 servers
+Oct 03 19:53:46 *	5799 6820 :Current local users 5799, max 6820
+Oct 03 19:53:46 *	84872 90889 :Current global users 84872, max 90889
+Oct 03 19:53:46 *	Highest connection count: 6821 (6820 clients) (716240 connections received)
+Oct 03 19:53:46 *	- weber.freenode.net Message of the Day - 
+Oct 03 19:53:46 *	- Welcome to weber.freenode.net in California, USA.
+Oct 03 19:53:46 *	- Thanks to https://www.cloudsigma.com/ for sponsoring
+Oct 03 19:53:46 *	- this server!
+Oct 03 19:53:46 *	-  
+Oct 03 19:53:46 *	- WEBER, DAVID M. (1952-), an American fantasy and scifi
+Oct 03 19:53:46 *	- author. Best known for his 'Honor Harrington' series, his
+Oct 03 19:53:46 *	- works span several genres, including alternate history,
+Oct 03 19:53:46 *	- epic fantasy, military scifi and space opera. He's also
+Oct 03 19:53:46 *	- done wargame design mainly for the StarFire tabletop
+Oct 03 19:53:46 *	- boardgame series, a job which later evolved into the novel,
+Oct 03 19:53:46 *	- 'Insurrection' (collaboration with Steve White, published
+Oct 03 19:53:46 *	- in 1990).
+Oct 03 19:53:46 *	-  
+Oct 03 19:53:46 *	-   __                               _          _  _   _     _____     _______ 
+Oct 03 19:53:46 *	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+Oct 03 19:53:46 *	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|  
+Oct 03 19:53:46 *	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___ 
+Oct 03 19:53:46 *	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+Oct 03 19:53:46 *	-                                                                              
+Oct 03 19:53:46 *	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+Oct 03 19:53:46 *	-  
+Oct 03 19:53:46 *	- freenode #live is a community-focused live event designed to build and
+Oct 03 19:53:46 *	- strengthen relationships between Free and Open Source Software (FOSS)
+Oct 03 19:53:46 *	- developers and users. freenode live seeks to raise awareness of and 
+Oct 03 19:53:46 *	- promote FOSS alternatives to proprietary software. 
+Oct 03 19:53:46 *	-  
+Oct 03 19:53:46 *	- Facilitating face-to-face interaction, creative workshops, talks and think 
+Oct 03 19:53:46 *	- tanks, freenode #live will bring developers and users together in a nurturing 
+Oct 03 19:53:46 *	- and dynamic environment stimulating the free exchange of ideas and 
+Oct 03 19:53:46 *	- information while fostering cross-project collaboration and dialogue for 
+Oct 03 19:53:46 *	- innovation.
+Oct 03 19:53:46 *	-  
+Oct 03 19:53:46 *	- Please join us in the #live channel on the freenode network, or send us an
+Oct 03 19:53:46 *	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+Oct 03 19:53:46 *	- get involved, and see https://freenode.live/ for more information and to get
+Oct 03 19:53:46 *	- your tickets!
+Oct 03 19:53:46 *	-  
+Oct 03 19:53:46 *	- A massive thank you to our sponsors and exibitors:
+Oct 03 19:53:46 *	-  
+Oct 03 19:53:46 *	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+Oct 03 19:53:46 *	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+Oct 03 19:53:46 *	-  
+Oct 03 19:53:46 *	-  
+Oct 03 19:53:46 *	- By connecting to freenode you indicate that you have read and agree with
+Oct 03 19:53:46 *	- our policies and guidelines as published on https://freenode.net
+Oct 03 19:53:46 *	End of /MOTD command.
+Oct 03 19:53:46 *	AbsolutelyLudicr sets mode +Z on AbsolutelyLudicr
+Oct 03 19:53:46 *	AbsolutelyLudicr sets mode +i on AbsolutelyLudicr
+Oct 03 19:53:48 Python interface unloaded
+Oct 03 19:53:48 Perl interface unloaded
+Oct 03 19:53:48 FiSHLiM plugin unloaded
+Oct 03 19:53:48 Sysinfo plugin unloaded
+Oct 03 19:53:48 Checksum plugin unloaded
+**** ENDING LOGGING AT Tue Oct  3 19:53:48 2017
+
+**** ENDING LOGGING AT Tue Oct  3 19:53:48 2017
+
+**** BEGIN LOGGING AT Tue Oct  3 19:54:01 2017
+
+Oct 03 19:54:01 *	Welcome to the freenode Internet Relay Chat Network AbsolutelyLudicr
+Oct 03 19:54:01 *	Your host is weber.freenode.net[162.213.39.42/6697], running version ircd-seven-1.1.4
+Oct 03 19:54:01 *	This server was created Thu Jan 26 2017 at 20:12:59 UTC
+Oct 03 19:54:01 *	weber.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Oct 03 19:54:01 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Oct 03 19:54:01 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 SAFELIST ELIST=CTU KNOCK :are supported by this server
+Oct 03 19:54:01 *	CPRIVMSG CNOTICE WHOX ETRACE :are supported by this server
+Oct 03 19:54:01 *	There are 124 users and 84744 invisible on 31 servers
+Oct 03 19:54:01 *	33 :IRC Operators online
+Oct 03 19:54:01 *	20 :unknown connection(s)
+Oct 03 19:54:01 *	54303 :channels formed
+Oct 03 19:54:01 *	I have 5798 clients and 1 servers
+Oct 03 19:54:01 *	5798 6820 :Current local users 5798, max 6820
+Oct 03 19:54:01 *	84868 90889 :Current global users 84868, max 90889
+Oct 03 19:54:01 *	Highest connection count: 6821 (6820 clients) (716243 connections received)
+Oct 03 19:54:01 *	- weber.freenode.net Message of the Day - 
+Oct 03 19:54:01 *	- Welcome to weber.freenode.net in California, USA.
+Oct 03 19:54:01 *	- Thanks to https://www.cloudsigma.com/ for sponsoring
+Oct 03 19:54:01 *	- this server!
+Oct 03 19:54:01 *	-  
+Oct 03 19:54:01 *	- WEBER, DAVID M. (1952-), an American fantasy and scifi
+Oct 03 19:54:01 *	- author. Best known for his 'Honor Harrington' series, his
+Oct 03 19:54:01 *	- works span several genres, including alternate history,
+Oct 03 19:54:01 *	- epic fantasy, military scifi and space opera. He's also
+Oct 03 19:54:01 *	- done wargame design mainly for the StarFire tabletop
+Oct 03 19:54:01 *	- boardgame series, a job which later evolved into the novel,
+Oct 03 19:54:01 *	- 'Insurrection' (collaboration with Steve White, published
+Oct 03 19:54:01 *	- in 1990).
+Oct 03 19:54:01 *	-  
+Oct 03 19:54:01 *	-   __                               _          _  _   _     _____     _______ 
+Oct 03 19:54:01 *	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+Oct 03 19:54:01 *	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|  
+Oct 03 19:54:01 *	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___ 
+Oct 03 19:54:01 *	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+Oct 03 19:54:01 *	-                                                                              
+Oct 03 19:54:01 *	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+Oct 03 19:54:01 *	-  
+Oct 03 19:54:01 *	- freenode #live is a community-focused live event designed to build and
+Oct 03 19:54:01 *	- strengthen relationships between Free and Open Source Software (FOSS)
+Oct 03 19:54:01 *	- developers and users. freenode live seeks to raise awareness of and 
+Oct 03 19:54:01 *	- promote FOSS alternatives to proprietary software. 
+Oct 03 19:54:01 *	-  
+Oct 03 19:54:01 *	- Facilitating face-to-face interaction, creative workshops, talks and think 
+Oct 03 19:54:01 *	- tanks, freenode #live will bring developers and users together in a nurturing 
+Oct 03 19:54:01 *	- and dynamic environment stimulating the free exchange of ideas and 
+Oct 03 19:54:01 *	- information while fostering cross-project collaboration and dialogue for 
+Oct 03 19:54:01 *	- innovation.
+Oct 03 19:54:01 *	-  
+Oct 03 19:54:01 *	- Please join us in the #live channel on the freenode network, or send us an
+Oct 03 19:54:01 *	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+Oct 03 19:54:01 *	- get involved, and see https://freenode.live/ for more information and to get
+Oct 03 19:54:01 *	- your tickets!
+Oct 03 19:54:01 *	-  
+Oct 03 19:54:01 *	- A massive thank you to our sponsors and exibitors:
+Oct 03 19:54:01 *	-  
+Oct 03 19:54:01 *	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+Oct 03 19:54:01 *	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+Oct 03 19:54:01 *	-  
+Oct 03 19:54:01 *	-  
+Oct 03 19:54:01 *	- By connecting to freenode you indicate that you have read and agree with
+Oct 03 19:54:01 *	- our policies and guidelines as published on https://freenode.net
+Oct 03 19:54:01 *	End of /MOTD command.
+Oct 03 19:54:01 *	AbsolutelyLudicr sets mode +Z on AbsolutelyLudicr
+Oct 03 19:54:01 *	AbsolutelyLudicr sets mode +i on AbsolutelyLudicr
+**** ENDING LOGGING AT Tue Oct  3 19:55:45 2017
+
+**** BEGIN LOGGING AT Tue Oct  3 19:55:45 2017
+
+Oct 04 07:25:02 *	No ping reply for 27192 seconds, disconnecting.
+Oct 04 07:25:02 *	Disconnected ()
+Oct 04 07:25:12 *	Looking up chat.freenode.net
+Oct 04 07:25:12 *	Connecting to chat.freenode.net (193.10.255.100:6697)
+Oct 04 07:26:17 *	* Subject: /O=Digital Signature Trust Co./CN=DST Root CA X3
+Oct 04 07:26:17 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+Oct 04 07:26:17 *	* Subject: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+Oct 04 07:26:17 *	* Issuer: /O=Digital Signature Trust Co./CN=DST Root CA X3
+Oct 04 07:26:17 *	* Subject: /CN=wolfe.freenode.net
+Oct 04 07:26:17 *	* Issuer: /C=US/O=Let's Encrypt/CN=Let's Encrypt Authority X3
+Oct 04 07:26:17 *	* Certification info:
+Oct 04 07:26:17 *	  Subject:
+Oct 04 07:26:17 *	    CN=wolfe.freenode.net
+Oct 04 07:26:17 *	  Issuer:
+Oct 04 07:26:17 *	    C=US
+Oct 04 07:26:17 *	    O=Let's Encrypt
+Oct 04 07:26:17 *	    CN=Let's Encrypt Authority X3
+Oct 04 07:26:17 *	  Public key algorithm: rsaEncryption (4096 bits)
+Oct 04 07:26:17 *	  Sign algorithm sha256WithRSAEncryption
+Oct 04 07:26:17 *	  Valid since Sep  4 05:01:00 2017 GM to Dec  3 05:01:00 2017 GM
+Oct 04 07:26:17 *	* Cipher info:
+Oct 04 07:26:17 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Oct 04 07:26:17 *	Connected. Now logging in.
+Oct 04 07:26:17 *	*** Looking up your hostname...
+Oct 04 07:26:17 *	*** Checking Ident
+Oct 04 07:26:17 *	*** Couldn't look up your hostname
+Oct 04 07:26:24 *	*** No Ident response
+Oct 04 07:26:24 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Oct 04 07:26:24 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Oct 04 07:26:24 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+Oct 04 07:26:24 *	Welcome to the freenode Internet Relay Chat Network AbsolutelyLudicr
+Oct 04 07:26:24 *	Your host is wolfe.freenode.net[193.10.255.100/6697], running version ircd-seven-1.1.4
+Oct 04 07:26:24 *	This server was created Wed Jan 18 2017 at 02:26:17 CET
+Oct 04 07:26:24 *	wolfe.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Oct 04 07:26:24 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Oct 04 07:26:24 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 KNOCK SAFELIST ELIST=CTU :are supported by this server
+Oct 04 07:26:24 *	WHOX CPRIVMSG CNOTICE ETRACE :are supported by this server
+Oct 04 07:26:24 *	There are 125 users and 89490 invisible on 31 servers
+Oct 04 07:26:24 *	33 :IRC Operators online
+Oct 04 07:26:24 *	21 :unknown connection(s)
+Oct 04 07:26:24 *	54679 :channels formed
+Oct 04 07:26:24 *	I have 6154 clients and 2 servers
+Oct 04 07:26:24 *	6154 7170 :Current local users 6154, max 7170
+Oct 04 07:26:24 *	89615 97718 :Current global users 89615, max 97718
+Oct 04 07:26:24 *	Highest connection count: 7172 (7170 clients) (1277353 connections received)
+Oct 04 07:26:24 *	- wolfe.freenode.net Message of the Day - 
+Oct 04 07:26:24 *	- Welcome to wolfe.freenode.net in Stockholm, SE.
+Oct 04 07:26:24 *	- Thanks to http://nordu.net/ for sponsoring
+Oct 04 07:26:24 *	- this server!
+Oct 04 07:26:24 *	-  
+Oct 04 07:26:24 *	- WOLFE, GENE [1931-].  Prolific writer of short stories and
+Oct 04 07:26:24 *	- novels. His best-known work is the multi-volume novel The
+Oct 04 07:26:24 *	- Book of the New Sun. He has won multiple awards including
+Oct 04 07:26:24 *	- the Nebula Award, the World Fantasy Award, The Campell
+Oct 04 07:26:24 *	- Memorial Award and the Locus Award. He was awarded the World
+Oct 04 07:26:24 *	- Fantasy Award for lifetime achievement in 1996.
+Oct 04 07:26:24 *	-  
+Oct 04 07:26:24 *	-   __                               _          _  _   _     _____     _______ 
+Oct 04 07:26:24 *	-  / _|_ __ ___  ___ _ __   ___   __| | ___   _| || |_| |   |_ _\ \   / / ____|
+Oct 04 07:26:24 *	- | |_| '__/ _ \/ _ \ '_ \ / _ \ / _` |/ _ \ |_  ..  _| |    | | \ \ / /|  _|  
+Oct 04 07:26:24 *	- |  _| | |  __/  __/ | | | (_) | (_| |  __/ |_      _| |___ | |  \ V / | |___ 
+Oct 04 07:26:24 *	- |_| |_|  \___|\___|_| |_|\___/ \__,_|\___|   |_||_| |_____|___|  \_/  |_____|
+Oct 04 07:26:24 *	-                                                                              
+Oct 04 07:26:24 *	- October 28th - 29th, Bristol, United Kingdom - see http://freenode.live/
+Oct 04 07:26:24 *	-  
+Oct 04 07:26:24 *	- freenode #live is a community-focused live event designed to build and
+Oct 04 07:26:24 *	- strengthen relationships between Free and Open Source Software (FOSS)
+Oct 04 07:26:24 *	- developers and users. freenode live seeks to raise awareness of and 
+Oct 04 07:26:24 *	- promote FOSS alternatives to proprietary software. 
+Oct 04 07:26:24 *	-  
+Oct 04 07:26:24 *	- Facilitating face-to-face interaction, creative workshops, talks and think 
+Oct 04 07:26:24 *	- tanks, freenode #live will bring developers and users together in a nurturing 
+Oct 04 07:26:24 *	- and dynamic environment stimulating the free exchange of ideas and 
+Oct 04 07:26:24 *	- information while fostering cross-project collaboration and dialogue for 
+Oct 04 07:26:24 *	- innovation.
+Oct 04 07:26:24 *	-  
+Oct 04 07:26:24 *	- Please join us in the #live channel on the freenode network, or send us an
+Oct 04 07:26:24 *	- e-mail (2017-team@freenode.live) if you have any questions and would like to
+Oct 04 07:26:24 *	- get involved, and see https://freenode.live/ for more information and to get
+Oct 04 07:26:24 *	- your tickets!
+Oct 04 07:26:24 *	-  
+Oct 04 07:26:24 *	- A massive thank you to our sponsors and exibitors:
+Oct 04 07:26:24 *	-  
+Oct 04 07:26:24 *	- Private Internet Access, Canonical, Bytemark, yubico, Open Rights Group,
+Oct 04 07:26:24 *	- Free Software Foundation, OpenSUSE, Minetest, KDE, bitcoin.com.
+Oct 04 07:26:24 *	-  
+Oct 04 07:26:24 *	-  
+Oct 04 07:26:24 *	- By connecting to freenode you indicate that you have read and agree with
+Oct 04 07:26:24 *	- our policies and guidelines as published on https://freenode.net
+Oct 04 07:26:24 *	End of /MOTD command.
+Oct 04 07:26:28 Perl interface unloaded
+Oct 04 07:26:28 Sysinfo plugin unloaded
+Oct 04 07:26:28 Checksum plugin unloaded
+**** ENDING LOGGING AT Wed Oct  4 07:26:28 2017
+
