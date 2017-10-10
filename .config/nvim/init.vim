@@ -40,6 +40,7 @@ endif
 "End dein Scripts-------------------------
 
 let g:airline_theme='luna'
+let g:airline_powerline_fonts = 1
 
 set number			"add line numbers
 set nowrap			"don't wrap text
