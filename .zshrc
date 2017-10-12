@@ -43,7 +43,7 @@ function lsalias () {
 	#gives us the correct alias for ls
 	#//TODO make this functionalprogrammingier and return an alias, not directly manipulate the alias
 	echo $(date): choosing ls-alias >> ~/zshrcopenlog
-	uname -a | grep -o -ie 'bsd' > /dev/null
+	uname -a | grep -o -ie 'bsd' -o -ie 'darwin' > /dev/null
 	if [[ ($? -eq 0) ]];then;	#if we're on the bsd box
 		echo $(date): chose bsd ls-aliases >> ~/zshrcopenlog
 		alias ls="ls -aG";	#equivalent to --all --color or -a --color
@@ -61,14 +61,15 @@ function genericTermOpen () {
 
 function termopen () {
 	#calls all the other terminal opener functions
-	sleep 0.2	#needed because tilda likes to 'open' at 80*24 and then resize itself
+	rm ~/zshrcopenlog	#remove a previous logfile
+	sleep 0.2		#needed because tilda likes to 'open' at 80*24 and then resize itself
 	ps -p $(ps -p $$ -o ppid=) o args= >> ~/zshrcopenlog	#get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
-	determinal
+	determinal 
 	lsalias
 	genericTermOpen
 	echo $(date): terminal open finished >> ~/zshrcopenlog
 	echo ''>> ~/zshrcopenlog	#adds a newline for better read flow
-	rm ~/zshrcopenlog		#if we don't want to debug the terminal
+	#rm ~/zshrcopenlog		#if we don't want to debug the terminal
 }
 termopen
 
