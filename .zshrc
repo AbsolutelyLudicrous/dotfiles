@@ -1,3 +1,5 @@
+#buncha nonsense functions up here, the real zshrc begins around line 80
+
 function bigTermOpen () {
 	#run when we open a 'large' terminal
 	echo $(date): opening large terminal >> ~/zshrcopenlog
@@ -39,8 +41,8 @@ function determinal () {
 		smallTermOpen;fi;
 }
 
-function lsalias () {
-	#gives us the correct alias for ls
+function userlandCompat () {
+	#gives us the correct alias for ls, aliases neofetch to screenfetch on non-neofetch systems
 	#//TODO make this functionalprogrammingier and return an alias, not directly manipulate the alias
 	echo $(date): choosing ls-alias >> ~/zshrcopenlog
 	uname -a | grep -o -ie 'bsd' -o -ie 'darwin' > /dev/null
@@ -50,6 +52,7 @@ function lsalias () {
 	else;				#if we're on the linux box(es)
 		echo $(date): chose linux ls-aliases >> ~/zshrcopenlog
 		alias ls="ls --all --color";fi;
+	neofetch > /dev/null || alias 'neofetch'='screenfetch'
 }
 
 function genericTermOpen () {
@@ -65,7 +68,7 @@ function termopen () {
 	sleep 0.2		#needed because tilda likes to 'open' at 80*24 and then resize itself
 	ps -p $(ps -p $$ -o ppid=) o args= >> ~/zshrcopenlog	#get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
 	determinal 
-	lsalias
+	userlandCompat
 	genericTermOpen
 	echo $(date): terminal open finished >> ~/zshrcopenlog
 	echo ''>> ~/zshrcopenlog	#adds a newline for better read flow
