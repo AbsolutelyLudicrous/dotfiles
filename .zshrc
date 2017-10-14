@@ -52,7 +52,7 @@ function userlandCompat () {
 	else;				#if we're on the linux box(es)
 		echo $(date): chose linux ls-aliases >> ~/zshrcopenlog
 		alias ls="ls --all --color";fi;
-	neofetch > /dev/null || alias 'neofetch'='screenfetch'
+	neofetch > /dev/null || alias 'neofetch'='screenfetch -p'	#not all systems have neofetch, so we set it to screenfetch instead
 }
 
 function genericTermOpen () {
