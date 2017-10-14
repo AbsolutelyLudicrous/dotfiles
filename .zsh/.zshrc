@@ -2,7 +2,7 @@
 
 function bigTermOpen () {
 	#run when we open a 'large' terminal
-	echo $(date): opening large terminal >> ~/zshrcopenlog
+	echo $(date): opening large terminal >> $ZDOTDIR/zshrcopenlog
 	export ZSH_THEME='agnoster'
 	repeat 8 echo
 	neofetch
@@ -10,14 +10,14 @@ function bigTermOpen () {
 
 function smallTermOpen () {
 	#run when we open a 'small' terminal
-	echo $(date):  opening small terminal >> ~/zshrcopenlog
+	echo $(date):  opening small terminal >> $ZDOTDIR/zshrcopenlog
 	export ZSH_THEME='bureau'
 	ufetch || top -n 1  | head -n 5
 }
 
 function eclipseTermOpen () {
 	#run when we're in Eclipse's terminal
-	echo $(date): opening eclipse terminal >> ~/zshrcopenlog
+	echo $(date): opening eclipse terminal >> $ZDOTDIR/zshrcopenlog
 	export ZSH_THEME='avit'
 	cd $HOME/Documents/workspaces/javaWorkspace
 }
@@ -26,60 +26,61 @@ function determinal () {
 	#determines which terminal open functions to call
 	width=$(tput cols)	#tput is weird
 	height=$(tput lines)
-	echo $(date): w:$width, h:$height >> ~/zshrcopenlog
+	echo $(date): w:$width, h:$height >> $ZDOTDIR/zshrcopenlog
 
 	neofetch | grep -o -ie 'java' > /dev/null; 
 	if [[ ($? -eq 0) ]];then;
-		echo $(date): chose eclipse terminal >> ~/zshrcopenlog
+		echo $(date): chose eclipse terminal >> $ZDOTDIR/zshrcopenlog
 		eclipseTermOpen;fi;
 
 	if [[ (height -ge 32) && (width -ge 128) ]];then;
-		echo $(date): chose big terminal >> ~/zshrcopenlog
+		echo $(date): chose big terminal >> $ZDOTDIR/zshrcopenlog
 		bigTermOpen;fi;
 	if [[ (height -lt 32) && (width -lt 128) ]];then;
-		echo $(date): chose small terminal >> ~/zshrcopenlog
+		echo $(date): chose small terminal >> $ZDOTDIR/zshrcopenlog
 		smallTermOpen;fi;
 }
 
 function userlandCompat () {
 	#gives us the correct alias for ls, aliases neofetch to screenfetch on non-neofetch systems
 	#//TODO make this functionalprogrammingier and return an alias, not directly manipulate the alias
-	echo $(date): choosing ls-alias >> ~/zshrcopenlog
+	echo $(date): choosing ls-alias >> $ZDOTDIR/zshrcopenlog
 	uname -a | grep -o -ie 'bsd' -o -ie 'darwin' > /dev/null
 	if [[ ($? -eq 0) ]];then;	#if we're on the bsd box
-		echo $(date): chose bsd ls-aliases >> ~/zshrcopenlog
+		echo $(date): chose bsd ls-aliases >> $ZDOTDIR/zshrcopenlog
 		alias ls="ls -aG";	#equivalent to --all --color or -a --color
 	else;				#if we're on the linux box(es)
-		echo $(date): chose linux ls-aliases >> ~/zshrcopenlog
+		echo $(date): chose linux ls-aliases >> $ZDOTDIR/zshrcopenlog
 		alias ls="ls --all --color";fi;
 	neofetch > /dev/null || alias 'neofetch'='screenfetch -p'	#not all systems have neofetch, so we set it to screenfetch instead
 }
 
 function genericTermOpen () {
 	#should get run everytime, greets the user
-	echo $(date): performing generic terminal open >> ~/zshrcopenlog
+	echo $(date): performing generic terminal open >> $ZDOTDIR/zshrcopenlog
 	echo 'Welcome, '$USER
 	echo 'The time is currently '$(date)
 }
 
 function termopen () {
 	#calls all the other terminal opener functions
-	rm ~/zshrcopenlog	#remove a previous logfile
-	sleep 0.2		#needed because tilda likes to 'open' at 80*24 and then resize itself
-	ps -p $(ps -p $$ -o ppid=) o args= >> ~/zshrcopenlog	#get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
+	sh -c clear			#for some reason, the zshrc likes to run twice. //TODO not be lazy and fix that, instead of just pushing the problem off to the side
+	rm $ZDOTDIR/zshrcopenlog	#remove a previous logfile
+	sleep 0.2			#needed because tilda likes to 'open' at 80*24 and then resize itself
+	ps -p $(ps -p $$ -o ppid=) o args= >> $ZDOTDIR/zshrcopenlog	#get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
 	determinal 
 	userlandCompat
 	genericTermOpen
-	echo $(date): terminal open finished >> ~/zshrcopenlog
-	echo ''>> ~/zshrcopenlog	#adds a newline for better read flow
-	#rm ~/zshrcopenlog		#if we don't want to debug the terminal
+	echo $(date): terminal open finished >> $ZDOTDIR/zshrcopenlog
+	echo ''>> $ZDOTDIR/zshrcopenlog		#adds a newline for better read flow
+	#rm $ZDOTDIR/zshrcopenlog		#if we don't want to debug the terminal
 }
 termopen
 
 #aliases
 alias grep='grep --color'
 alias ssh='ssh -v'
-alias clear='clear && . ~/.zshrc'	#pretends we have a new terminal
+alias clear='clear && source $ZDOTDIR/.zshrc'	#pretends we have a new terminal
 alias df='df -h'
 alias 'maven'='mvn'
 alias 'v'='nvim'
@@ -93,13 +94,15 @@ alias 'py3'='python3'
 alias 'book'='BOOKMARK=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd book'
 
 #environ vars
+export ZDOTDIR="$HOME/.zsh"
+export HISTFILE=$ZDOTDIR/zhistory
 export EDITOR=nvim			#editor
 export VISUAL=nvim			#editor
-export ZSH=$HOME/.oh-my-zsh		#path to OMZSH install
+export ZSH=$ZDOTDIR/.oh-my-zsh		#path to OMZSH install
 export UPDATE_ZSH_DAYS=32		#update OMZSH every 32 days
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=32	#how many lines of zhistory should be read
 CASE_SENSITIVE='false'			#do we use case-sensitive completion
-HYPHEN_INSENSITIVE='true'		#don't discriminate between hyphens and underscores
+HYPHEN_INSENSITIVE='true'		#don't differentiate between hyphens and underscores
 DISABLE_AUTO_UPDATE='false'		#continue to auto-update OMZSH
 DISABLE_LS_COLORS='true'		#removes a preconfigured alias, we want to use our own
 ENABLE_CORRECTION='true'		#enable command autocorrect
@@ -132,9 +135,9 @@ uname -a | grep --ignore-case arch > /dev/null
 if [[ $? -eq 0 ]];then
 	source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	#fish-style autocompletion, available from https://github.com/zsh-users/zsh-autosuggestions
 else
-	source $HOME/zsh-autosuggestions/zsh-autosuggestions.zsh	#when we aren't in Arch
+	source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh	#when we aren't in Arch
 fi
-source $HOME/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 
 
 
