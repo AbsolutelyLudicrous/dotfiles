@@ -1,9 +1,9 @@
-/usr/bin/tilda
-Sat Oct 14 18:51:49 EDT 2017: w:159, h:48
-Sat Oct 14 18:51:49 EDT 2017: chose big terminal
-Sat Oct 14 18:51:49 EDT 2017: opening large terminal
-Sat Oct 14 18:51:49 EDT 2017: choosing ls-alias
-Sat Oct 14 18:51:49 EDT 2017: chose linux ls-aliases
-Sat Oct 14 18:51:49 EDT 2017: performing generic terminal open
-Sat Oct 14 18:51:49 EDT 2017: terminal open finished
+/usr/lib64/gnome-terminal/gnome-terminal-server
+Sun Oct 15 10:22:19 EDT 2017: w:80, h:24
+Sun Oct 15 10:22:19 EDT 2017: chose small terminal
+Sun Oct 15 10:22:20 EDT 2017: opening small terminal
+Sun Oct 15 10:22:20 EDT 2017: choosing ls-alias
+Sun Oct 15 10:22:20 EDT 2017: chose linux ls-aliases
+Sun Oct 15 10:22:20 EDT 2017: performing generic terminal open
+Sun Oct 15 10:22:20 EDT 2017: terminal open finished
 
