@@ -1,3 +1,11 @@
 \.config/chromium/
 
 \.config/GitKraken/
+
+\.config/pulse/
+
+\.config/libreoffice/
+
+\.zsh/zhistory
+
+\.zsh/zshrcopenlog
