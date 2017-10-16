@@ -100,6 +100,7 @@ export EDITOR=nvim			#editor
 export VISUAL=nvim			#editor
 export ZSH=$ZDOTDIR/.oh-my-zsh		#path to OMZSH install
 export UPDATE_ZSH_DAYS=32		#update OMZSH every 32 days
+export PAGER=less
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=32	#how many lines of zhistory should be read
 CASE_SENSITIVE='false'			#do we use case-sensitive completion
 HYPHEN_INSENSITIVE='true'		#don't differentiate between hyphens and underscores
