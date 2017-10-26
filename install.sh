@@ -22,8 +22,9 @@ rm installer.sh
 
 #oh-my-zsh
 echo Installing oh-my-zsh
-sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
-ln -s $DOTFILES/.zsh/oh-my-zsh $DOTFILES/.zsh/\.oh-my-zsh	#other people suck and refuse to conform to my standard, which is quite clearly superior
+git clone https://github.com/robbyrussell/oh-my-zsh.git $HOME/.zsh/oh-my-zsh
+#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
+ln -s $DOTFILES/.zsh/oh-my-zsh $DOTFILES/.zsh/.oh-my-zsh	#other people suck and refuse to conform to my standard, which is quite clearly superior
 
 #zsh-autosugg
 echo Installing zsh-autosuggesstions
