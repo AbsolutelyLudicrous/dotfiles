@@ -66,7 +66,7 @@ function termopen () {
 	#calls all the other terminal opener functions
 	sh -c clear			#for some reason, the zshrc likes to run twice. //TODO not be lazy and fix that, instead of just pushing the problem off to the side
 	rm $ZDOTDIR/zshrcopenlog	#remove a previous logfile
-	sleep 0.2			#needed because tilda likes to 'open' at 80*24 and then resize itself
+	sleep 0.3			#needed because tilda likes to 'open' at 80*24 and then resize itself
 	ps -p $(ps -p $$ -o ppid=) o args= >> $ZDOTDIR/zshrcopenlog	#get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
 	determinal 
 	userlandCompat
@@ -127,8 +127,8 @@ function dadjoke()	{ $SHELL_MACRO_LOCATION/dadjoke.sh $@;		};alias 'dj'='dadjoke
 function termdate()	{ $SHELL_MACRO_LOCATION/termdate.sh $@;		};alias 'td'='termdate'
 function FIXME()	{ $SHELL_MACRO_LOCATION/FIXME.sh $@;		};
 
-#plugins; may be added to ~/.oh-my-zsh/custom/plugins/
-plugins=(git)
+#plugins; may be added to $ZDOTDIR/.oh-my-zsh/custom/plugins/
+plugins=(git catimg)
 
 #sourcing shenaninigans
 source $ZSH/oh-my-zsh.sh
