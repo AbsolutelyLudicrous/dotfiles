@@ -138,7 +138,13 @@ if [[ $? -eq 0 ]];then
 else
 	source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh	#when we aren't in Arch
 fi
-source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+
+pkg info | grep --ignore-case zsh-syntax-highlighting
+if [[ $? -eq 0]];then
+	source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+else
+	source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
+fi
 
 
 
