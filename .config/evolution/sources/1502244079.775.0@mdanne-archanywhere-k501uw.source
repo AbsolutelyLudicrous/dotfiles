@@ -17,6 +17,9 @@ ContactsEnabled=true
 Identity=dannefamily01@gmail.com
 MailEnabled=true
 
+CalendarUrl=
+ContactsUrl=
+
 [WebDAV Backend]
 AvoidIfmatch=false
 CalendarAutoSchedule=false

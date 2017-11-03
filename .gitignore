@@ -11,3 +11,9 @@
 \.zsh/zshrcopenlog
 
 \.config/dein/
+
+\.config/nvim/backups/
+
+\.config/gnome-pie/gnome-pie\.log
+
+\.config/autostart/

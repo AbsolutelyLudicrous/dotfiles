@@ -11,6 +11,9 @@ ReplyStyle=default
 SignImip=true
 TemplatesFolder=
 
+StartBottom=inconsistent
+TopSignature=inconsistent
+
 [Mail Identity]
 Address=dannefamily01@gmail.com
 Aliases=
@@ -23,3 +26,4 @@ SignatureUid=none
 SentFolder=folder://local/Sent
 TransportUid=1502244079.775.3@mdanne-archanywhere-k501uw
 RepliesToOriginFolder=false
+UseSentFolder=true
