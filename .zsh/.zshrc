@@ -92,6 +92,7 @@ alias vlock="echo fucked up for now, don\'t try it"
 alias 'py'='python'
 alias 'py3'='python3'
 alias 'book'='book=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd $book'
+alias ghc='ghc -fno-warn-tabs'; alias ghci='ghci -fno-warn-tabs'	#it's bullhockey that I even have to do this
 
 #environ vars
 export ZDOTDIR="$HOME/.zsh"
