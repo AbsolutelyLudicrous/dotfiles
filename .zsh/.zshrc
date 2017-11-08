@@ -77,6 +77,14 @@ function termopen () {
 }
 termopen
 
+#script wrappers
+function ghc () {
+	echo $@
+	for current in $@; do
+		bash -c "
+		ghc -fno-warn-tabs -o $current.compiled -outputdir=./.⚨-haskellstubs $current"	#I ⚢ Unicode!
+	done;}
+
 #aliases
 alias grep='grep --color'
 alias ssh='ssh -v'
@@ -92,16 +100,17 @@ alias vlock="echo fucked up for now, don\'t try it"
 alias 'py'='python'
 alias 'py3'='python3'
 alias 'book'='book=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd $book'
-alias ghc='ghc -fno-warn-tabs'; alias ghci='ghci -fno-warn-tabs'	#it's bullhockey that I even have to do this
+alias ghci='ghci -fno-warn-tabs'
 
 #environ vars
-export ZDOTDIR="$HOME/.zsh"
-export HISTFILE=$ZDOTDIR/zhistory
+export ZDOTDIR="$HOME/.zsh"		#where the heck we have our zsh dotfiles
+export HISTFILE=$ZDOTDIR/zhistory	#where the heck our zshhistory is stored
 export EDITOR=nvim			#editor
 export VISUAL=nvim			#editor
 export ZSH=$ZDOTDIR/.oh-my-zsh		#path to OMZSH install
 export UPDATE_ZSH_DAYS=32		#update OMZSH every 32 days
-export PAGER=less
+export PAGER=less			#less is more
+export ATOM_HOME=$HOME/.config/Atom	#motherfucking atom not conforming to the xdg base spec
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=32	#how many lines of zhistory should be read
 CASE_SENSITIVE='false'			#do we use case-sensitive completion
 HYPHEN_INSENSITIVE='true'		#don't differentiate between hyphens and underscores
@@ -110,6 +119,7 @@ DISABLE_LS_COLORS='true'		#removes a preconfigured alias, we want to use our own
 ENABLE_CORRECTION='true'		#enable command autocorrect
 COMPLETION_WAITING_DOTS='true'		#give us small red dots while waiting for tab completion
 HIST_STAMPS='dd.mm.yyyy'		#date format
+nb='⚨'	#I feel like I might have to type this a lot
 
 #options
 setopt interactivecomments
