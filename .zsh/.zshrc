@@ -157,7 +157,15 @@ else
 	source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
 fi
 
-
+#directory-change hook, courtesy of https://stackoverflow.com/questions/17051123/source-a-file-in-zsh-when-entering-a-directory
+autoload -U add-zsh-hook
+load-local-conf() {
+	# check file exists, is regular file and is readable:
+	if [[ -f .dir-dot-dae && -r .dir-dot-dae ]]; then
+		source .dir-dot-dae
+	fi
+}
+add-zsh-hook chpwd load-local-conf
 
 
 
