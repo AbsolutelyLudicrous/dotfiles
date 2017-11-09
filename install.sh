@@ -2,7 +2,12 @@
 
 DOTFILES=$HOME/Documents/dotfiles	#default dotfiles install directory
 
-echo Running install script, just make sure you have zsh and neovim installed
+echo Running bootstrap script AS ROOT
+echo The bootstrapper ensures that all required dependencies are installer
+
+sudo ./bootstrap.sh
+
+echo Running user-specific installer
 
 echo Linking ~/.config and ~/.conky directorys
 ln -s $DOTFILES/.config $HOME/.config
@@ -23,7 +28,6 @@ rm installer.sh
 #oh-my-zsh
 echo Installing oh-my-zsh
 git clone https://github.com/robbyrussell/oh-my-zsh.git $HOME/.zsh/oh-my-zsh
-#sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 ln -s $DOTFILES/.zsh/oh-my-zsh $DOTFILES/.zsh/.oh-my-zsh	#other people suck and refuse to conform to my standard, which is quite clearly superior
 
 #zsh-autosugg
@@ -32,6 +36,7 @@ git clone git://github.com/zsh-users/zsh-autosuggestions $DOTFILES/.zsh/zsh-auto
 
 #zsh-syntax-highlighting
 echo Installing zsh-syntax-highlighting
-sudo pkg install zsh-syntax-highlighting || \
+pkg show zsh-syntax-highlighting || \
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $DOTFILES/.zsh/zsh-syntax-highlighting
 	#Just Works!(tm) on freebsd, manually clones repo on other systems
+	#zsh-syn should have been installed by the bootstrapper

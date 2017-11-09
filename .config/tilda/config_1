@@ -1,5 +1,5 @@
 tilda_config_version = "1.3.3"
-# command = ""
+command = "sensors && zsh"
 font = "Monospace 11"
 key = "<Primary><Alt><Super>grave"
 addtab_key = "<Shift><Control>t"
@@ -79,7 +79,7 @@ bold = true
 blinks = true
 scroll_on_key = true
 bell = false
-run_command = false
+run_command = true
 pinned = true
 animation = true
 hidden = false
