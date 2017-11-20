@@ -85,6 +85,11 @@ function ghc () {
 		ghc -fno-warn-tabs -o $current.compiled -outputdir=./.⚨-haskellstubs $current"	#I ⚢ Unicode!
 	done;}
 
+function ghci () {
+	bash -c "
+	ghci -fno-warn-tabs $@
+	rm -r $HOME/.ghc";}	#it's dumb that ghci doesn't have an off switch for its history
+
 #aliases
 alias grep='grep --color'
 alias ssh='ssh -v'
@@ -100,7 +105,6 @@ alias vlock="echo fucked up for now, don\'t try it"
 alias 'py'='python'
 alias 'py3'='python3'
 alias 'book'='book=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd $book'
-alias ghci='ghci -fno-warn-tabs'
 
 #environ vars
 export ZDOTDIR="$HOME/.zsh"		#where the heck we have our zsh dotfiles

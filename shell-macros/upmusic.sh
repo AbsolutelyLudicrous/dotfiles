@@ -3,7 +3,7 @@
 #WARNING takes fucking forever
 mkdir ~/Music/downloaded_tempdir
 cd ~/Music/downloaded_tempdir
-youtube-dl https://www.youtube.com/playlist\?list=PLU6u2aLdEBuNXCqFDapS_Qhjluw-eE_wX\
+youtube-dl \https://www.youtube.com/playlist\?list=PLU6u2aLdEBuPExeao8eRyo_MglZ_J0dpp
 	 --yes-playlist\
 	 --no-call-home\
 	 --ignore-config\

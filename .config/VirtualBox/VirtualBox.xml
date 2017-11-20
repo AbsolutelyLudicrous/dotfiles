@@ -9,18 +9,19 @@
   <Global>
     <ExtraData>
       <ExtraDataItem name="GUI/DetailsPageBoxes" value="general,system,preview,display,storage,audio,network,usb,sharedFolders,description"/>
-      <ExtraDataItem name="GUI/GroupDefinitions/" value="m=d1ba9662-4705-4e39-b311-04929d29e891"/>
+      <ExtraDataItem name="GUI/GroupDefinitions/" value="m=fd4f673d-336f-444c-b012-7e0e74b65495"/>
       <ExtraDataItem name="GUI/HideDescriptionForWizards" value="NewVM"/>
-      <ExtraDataItem name="GUI/LastItemSelected" value="m=Gobolinux testing"/>
-      <ExtraDataItem name="GUI/LastWindowPosition" value="1017,273,770,550"/>
+      <ExtraDataItem name="GUI/LastItemSelected" value="m=Gentoo"/>
+      <ExtraDataItem name="GUI/LastWindowPosition" value="842,310,770,550"/>
       <ExtraDataItem name="GUI/RecentFolderCD" value="/home/masondanne/Downloads"/>
       <ExtraDataItem name="GUI/RecentListCD" value="/home/masondanne/Downloads/GoboLinux-016.01-x86_64.iso"/>
-      <ExtraDataItem name="GUI/SplitterSizes" value="239,527"/>
+      <ExtraDataItem name="GUI/SplitterSizes" value="238,526"/>
+      <ExtraDataItem name="GUI/Toolbar/MachineTools/Order" value="None"/>
       <ExtraDataItem name="GUI/UpdateCheckCount" value="2"/>
       <ExtraDataItem name="GUI/UpdateDate" value="1 d, 2017-08-10, stable, 5.1.26"/>
     </ExtraData>
     <MachineRegistry>
-      <MachineEntry uuid="{d1ba9662-4705-4e39-b311-04929d29e891}" src="/home/masondanne/VirtualBox VMs/Gobolinux testing/Gobolinux testing.vbox"/>
+      <MachineEntry uuid="{fd4f673d-336f-444c-b012-7e0e74b65495}" src="/home/masondanne/VirtualBox VMs/Gentoo/Gentoo.vbox"/>
     </MachineRegistry>
     <NetserviceRegistry>
       <DHCPServers>
