@@ -4,7 +4,7 @@ if &compatible
 endif
 
 " Required:
-set runtimepath+=/home/masondanne/.config/dein/repos/github.com/Shougo/dein.vim
+set runtimepath+=/home/danne/.config/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
 if dein#load_state('/home/masondanne/.config/dein')
@@ -44,6 +44,7 @@ let g:airline_theme='luna'
 let g:airline_powerline_fonts = 1
 
 set number			"add line numbers
+set relativenumber		"in conjunction with above, show abs number on current line and show rel number
 set nowrap			"don't wrap text
 syntax on			"syntax highlighting
 "filetype indent plugin on	"indent based on filetype
