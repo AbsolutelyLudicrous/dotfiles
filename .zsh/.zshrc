@@ -105,8 +105,8 @@ alias vlock="echo fucked up for now, don\'t try it"
 alias 'py'='python'
 alias 'py3'='python3'
 alias 'book'='book=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd $book'
-alias 'j'='nvim $HOME/Documents/journals/$(date +%Y%m%B)/$(date +%d) +'	#easy journalling of daily events, to make my therapist happy
-									#haha, that was a joke; therapy is hella expensive
+alias 'j'='nvim $HOME/Documents/journals/$(date +%Y%m%B)/$(date +%d) +'	# | easy journalling of daily events, to make my therapist happy
+alias c="clear"	#one-character clearing					# | haha, that was a joke; therapy is hella expensive
 #environ vars
 export ZDOTDIR="$HOME/.zsh"		#where the heck we have our zsh dotfiles
 export HISTFILE=$ZDOTDIR/zhistory	#where the heck our zshhistory is stored

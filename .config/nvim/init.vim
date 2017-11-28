@@ -7,22 +7,27 @@ endif
 set runtimepath+=/home/danne/.config/dein/repos/github.com/Shougo/dein.vim
 
 " Required:
-if dein#load_state('/home/masondanne/.config/dein')
-  call dein#begin('/home/masondanne/.config/dein')
+if dein#load_state('/home/danne/.config/dein')
+  call dein#begin('/home/danne/.config/dein')
 
   " Let dein manage dein
   " Required:
-  call dein#add('/home/masondanne/.config/dein/repos/github.com/Shougo/dein.vim')
+  call dein#add('/home/danne/.config/dein/repos/github.com/Shougo/dein.vim')
 
-  " Add or remove your plugins here:
-  "call dein#add('Shougo/neosnippet.vim')
-  "call dein#add('Shougo/neosnippet-snippets')
-  call dein#add('vim-airline/vim-airline')
-  call dein#add('vim-airline/vim-airline-themes')
-  "call dein#add('Valloric/YouCompleteMe')
+  call dein#add('vim-airline/vim-airline')		"Fancy bottom bar
+  call dein#add('vim-airline/vim-airline-themes')	"Themes for airline
 
-  " You can specify revision/branch/tag.
-  "call dein#add('Shougo/vimshell', { 'rev': '3787e5' })
+  call dein#add('Shougo/neco-syntax')			"Fancy multi-language completion
+ "call dein#add('zchee/deoplete-jedi')			"Python! TODO unfuckulate it
+  call dein#add('fszymanski/deoplete-emoji')		"Because emojis aren't prevalent enough
+   call deoplete#custom#set('emoji', 'filetypes', ['gitcommit','markdown','rst','plaintext'])
+
+  "Deoplete, a completion engine
+  call dein#add('Shougo/deoplete.nvim')
+  if !has('nvim')
+    call dein#add('roxma/nvim-yarp')
+    call dein#add('roxma/vim-hug-neovim-rpc')
+  endif
 
   " Required:
   call dein#end()
@@ -42,6 +47,8 @@ endif
 
 let g:airline_theme='luna'
 let g:airline_powerline_fonts = 1
+let g:deoplete#enable_at_startup = 1	"turn on deoplete
+let mapleader = "-"
 
 set number			"add line numbers
 set relativenumber		"in conjunction with above, show abs number on current line and show rel number
@@ -56,6 +63,7 @@ set nobackup			"dont make .fileextension~ files
 set clipboard+=unnamedplus	"neovim style
 set noexpandtab			"use tabs, not spaces
 "set mouse=a			"enable mouse usage
+set showcmd			"show commands
 
 "Keep undo history across sessions, by storing in file.
 "courtesy of https://github.com/kristijanhusak/neovim-config/blob/master/init.vim
@@ -70,3 +78,7 @@ set sidescroll=5
 "Allow saving of files as sudo when I forgot to start vim using sudo.
 "https://stackoverflow.com/questions/2600783/how-does-the-vim-write-with-sudo-trick-work
 cmap w!! w !sudo tee > /dev/null %
+
+"run current buffer
+"https://stackoverflow.com/questions/15449591/vim-execute-current-file
+nnoremap <leader>r :!"%:p"
