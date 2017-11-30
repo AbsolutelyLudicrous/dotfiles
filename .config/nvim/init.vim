@@ -21,6 +21,7 @@ if dein#load_state('/home/danne/.config/dein')
  "call dein#add('zchee/deoplete-jedi')			"Python! TODO unfuckulate it
   call dein#add('fszymanski/deoplete-emoji')		"Because emojis aren't prevalent enough
    call deoplete#custom#set('emoji', 'filetypes', ['gitcommit','markdown','rst','plaintext'])
+  call dein#add('airblade/vim-gitgutter')
 
   "Deoplete, a completion engine
   call dein#add('Shougo/deoplete.nvim')
@@ -51,9 +52,8 @@ let g:deoplete#enable_at_startup = 1	"turn on deoplete
 let mapleader = "-"
 
 set number			"add line numbers
-set relativenumber		"in conjunction with above, show abs number on current line and show rel number
+"set relativenumber		"in conjunction with above, show abs number on current line and show rel number
 set nowrap			"don't wrap text
-syntax on			"syntax highlighting
 "filetype indent plugin on	"indent based on filetype
 set autoindent			"automatically indent
 set visualbell			"don't play a sound when I balls up

@@ -14,7 +14,7 @@ ln -s $DOTFILES/.config $HOME/.config
 ln -s $DOTFILES/.conky $HOME/.conky
 
 echo Linking zsh directorys
-ln -s $DOTFILES/.zshenv $HOME/.zshenv
+ln -s $DOTFILES/.zsh/.zshenv $HOME/.zshenv
 ln -s $DOTFILES/.zsh $HOME/.zsh
 
 echo Proceeding with shell ricing
@@ -40,3 +40,12 @@ pkg show zsh-syntax-highlighting || \
 	git clone https://github.com/zsh-users/zsh-syntax-highlighting.git $DOTFILES/.zsh/zsh-syntax-highlighting
 	#Just Works!(tm) on freebsd, manually clones repo on other systems
 	#zsh-syn should have been installed by the bootstrapper
+
+echo "If you got an error along the lines of:
+	\tfatal: destination path '/home/danne/.zsh/oh-my-zsh' already exists and is not an empty directory."
+echo	"Don't panic!
+	It's fine, it just means you had some pre-existing files."
+
+echo "	Note: Dein is fucky.
+	Make sure you run a :call dein#install() and a :UpdateRemotePlugins once you're in NeoViM.
+	Seriously, dein just won't work if you don't run those commands."
