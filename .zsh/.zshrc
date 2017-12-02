@@ -64,9 +64,9 @@ function genericTermOpen () {
 
 function termopen () {
 	#calls all the other terminal opener functions
-	sh -c clear			#for some reason, the zshrc likes to run twice. //TODO not be lazy and fix that, instead of just pushing the problem off to the side
-	rm $ZDOTDIR/zshrcopenlog	#remove a previous logfile
-	sleep 0.3			#needed because tilda likes to 'open' at 80*24 and then resize itself
+	sh -c clear				#for some reason, the zshrc likes to run twice. //TODO not be lazy and fix that, instead of just pushing the problem off to the side
+	sh -c "rm $ZDOTDIR/zshrcopenlog"	#remove a previous logfile
+	sleep 0.3				#needed because tilda likes to 'open' at 80*24 and then resize itself
 	ps -p $(ps -p $$ -o ppid=) o args= >> $ZDOTDIR/zshrcopenlog	#get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
 	determinal 
 	userlandCompat
@@ -86,7 +86,7 @@ function ghc () {
 	done;}
 
 function ghci () {
-	bash -c "
+	sh -c "
 	ghci -fno-warn-tabs $@
 	rm -r $HOME/.ghc";}	#it's dumb that ghci doesn't have an off switch for its history
 
