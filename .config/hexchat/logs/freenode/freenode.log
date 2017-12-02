@@ -311,3 +311,85 @@ Oct 04 07:26:28 Sysinfo plugin unloaded
 Oct 04 07:26:28 Checksum plugin unloaded
 **** ENDING LOGGING AT Wed Oct  4 07:26:28 2017
 
+**** BEGIN LOGGING AT Sat Dec  2 15:55:32 2017
+
+Dec 02 15:55:32 *	Welcome to the freenode Internet Relay Chat Network AbsolutelyLudicr
+Dec 02 15:55:32 *	Your host is verne.freenode.net[185.30.166.37/6697], running version ircd-seven-1.1.4
+Dec 02 15:55:32 *	This server was created Sat Jan 7 2017 at 11:53:54 EST
+Dec 02 15:55:32 *	verne.freenode.net ircd-seven-1.1.4 DOQRSZaghilopswz CFILMPQSbcefgijklmnopqrstvz bkloveqjfI
+Dec 02 15:55:32 *	CHANTYPES=# EXCEPTS INVEX CHANMODES=eIbq,k,flj,CFLMPQScgimnprstz CHANLIMIT=#:120 PREFIX=(ov)@+ MAXLIST=bqeI:100 MODES=4 NETWORK=freenode STATUSMSG=@+ CALLERID=g CASEMAPPING=rfc1459 :are supported by this server
+Dec 02 15:55:32 *	CHARSET=ascii NICKLEN=16 CHANNELLEN=50 TOPICLEN=390 DEAF=D FNC TARGMAX=NAMES:1,LIST:1,KICK:1,WHOIS:1,PRIVMSG:4,NOTICE:4,ACCEPT:,MONITOR: EXTBAN=$,ajrxz CLIENTVER=3.0 ETRACE WHOX KNOCK :are supported by this server
+Dec 02 15:55:32 *	SAFELIST ELIST=CTU CPRIVMSG CNOTICE :are supported by this server
+Dec 02 15:55:32 *	There are 121 users and 88978 invisible on 35 servers
+Dec 02 15:55:32 *	36 :IRC Operators online
+Dec 02 15:55:32 *	33 :unknown connection(s)
+Dec 02 15:55:32 *	56129 :channels formed
+Dec 02 15:55:32 *	I have 5130 clients and 2 servers
+Dec 02 15:55:32 *	5130 7978 :Current local users 5130, max 7978
+Dec 02 15:55:32 *	89099 97718 :Current global users 89099, max 97718
+Dec 02 15:55:32 *	Highest connection count: 7980 (7978 clients) (3768250 connections received)
+Dec 02 15:55:32 *	- verne.freenode.net Message of the Day - 
+Dec 02 15:55:32 *	- Welcome to verne.freenode.net in Amsterdam, NL.
+Dec 02 15:55:32 *	- Thanks to http://www.hyperfilter.com/ for sponsoring
+Dec 02 15:55:32 *	- this server!
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- VERNE, Jules (1828-1905). Born in Nantes, France, Verne was
+Dec 02 15:55:32 *	- a pioneering french author known for novels such as Twenty
+Dec 02 15:55:32 *	- Thousand Leagues Under the Sea, A Journey to the Center of the
+Dec 02 15:55:32 *	- Earth, and Around the World in Eighty Days. Often lauded as the
+Dec 02 15:55:32 *	- Father of science fiction, Verne wrote about concepts such as
+Dec 02 15:55:32 *	- space travel, skyscrapers, and worldwide communications
+Dec 02 15:55:32 *	- networks long before these ideas became popularised or realised.
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- Welcome to freenode - supporting the free and open source
+Dec 02 15:55:32 *	- software communities since 1998.
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- By connecting to freenode you indicate that you have read and
+Dec 02 15:55:32 *	- accept our policies and guidelines as set out on https://freenode.net
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- In the event that you observe behaviour that contravenes our policies,
+Dec 02 15:55:32 *	- please notify a volunteer staff member via private message, or send us an
+Dec 02 15:55:32 *	- e-mail to complaints@freenode.net -- we will do our best to address the
+Dec 02 15:55:32 *	- situation within a reasonable period of time, and we may request further
+Dec 02 15:55:32 *	- information or, as appropriate, involve other parties such as channel operators 
+Dec 02 15:55:32 *	- Group Contacts representing an on-topic group.
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- freenode runs an open proxy scanner.
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- If you are looking for assistance, you will be able to find a list of
+Dec 02 15:55:32 *	- volunteer staff using the '/who freenode/staff/*' command, and you may
+Dec 02 15:55:32 *	- message any of us at any time. Please note that freenode predominantly
+Dec 02 15:55:32 *	- provides assistance via private message, and while we have a network
+Dec 02 15:55:32 *	- channel the primary venue for support requests is via private message to
+Dec 02 15:55:32 *	- a member of the volunteer staff team.
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- From time to time, volunteer staff may send server-wide notices relating to
+Dec 02 15:55:32 *	- the project, or the communities that we host. The majority of such notices
+Dec 02 15:55:32 *	- will be sent as wallops, and you can '/mode <yournick> +w' to ensure that you
+Dec 02 15:55:32 *	- do not miss them. Important messages relating to the freenode project, including
+Dec 02 15:55:32 *	- notices of upcoming maintenance and other scheduled downtime will be issued as
+Dec 02 15:55:32 *	- global notices.
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- Representing an on-topic project? Don't forget to register, more information
+Dec 02 15:55:32 *	- can be found on the https://freenode.net website under "Group Registration".
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- freenode organises an annual conference, and we would like to extend our
+Dec 02 15:55:32 *	- thanks to the attendees, exhibitors and speakers who made freenode #live 2017
+Dec 02 15:55:32 *	- possible. And of course, our generous sponsors: Bytemark, Canonical (Ubuntu),
+Dec 02 15:55:32 *	- Falanx Cyber Security, Private Internet Access and Yubico for footing the bill.
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- Thank you also to our server sponsors for the sustained support in keeping the
+Dec 02 15:55:32 *	- network going for close to two decades.
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- freenode #live returns to Bristol, UK on November 3rd-4th 2018, keep an eye
+Dec 02 15:55:32 *	- on the https://freenode.live website for our call for volunteers and call for
+Dec 02 15:55:32 *	- participation. If you are interested in sponsoring next year's event, please
+Dec 02 15:55:32 *	- send us an e-mail to sponsor@freenode.live
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	- Thank you for using freenode!
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	-  
+Dec 02 15:55:32 *	End of /MOTD command.
+Dec 02 15:55:32 *	AbsolutelyLudicr sets mode +Z on AbsolutelyLudicr
+Dec 02 15:55:32 *	AbsolutelyLudicr sets mode +i on AbsolutelyLudicr

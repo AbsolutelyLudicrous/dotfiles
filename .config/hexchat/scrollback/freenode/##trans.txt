@@ -8,3 +8,9 @@ T 1507083102 23*	Naia (~theriwolf@unaffiliated/werewolf23) has joined
 T 1507088607 24*	crash_n has quit (Ping timeout: 248 seconds)
 T 1507088670 23*	crash_n (~crash@212-183-121-78.adsl.highway.telekom.at23) has joined
 T 1507116302 20*	Disconnected (20)
+T 1512248138 19*	Now talking on 22##trans
+T 1512248138 22*	Topic for 22##trans is: Welcome to ##trans. Come on in and stay a while.
+T 1512248138 22*	Topic for 22##trans set by 26JMcAfreak!~JMcAfreak@unaffiliated/jmcafreak (24Tue Jul  4 00:36:48 2017)
+T 1512256450 24*	28Velinir is now known as 18Rivelin
+T 1512256451 24*	Rivelin has quit (Changing host)
+T 1512256451 23*	Rivelin (~Velinir@unaffiliated/xyln23) has joined

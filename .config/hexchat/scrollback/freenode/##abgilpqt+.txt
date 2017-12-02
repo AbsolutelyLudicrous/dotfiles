@@ -51,3 +51,9 @@ T 1507087532 24*	nicoo has quit (Ping timeout: 248 seconds)
 T 1507088456 23*	NickB[m] (firefurima@gateway/shell/matrix.org/x-hlcasfdvsgcslhcd23) has joined
 T 1507088456 22*	26ChanServ gives voice to 18NickB[m]
 T 1507116302 20*	Disconnected (20)
+T 1512248138 19*	Now talking on 22##abgilpqt+
+T 1512248138 22*	Topic for 22##abgilpqt+ is: Channel for asexuals/aromantics, bi*, gays, intersex, pan*, queer, trans & other gender, romantic/sensual & sexual minorities ♥ | Rules: <https://abgilpqt.github.io/> | If you want to see chatting, chat! :)
+T 1512248138 22*	Topic for 22##abgilpqt+ set by 26Euforia (24Sat Apr  9 08:57:34 2016)
+T 1512248138 -18ChanServ-	[##abgilpqt+] Read https://abgilpqt.github.io/ before talking. | This channel is a safe space! | If you miss the message from ]o[ (because of umode +g), /msg ]o[ herald default ##abgilpqt+
+T 1512248138 22*	Channel 22##abgilpqt+ url: 24https://abgilpqt.github.io/
+T 1512248139 -18]o[-	[##abgilpqt+] Our pronouns can be read from https://gist.github.com/Mikaela/0b7b534bfbc4efe1a8ec9aea5c3fd2cd

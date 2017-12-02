@@ -190,3 +190,161 @@ T 1507116384 22*	26AbsolutelyLudicr sets mode 24+Z on 22AbsolutelyLudicr
 T 1507116384 22*	26AbsolutelyLudicr sets mode 24+i on 22AbsolutelyLudicr
 T 1507116388 Python interface unloaded
 T 1507116388 FiSHLiM plugin unloaded
+T 1512248138 19*	Now talking on 22#Solus
+T 1512248138 22*	Topic for 22#Solus is: Solus Support | Off-topic: #Solus-Chat | Development: #Solus-Dev | Rules: https://goo.gl/nn5bhR | Help Center https://solus-project.com/help-center/home/ | Solus 3 Released!: https://solus-project.com/2017/08/15/solus-3-released/ | Please test Google Chrome from 3rd Party, hopefully now fixed!
+T 1512248138 22*	Topic for 22#Solus set by 26Justin`!~justin@198.12.70.245 (24Mon Nov  6 23:03:20 2017)
+T 1512248143 18<29broken6r18>	then do the nano stuff
+T 1512248147 24*	saivert (~saivert@2a01:79d:7377:900c::224) has left ("WeeChat 1.9.1")
+T 1512248152 18<20Deja-Fu18>	right, done
+T 1512248162 18<29broken6r18>	also whats the output of uname -r   ?
+T 1512248184 18<20Deja-Fu18>	4.13.16-35.current
+T 1512248203 18<29broken6r18>	k. reboot and come back. it should try to probe for a device using that driver upon boot
+T 1512248208 18<20Deja-Fu18>	will do, thanks
+T 1512248212 24*	Deja-Fu has quit (Quit: Leaving)
+T 1512248213 18<29broken6r18>	let me know
+T 1512248245 24*	santi has quit (Remote host closed the connection)
+T 1512248330 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512248365 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512248381 23*	Deja-Fu (~Deja-Fu@2605:e000:7d4b:a000:ae28:4bd1:d84e:89d823) has joined
+T 1512248388 18<20Deja-Fu18>	no change
+T 1512248416 18<20Deja-Fu18>	wireless still unavailable, wifi hotkey on keyboard still toggles "hard blocked" for phy0 but not for hp-wifi as shown by RFKill
+T 1512248468 18<29broken6r18>	sudo lsmod, put it in hastebin
+T 1512248506 23*	santi (~santi@S0106f0f249836343.su.shawcable.net23) has joined
+T 1512248517 18<20Deja-Fu18>	https://hastebin.com/yuxujatami.coffeescript
+T 1512248518 18<29bacon_bot18>	[ hastebin ] - hastebin.com
+T 1512248614 18<20Deja-Fu18>	based on the output of inxi -n, I believe "rt2800mmio" is what it thinks is controlling the wireless card
+T 1512248624 24*	ultr4_l4s3r has quit (Ping timeout: 255 seconds)
+T 1512248670 18<20Deja-Fu18>	oh, I guess it would be rt2800pci
+T 1512248701 18<29broken6r18>	what i dont get is how the physical wifi card says intel on the thing, the lspci says otherwise
+T 1512248728 18<29broken6r18>	makes no sense
+T 1512248753 18<29broken6r18>	we have told it to try to load the driver for that intel card and nothing
+T 1512248774 18<20Deja-Fu18>	yeah that's what weirded me out
+T 1512248774 18<29broken6r18>	are you booting any other operating systems?
+T 1512248787 18<20Deja-Fu18>	nope, nuked windows 8 completely before installing solus
+T 1512248799 18<20Deja-Fu18>	I suppose somebody could have slapped the wrong sticker on the card
+T 1512248804 18<29broken6r18>	and wifi has never worked in linux?
+T 1512248809 18<29broken6r18>	possible but unlikely
+T 1512248818 18<20Deja-Fu18>	nope, wifi hasn't worked at all
+T 1512248826 18<20Deja-Fu18>	this is the first time I've tried linux on this computer though
+T 1512248858 18<29broken6r18>	paste the output of ifconfig in hastebin
+T 1512248885 18<20Deja-Fu18>	with or without -a?  It doesn't show the wireless unless I use -a
+T 1512248911 18<29broken6r18>	both
+T 1512248944 18<20Deja-Fu18>	ok, with -a: https://hastebin.com/qidirefehi.sh
+T 1512248944 18<29bacon_bot18>	[ hastebin ] - hastebin.com
+T 1512248963 18<20Deja-Fu18>	oh I guess I could have just done them together, lol
+T 1512248991 18<29broken6r18>	yes lol
+T 1512249008 18<20Deja-Fu18>	here's without: https://hastebin.com/iciwubirib.sh
+T 1512249008 18<29bacon_bot18>	...
+T 1512249012 18<29broken6r18>	also, how are you trying to connect to wireless
+T 1512249024 18<20Deja-Fu18>	just the normal settings app
+T 1512249039 18<20Deja-Fu18>	wifi is shown as off, I can click the toggle switch but it makes no difference
+T 1512249093 18<29broken6r18>	doubtful, but if you right click the network icon in the budgie taskbar is wifi checked or unchecked
+T 1512249093 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512249094 18<20Deja-Fu18>	here's a screenshot if you want to see: https://snag.gy/jI8Z1G.jpg
+T 1512249103 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512249105 18<20Deja-Fu18>	it is unchecked, clicking it doesn't change it
+T 1512249154 18<29broken6r18>	sudo ifconfig wlo1 up
+T 1512249191 18<20Deja-Fu18>	it responds with that block of info but doesn't change anything
+T 1512249232 18<29broken6r18>	and no shown networks by single left clicking the network icon in budgie?
+T 1512249248 18<20Deja-Fu18>	right, just the ethernet connection
+T 1512249266 18<20Deja-Fu18>	there's a grayed-out line of text under "Wifi Networks" that says "Wi-fi is disabled"
+T 1512249277 24*	Whoopsie_ has quit (Quit: IRC is just a multiplayer notepad)
+T 1512249316 23*	Mhondoz_ (~rd@167.81-166-44.customer.lyse.net23) has joined
+T 1512249362 18<29broken6r18>	sudo eopkg it rfkill
+T 1512249369 18<20Deja-Fu18>	already have it
+T 1512249373 18<29broken6r18>	followed by: rfkill list all
+T 1512249416 18<29broken6r18>	pry paste that to hastebin
+T 1512249454 18<20Deja-Fu18>	https://hastebin.com/odupifewuc.sh
+T 1512249455 18<29bacon_bot18>	[ hastebin ] - hastebin.com
+T 1512249458 18<20Deja-Fu18>	the light is white now btw, instead of orange
+T 1512249466 18<20Deja-Fu18>	so I think the modprobe change had some effect
+T 1512249474 18<20Deja-Fu18>	didn't notice that until now
+T 1512249488 18<29broken6r18>	sudo rfkill unblock all
+T 1512249500 18<29broken6r18>	and rfkill list all again
+T 1512249519 24*	Devil505 has quit (Remote host closed the connection)
+T 1512249534 18<20Deja-Fu18>	https://hastebin.com/ibilevokuv.coffeescript
+T 1512249534 18<29bacon_bot18>	...
+T 1512249580 18<29broken6r18>	so
+T 1512249580 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512249585 24*	bharat has quit (Quit: bharat)
+T 1512249586 18<29broken6r18>	heres what im finding on hard blocked
+T 1512249588 18<29broken6r18>	"Hard blocked" cannot be changed by software, look for a wifi toggle on your keyboard or edges of the laptop; the device can also be hard blocked if disabled in the bios.
+T 1512249594 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512249601 18<20Deja-Fu18>	right, I have a toggle switch on my keyboard
+T 1512249607 18<29broken6r18>	and?
+T 1512249614 18<29broken6r18>	toggle it and rfkill list all again
+T 1512249615 18<20Deja-Fu18>	when I hit it, it changes the "hard blocked" status of the phy0 interface, but never the hp-wifi
+T 1512249626 23*	Relampago (~Relampago@ppp-46-244-255-89.dynamic.mnet-online.de23) has joined
+T 1512249646 18<20Deja-Fu18>	like so: https://hastebin.com/amoqipetil.coffeescript
+T 1512249646 18<29bacon_bot18>	[ hastebin ] - hastebin.com
+T 1512249647 24*	Relampago has quit (Remote host closed the connection)
+T 1512249650 24*	coloniac has quit (Quit: Leaving)
+T 1512249667 23*	Relampago (~Relampago@ppp-46-244-255-89.dynamic.mnet-online.de23) has joined
+T 1512249680 18<20Deja-Fu18>	so I can control whether phy0 is hard blocked, but even when it's not, wifi doesn't work
+T 1512249695 18<29broken6r18>	frustrating
+T 1512249741 18<29broken6r18>	the only other thing i can say is either wait for one of the dev's to come online, or report an issue at https://dev.solus-project.com/ and link all of those hastebin's along with a good description of what is happening
+T 1512249742 18<29bacon_bot18>	[ Home ] - dev.solus-project.com
+T 1512249767 18<20Deja-Fu18>	yeah, I was going to make a forum post
+T 1512249778 18<29broken6r18>	thatd be another way to go as well
+T 1512249791 18<20Deja-Fu18>	thanks for your help, at least now I have info to show people 
+T 1512249797 18<29broken6r18>	make sure you explain the difference between the lspci and what is on the physical wlan card
+T 1512249802 18<20Deja-Fu18>	will do
+T 1512249816 18<29broken6r18>	details details details........thats whats going to solve this
+T 1512249824 24*	sigmundv has quit (Ping timeout: 255 seconds)
+T 1512249824 18<29broken6r18>	theres a solution, it is just beyond me
+T 1512249836 18<29broken6r18>	good luck though
+T 1512249844 18<20Deja-Fu18>	thanks!  I'll let you know if I get it figured out
+T 1512249849 18<29broken6r18>	sounds good
+T 1512249857 24*	Deja-Fu has quit (Quit: Leaving)
+T 1512249969 24*	Sanderski has quit (Quit: Konversation terminated!)
+T 1512249979 23*	bharat (~bharat@27.5.243.23823) has joined
+T 1512250099 24*	Mhondoz_ has quit (Quit: Konversation terminated!)
+T 1512250103 23*	Mhondoz (~rd@167.81-166-44.customer.lyse.net23) has joined
+T 1512250137 23*	baimafeima (~baimafeim@p200300792F424E4174A9866FF33EC29D.dip0.t-ipconnect.de23) has joined
+T 1512250260 24*	L0g4nAd4ms has quit (Quit: Leaving)
+T 1512250262 24*	bharat has quit (Client Quit)
+T 1512250484 24*	ldwrf_ has quit (Quit: Leaving)
+T 1512251201 24*	EbonJaeger has quit (Ping timeout: 255 seconds)
+T 1512251418 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512251429 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512251498 24*	Relampago has quit (Ping timeout: 255 seconds)
+T 1512251567 23*	Sanderski (~kamil@2a02:a314:823d:2100:adfe:d980:4a5a:6c2923) has joined
+T 1512251578 24*	scma has quit (Quit: Leaving)
+T 1512251818 23*	ortuna (~ortuna@2601:1c0:5a00:7a3c::cab023) has joined
+T 1512251896 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512251923 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512252253 24*	ortuna (~ortuna@2601:1c0:5a00:7a3c::cab024) has left ("WeeChat 1.9.1")
+T 1512252481 24*	SpacemanCraig has quit (Ping timeout: 248 seconds)
+T 1512252712 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512252721 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512253198 23*	bharat (~bharat@27.5.243.23823) has joined
+T 1512253253 24*	Sanderski has quit (Quit: Konversation terminated!)
+T 1512253376 24*	Mhondoz has quit (Ping timeout: 260 seconds)
+T 1512253747 23*	Mhondoz (~rd@167.81-166-44.customer.lyse.net23) has joined
+T 1512253814 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512253823 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512253866 23*	eyome (~eyome@vit94-6-88-160-180-232.fbx.proxad.net23) has joined
+T 1512254273 24*	DataDrake has quit (Remote host closed the connection)
+T 1512254297 23*	DataDrake (~DataDrake@98.3.22.19923) has joined
+T 1512254297 22*	26ChanServ gives channel operator status to 18DataDrake
+T 1512254348 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512254378 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512254601 24*	DataDrake has quit (Ping timeout: 260 seconds)
+T 1512254649 24*	bunker has quit (Remote host closed the connection)
+T 1512254814 23*	milnejam__ (~sm222@CPE00fc8d793d03-CM00fc8d793d00.cpe.net.fido.ca23) has joined
+T 1512254984 24*	baimafeima has quit (Quit: Leaving)
+T 1512255342 24*	bharat has quit (Remote host closed the connection)
+T 1512255656 23*	bharat (~bharat@27.5.243.23823) has joined
+T 1512255686 23*	ultr4_l4s3r (~ultr4_l4s@cm84-234.liwest.at23) has joined
+T 1512255703 24*	bharat has quit (Client Quit)
+T 1512255750 24*	Geert-80x24 has quit (Quit: Leaving)
+T 1512255814 23*	bharat (~bharat@27.5.243.23823) has joined
+T 1512255994 24*	ultr4_l4s3r has quit (Ping timeout: 260 seconds)
+T 1512256066 24*	bharat has quit (Client Quit)
+T 1512256076 23*	bharat (~bharat@27.5.243.23823) has joined
+T 1512256077 24*	nroetert has quit (Quit: Leaving)
+T 1512256398 23*	ShalokShalom (~quassel@80-108-196-21.cable.dynamic.surfer.at23) has joined
+T 1512257155 24*	gattuso has quit (Remote host closed the connection)
+T 1512257166 23*	childsgeo_ (~childsgeo@97-115-193-29.tcso.qwest.net23) has joined
+T 1512257170 23*	childsgeo (~childsgeo@97-115-193-29.tcso.qwest.net23) has joined
+T 1512257209 23*	gattuso (~gattuso@pompel.me23) has joined

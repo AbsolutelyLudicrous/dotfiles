@@ -40,3 +40,37 @@ Oct 03 19:54:00 *	Capabilities acknowledged: account-notify extended-join identi
 Oct 03 19:54:00 *	Danne is already in use. Retrying with AbsolutelyLudicrous...
 **** ENDING LOGGING AT Tue Oct  3 19:54:01 2017
 
+**** BEGIN LOGGING AT Sat Dec  2 15:55:23 2017
+
+Dec 02 15:55:23 Checksum plugin loaded
+Dec 02 15:55:23 Sysinfo plugin loaded
+Dec 02 15:55:23 FiSHLiM plugin loaded
+Dec 02 15:55:23 Perl interface loaded
+Dec 02 15:55:23 Python interface loaded
+Dec 02 15:55:23 Lua version 1.3/5.1 loaded.
+Dec 02 15:55:23 *	Looking up chat.freenode.net
+Dec 02 15:55:23 *	Connecting to chat.freenode.net (185.30.166.37:6697)
+Dec 02 15:55:24 *	* Certification info:
+Dec 02 15:55:24 *	  Subject:
+Dec 02 15:55:24 *	    CN=verne.freenode.net
+Dec 02 15:55:24 *	  Issuer:
+Dec 02 15:55:24 *	    C=US
+Dec 02 15:55:24 *	    O=Let's Encrypt
+Dec 02 15:55:24 *	    CN=Let's Encrypt Authority X3
+Dec 02 15:55:24 *	  Public key algorithm: rsaEncryption (4096 bits)
+Dec 02 15:55:24 *	  Sign algorithm sha256WithRSAEncryption
+Dec 02 15:55:24 *	  Valid since Dec  2 03:43:14 2017 GM to Mar  2 03:43:14 2018 GM
+Dec 02 15:55:24 *	* Cipher info:
+Dec 02 15:55:24 *	  Version: TLSv1/SSLv3, cipher DHE-RSA-AES256-GCM-SHA384 (256 bits)
+Dec 02 15:55:24 *	Connected. Now logging in.
+Dec 02 15:55:24 *	*** Looking up your hostname...
+Dec 02 15:55:24 *	*** Checking Ident
+Dec 02 15:55:24 *	*** Found your hostname
+Dec 02 15:55:31 *	*** No Ident response
+Dec 02 15:55:31 *	Capabilities supported: account-notify extended-join identify-msg multi-prefix sasl
+Dec 02 15:55:31 *	Capabilities requested: account-notify extended-join identify-msg multi-prefix 
+Dec 02 15:55:31 *	M. is erroneous. Retrying with Danne...
+Dec 02 15:55:31 *	Capabilities acknowledged: account-notify extended-join identify-msg multi-prefix 
+Dec 02 15:55:32 *	Danne is already in use. Retrying with AbsolutelyLudicrous...
+**** ENDING LOGGING AT Sat Dec  2 15:55:32 2017
+

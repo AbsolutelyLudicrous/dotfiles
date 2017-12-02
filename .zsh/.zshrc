@@ -11,14 +11,14 @@ function bigTermOpen () {
 function smallTermOpen () {
 	#run when we open a 'small' terminal
 	echo $(date):  opening small terminal >> $ZDOTDIR/zshrcopenlog
-	export ZSH_THEME='bureau'
+	export ZSH_THEME='amuse'
 	ufetch || top -n 1  | head -n 5
 }
 
 function eclipseTermOpen () {
 	#run when we're in Eclipse's terminal
 	echo $(date): opening eclipse terminal >> $ZDOTDIR/zshrcopenlog
-	export ZSH_THEME='avit'
+	export ZSH_THEME='amuse'
 	cd $HOME/Documents/workspaces/javaWorkspace
 }
 
