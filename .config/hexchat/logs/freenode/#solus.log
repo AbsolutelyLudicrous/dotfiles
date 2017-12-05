@@ -362,3 +362,161 @@ Dec 02 18:25:55 *	gattuso has quit (Remote host closed the connection)
 Dec 02 18:26:06 *	childsgeo_ (~childsgeo@97-115-193-29.tcso.qwest.net) has joined
 Dec 02 18:26:10 *	childsgeo (~childsgeo@97-115-193-29.tcso.qwest.net) has joined
 Dec 02 18:26:49 *	gattuso (~gattuso@pompel.me) has joined
+Dec 02 18:43:20 *	SpacemanCraig (~chris@pool-173-64-118-146.bltmmd.fios.verizon.net) has joined
+Dec 02 18:44:58 *	jane2212 (~jane@71-14-48-135.dhcp.stls.mo.charter.com) has joined
+Dec 02 18:48:17 *	darksim has quit (Remote host closed the connection)
+Dec 02 18:49:44 *	fractal is now known as Guest96194
+Dec 02 18:52:19 *	bharat has quit (Read error: Connection reset by peer)
+Dec 02 18:52:20 *	bharat_ (~bharat@27.5.243.238) has joined
+Dec 02 18:53:51 *	Harvey has quit (Ping timeout: 240 seconds)
+Dec 02 18:58:25 *	eyome has quit (Quit: eyome)
+Dec 02 19:04:51 *	javashin (~javashin@unaffiliated/javashin) has joined
+Dec 02 19:08:06 *	swift110 (~swift110@unaffiliated/swift110) has joined
+Dec 02 19:13:50 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 02 19:14:15 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 02 19:14:55 *	SpacemanCraig has quit (Remote host closed the connection)
+Dec 02 19:15:01 *	JockeTF has quit (Remote host closed the connection)
+Dec 02 19:15:22 *	SpacemanCraig (~chris@pool-173-64-118-146.bltmmd.fios.verizon.net) has joined
+Dec 02 19:26:20 <jane2212>	anyone around? need some help.
+Dec 02 19:26:21 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 02 19:26:32 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 02 19:27:06 *	DataDrake (~DataDrake@98.3.22.199) has joined
+Dec 02 19:27:06 *	ChanServ gives channel operator status to DataDrake
+Dec 02 19:27:13 <Namine>	Just state the issue 
+Dec 02 19:27:46 <jane2212>	sorry, its using a ton of cpu compared to windows 
+Dec 02 19:27:59 <jane2212>	with barely any processes open 
+Dec 02 19:28:24 <jane2212>	could it be because im running it live off a usb? haven't installed the os 
+Dec 02 19:31:38 *	carlos_ has quit (Quit: Leaving)
+Dec 02 19:32:26 *	Mhondoz has quit (Ping timeout: 260 seconds)
+Dec 02 19:32:26 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 02 19:32:43 *	soeer (~soee@2607:fad8:a2:110:13a0:f6c8:871:ee43) has joined
+Dec 02 19:32:44 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 02 19:34:05 *	childsgeo has quit (Ping timeout: 255 seconds)
+Dec 02 19:34:11 *	childsgeo_ has quit (Ping timeout: 260 seconds)
+Dec 02 19:40:50 *	bharat_ has quit (Ping timeout: 255 seconds)
+Dec 02 19:49:43 *	bharat (~bharat@27.5.243.238) has joined
+Dec 02 19:55:06 *	Harvey (~Harvey@gateway/vpn/privateinternetaccess/harveybirdman) has joined
+Dec 02 19:55:45 *	saptech has quit (Quit: Now you see me, now you don't)
+Dec 02 20:03:14 *	javashin has quit (Ping timeout: 260 seconds)
+Dec 02 20:04:49 *	zwliew (uid161395@gateway/web/irccloud.com/x-dxmxvolbaogvutdr) has joined
+Dec 02 20:05:31 *	george has quit (Read error: Connection reset by peer)
+Dec 02 20:06:30 *	george (~george@79.114.191.206) has joined
+Dec 02 20:07:36 *	javashin (~javashin@unaffiliated/javashin) has joined
+Dec 02 20:08:06 *	ultr4_l4s3r (~ultr4_l4s@cm84-234.liwest.at) has joined
+Dec 02 20:16:06 *	cmiles74 (~miles@71-89-0-118.dhcp.oxfr.ma.charter.com) has joined
+Dec 02 20:16:18 *	Minstrel has quit (Ping timeout: 260 seconds)
+Dec 02 20:18:07 *	george has quit (Remote host closed the connection)
+Dec 02 20:18:46 *	george (~george@79.114.191.206) has joined
+Dec 02 20:20:42 *	bharat has quit (Quit: bharat)
+Dec 02 20:20:44 *	bharat_ (~bharat@27.5.243.238) has joined
+Dec 02 20:20:54 *	bharat_ has quit (Remote host closed the connection)
+Dec 02 20:26:26 *	saptech (~saptech@unaffiliated/saptech) has joined
+Dec 02 20:29:36 *	Sanderski (~kamil@2a02:a314:823d:2100:adfe:d980:4a5a:6c29) has joined
+Dec 02 20:34:37 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 02 20:34:50 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 02 20:36:11 *	Harvey has quit (Ping timeout: 250 seconds)
+Dec 02 20:36:19 *	cowsay (~cowsay@47.188.33.230) has joined
+Dec 02 20:36:40 *	Harvey (~Harvey@gateway/vpn/privateinternetaccess/harveybirdman) has joined
+Dec 02 20:37:18 *	shenchen_ has quit (Ping timeout: 260 seconds)
+Dec 02 20:38:27 *	javashin has quit (Remote host closed the connection)
+Dec 02 20:38:40 *	XyFy (~xyfy@p200300DB4BDCB650BE5FF4FFFED9A314.dip0.t-ipconnect.de) has joined
+Dec 02 20:38:41 *	Harvey has quit (Client Quit)
+Dec 02 20:42:43 *	XyFy has quit (Remote host closed the connection)
+Dec 02 20:43:59 *	Harvey (~Harvey@gateway/vpn/privateinternetaccess/harveybirdman) has joined
+Dec 02 20:52:33 *	swift110 has quit (Ping timeout: 248 seconds)
+Dec 02 21:08:46 *	iranen_ has quit (Quit: Leaving)
+Dec 02 21:11:18 *	jane2212 has quit (Quit: Leaving)
+Dec 02 21:17:04 *	george has quit (Remote host closed the connection)
+Dec 02 21:17:32 *	george (~george@79.114.191.206) has joined
+Dec 02 21:22:23 *	eryvile|afk (~carsten@ppp-46-244-209-71.dynamic.mnet-online.de) has joined
+Dec 02 21:25:21 *	eryvile has quit (Ping timeout: 240 seconds)
+Dec 02 21:25:22 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 02 21:25:44 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 02 21:29:34 *	bharat (~bharat@27.5.243.238) has joined
+Dec 02 21:32:05 <Spic>	hello folks
+Dec 02 21:32:58 <DataDrake>	hi
+Dec 02 21:37:44 <Spic>	how is it going tonight
+Dec 02 21:37:45 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 02 21:38:02 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 02 21:41:19 *	Krennic has quit (Remote host closed the connection)
+Dec 02 21:41:56 *	cmiles74 has quit (Ping timeout: 260 seconds)
+Dec 02 21:44:22 *	bharat has quit (Quit: bharat)
+Dec 02 21:49:40 *	childsgeo (~childsgeo@97-115-193-29.tcso.qwest.net) has joined
+Dec 02 21:49:41 *	childsgeo_ (~childsgeo@97-115-193-29.tcso.qwest.net) has joined
+Dec 02 21:50:52 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 02 21:51:20 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 02 21:54:29 *	EbonJaeger (~EbonJaege@2604:6000:6ec1:200::2) has joined
+Dec 02 22:03:59 *	tschan has quit (Ping timeout: 248 seconds)
+Dec 02 22:08:52 *	tschan (~tschan@p5B32DAA5.dip0.t-ipconnect.de) has joined
+Dec 02 22:10:25 *	andril has quit (Ping timeout: 248 seconds)
+Dec 02 22:15:22 *	cowsay_ (~cowsay@gateway/vpn/privateinternetaccess/cowsay) has joined
+Dec 02 22:15:22 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 02 22:15:50 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 02 22:18:06 *	cowsay has quit (Ping timeout: 260 seconds)
+Dec 02 22:19:25 *	george_ (~george@79.114.191.206) has joined
+Dec 02 22:21:23 *	[Bruce] (~chris@ip72-209-209-86.dc.dc.cox.net) has joined
+Dec 02 22:22:58 *	[Bruce] has quit (Client Quit)
+Dec 02 22:24:26 *	george_ has quit (Quit: Konversation terminated!)
+Dec 02 22:24:41 *	george_ (~george@79.114.191.206) has joined
+Dec 02 22:25:22 *	george_ has quit (Client Quit)
+Dec 02 22:25:43 *	george_ (~george@79.114.191.206) has joined
+Dec 02 22:33:41 *	george_ has quit (Quit: Konversation terminated!)
+Dec 02 22:33:42 *	saptech has quit (Remote host closed the connection)
+Dec 02 22:34:16 *	saptech (~saptech@unaffiliated/saptech) has joined
+Dec 02 23:07:13 *	_shamloc has quit (Quit: Leaving)
+Dec 02 23:09:32 *	jake__ (~jake@71-13-27-237.dhcp.dlth.mn.charter.com) has joined
+Dec 02 23:12:00 *	jake__ has quit (Client Quit)
+Dec 02 23:12:42 *	santi has quit (Ping timeout: 260 seconds)
+Dec 02 23:22:54 *	edney (~edney@177.82.183.237) has joined
+Dec 02 23:23:12 <edney>	Hello there solus people hehehe
+Dec 02 23:23:37 <edney>	Mannnn this irc channel is now much bigger than the last time i came here
+Dec 02 23:23:38 <edney>	lol
+Dec 02 23:24:02 <edney>	feel very very happy to see that the distro is becomming more popular, because you guys do deserve it!
+Dec 02 23:24:39 <edney>	my issues with nvidia optimus are gone after the last update you guys are better than all other devs! i love your work!
+Dec 02 23:24:58 *	edney has quit (Client Quit)
+Dec 02 23:29:12 *	jake__ (~jake@71-13-27-237.dhcp.dlth.mn.charter.com) has joined
+Dec 02 23:30:17 *	broken6r has quit (Remote host closed the connection)
+Dec 02 23:31:15 *	jake__ has quit (Remote host closed the connection)
+Dec 02 23:32:42 *	mmstick has quit (Quit: mmstick)
+Dec 02 23:33:04 *	jrusso (~jrusso@71-13-27-237.dhcp.dlth.mn.charter.com) has joined
+Dec 02 23:33:32 <jrusso>	after i install nvidia drivers and reboot, i am greeted by a flickering text based login screen
+Dec 02 23:34:07 <jrusso>	after about 2-5 minutes it stops flickering and i can finally login (text-only though)
+Dec 02 23:35:07 <jrusso>	cat /var/log/Xorg.0.log returns "no device detected" and "no screens found(EE)"
+Dec 02 23:42:35 *	bretaa (~bretaa@209.6.129.150) has joined
+Dec 02 23:43:12 *	jrusso_ (~Jake@71-13-27-237.dhcp.dlth.mn.charter.com) has joined
+Dec 02 23:44:00 <jrusso_>	i was able to get back into graphic env by removing nvidia drivers, reinstalling nouveau and clr-boot-manager update
+Dec 02 23:44:00 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 02 23:44:16 <jrusso_>	but I want to use propietary driver
+Dec 02 23:44:21 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 02 23:45:19 *	jrusso has quit (Ping timeout: 248 seconds)
+Dec 02 23:47:27 *	jrusso_ has quit (Remote host closed the connection)
+Dec 02 23:49:02 *	netlar has quit (Ping timeout: 255 seconds)
+Dec 02 23:52:06 *	limbo416 (~limbo416@206.220.188.70) has joined
+Dec 02 23:52:29 *	ZachBacon has quit (Quit: ZNC 1.6.5 - http://znc.in)
+Dec 02 23:52:30 *	cybre has quit (Quit: Gone)
+Dec 02 23:52:30 *	bacon_bot has quit (Quit: Closing)
+Dec 02 23:53:06 *	bacon_bot (~sopel@104.145.239.71) has joined
+Dec 02 23:53:11 *	ZachBacon (~thecanadi@104.145.239.71) has joined
+Dec 02 23:53:49 *	mmstick (~mmstick@pool-173-67-194-170.clppva.fios.verizon.net) has joined
+Dec 02 23:54:39 *	cybre (~cybre@104.145.239.71) has joined
+Dec 02 23:55:03 *	cybre is now known as Guest5350
+Dec 02 23:55:49 *	radagast (~radagast@n1-43-23-180.mas2.nsw.optusnet.com.au) has joined
+Dec 02 23:57:49 *	DataDrake is now known as DataDrake|zzz
+Dec 03 00:00:57 <limbo416>	are there any existing GnuPG clients already in to repos in addition to Seahorse?
+Dec 03 00:01:13 <limbo416>	along the lines of GPA or kleopatra?
+Dec 03 00:02:26 *	zwiebi (~zwiebi@5400CA15.dsl.pool.telekom.hu) has joined
+Dec 03 00:02:27 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 03 00:02:44 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 03 00:17:48 *	broken6r (~broken6r@104.153.185.183) has joined
+Dec 03 00:18:56 *	Namine is now known as PipeItToDevNull
+Dec 03 00:20:43 *	shenchen (~hash@cn.cogenda.com) has joined
+Dec 03 00:20:43 *	bezzibuzz has quit (Read error: Connection reset by peer)
+Dec 03 00:21:07 *	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se) has joined
+Dec 03 00:23:38 *	Stupendoussteve (~Stupendou@fedora/scuba) has joined
+Dec 03 00:27:33 *	TheSpy0 has quit (Read error: Connection reset by peer)
+Dec 03 00:27:51 *	broken6r has quit (Remote host closed the connection)
+Dec 03 00:32:19 *	mmstick has quit (Quit: mmstick)
+Dec 03 00:35:22 Python interface unloaded
+Dec 03 00:35:22 FiSHLiM plugin unloaded
+**** ENDING LOGGING AT Sun Dec  3 00:35:22 2017
+

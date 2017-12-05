@@ -152,6 +152,6 @@ video/webm=vlc.desktop;
 video/vnd.mpegurl=vlc.desktop;
 image/x-ico=eog.desktop;
 image/x-xcf=gimp.desktop;feh.desktop;
-application/xml=feh.desktop;org.gnome.gedit.desktop;nvim.desktop;chromium.desktop;
+application/xml=nvim.desktop;org.gnome.gedit.desktop;feh.desktop;chromium.desktop;
 application/x-desktop=nvim.desktop;
 application/octet-stream=org.gnome.gedit.desktop;

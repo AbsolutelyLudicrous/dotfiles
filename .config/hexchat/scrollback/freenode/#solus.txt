@@ -1,4 +1,3 @@
-T 1506970929 24*	robotroll has quit (Read error: Connection reset by peer)
 T 1506971151 24*	ByteBitten has quit (Quit: Leaving)
 T 1506971351 24*	random_qt has quit (Quit: Leaving)
 T 1506971361 24*	sec-princess has quit (Ping timeout: 248 seconds)
@@ -348,3 +347,159 @@ T 1512257155 24*	gattuso has quit (Remote host closed the connection)
 T 1512257166 23*	childsgeo_ (~childsgeo@97-115-193-29.tcso.qwest.net23) has joined
 T 1512257170 23*	childsgeo (~childsgeo@97-115-193-29.tcso.qwest.net23) has joined
 T 1512257209 23*	gattuso (~gattuso@pompel.me23) has joined
+T 1512258200 23*	SpacemanCraig (~chris@pool-173-64-118-146.bltmmd.fios.verizon.net23) has joined
+T 1512258298 23*	jane2212 (~jane@71-14-48-135.dhcp.stls.mo.charter.com23) has joined
+T 1512258497 24*	darksim has quit (Remote host closed the connection)
+T 1512258584 24*	28fractal is now known as 18Guest96194
+T 1512258739 24*	bharat has quit (Read error: Connection reset by peer)
+T 1512258740 23*	bharat_ (~bharat@27.5.243.23823) has joined
+T 1512258831 24*	Harvey has quit (Ping timeout: 240 seconds)
+T 1512259105 24*	eyome has quit (Quit: eyome)
+T 1512259491 23*	javashin (~javashin@unaffiliated/javashin23) has joined
+T 1512259686 23*	swift110 (~swift110@unaffiliated/swift11023) has joined
+T 1512260030 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512260055 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512260095 24*	SpacemanCraig has quit (Remote host closed the connection)
+T 1512260101 24*	JockeTF has quit (Remote host closed the connection)
+T 1512260122 23*	SpacemanCraig (~chris@pool-173-64-118-146.bltmmd.fios.verizon.net23) has joined
+T 1512260780 18<20jane221218>	anyone around? need some help.
+T 1512260781 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512260792 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512260826 23*	DataDrake (~DataDrake@98.3.22.19923) has joined
+T 1512260826 22*	26ChanServ gives channel operator status to 18DataDrake
+T 1512260833 18<27Namine18>	Just state the issue 
+T 1512260866 18<20jane221218>	sorry, its using a ton of cpu compared to windows 
+T 1512260879 18<20jane221218>	with barely any processes open 
+T 1512260904 18<20jane221218>	could it be because im running it live off a usb? haven't installed the os 
+T 1512261098 24*	carlos_ has quit (Quit: Leaving)
+T 1512261146 24*	Mhondoz has quit (Ping timeout: 260 seconds)
+T 1512261146 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512261163 23*	soeer (~soee@2607:fad8:a2:110:13a0:f6c8:871:ee4323) has joined
+T 1512261164 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512261245 24*	childsgeo has quit (Ping timeout: 255 seconds)
+T 1512261251 24*	childsgeo_ has quit (Ping timeout: 260 seconds)
+T 1512261650 24*	bharat_ has quit (Ping timeout: 255 seconds)
+T 1512262183 23*	bharat (~bharat@27.5.243.23823) has joined
+T 1512262506 23*	Harvey (~Harvey@gateway/vpn/privateinternetaccess/harveybirdman23) has joined
+T 1512262545 24*	saptech has quit (Quit: Now you see me, now you don't)
+T 1512262994 24*	javashin has quit (Ping timeout: 260 seconds)
+T 1512263089 23*	zwliew (uid161395@gateway/web/irccloud.com/x-dxmxvolbaogvutdr23) has joined
+T 1512263131 24*	george has quit (Read error: Connection reset by peer)
+T 1512263190 23*	george (~george@79.114.191.20623) has joined
+T 1512263256 23*	javashin (~javashin@unaffiliated/javashin23) has joined
+T 1512263286 23*	ultr4_l4s3r (~ultr4_l4s@cm84-234.liwest.at23) has joined
+T 1512263766 23*	cmiles74 (~miles@71-89-0-118.dhcp.oxfr.ma.charter.com23) has joined
+T 1512263778 24*	Minstrel has quit (Ping timeout: 260 seconds)
+T 1512263887 24*	george has quit (Remote host closed the connection)
+T 1512263926 23*	george (~george@79.114.191.20623) has joined
+T 1512264042 24*	bharat has quit (Quit: bharat)
+T 1512264044 23*	bharat_ (~bharat@27.5.243.23823) has joined
+T 1512264054 24*	bharat_ has quit (Remote host closed the connection)
+T 1512264386 23*	saptech (~saptech@unaffiliated/saptech23) has joined
+T 1512264576 23*	Sanderski (~kamil@2a02:a314:823d:2100:adfe:d980:4a5a:6c2923) has joined
+T 1512264877 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512264890 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512264971 24*	Harvey has quit (Ping timeout: 250 seconds)
+T 1512264979 23*	cowsay (~cowsay@47.188.33.23023) has joined
+T 1512265000 23*	Harvey (~Harvey@gateway/vpn/privateinternetaccess/harveybirdman23) has joined
+T 1512265038 24*	shenchen_ has quit (Ping timeout: 260 seconds)
+T 1512265107 24*	javashin has quit (Remote host closed the connection)
+T 1512265120 23*	XyFy (~xyfy@p200300DB4BDCB650BE5FF4FFFED9A314.dip0.t-ipconnect.de23) has joined
+T 1512265121 24*	Harvey has quit (Client Quit)
+T 1512265363 24*	XyFy has quit (Remote host closed the connection)
+T 1512265439 23*	Harvey (~Harvey@gateway/vpn/privateinternetaccess/harveybirdman23) has joined
+T 1512265953 24*	swift110 has quit (Ping timeout: 248 seconds)
+T 1512266926 24*	iranen_ has quit (Quit: Leaving)
+T 1512267078 24*	jane2212 has quit (Quit: Leaving)
+T 1512267424 24*	george has quit (Remote host closed the connection)
+T 1512267452 23*	george (~george@79.114.191.20623) has joined
+T 1512267743 23*	eryvile|afk (~carsten@ppp-46-244-209-71.dynamic.mnet-online.de23) has joined
+T 1512267921 24*	eryvile has quit (Ping timeout: 240 seconds)
+T 1512267922 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512267944 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512268174 23*	bharat (~bharat@27.5.243.23823) has joined
+T 1512268325 18<24Spic18>	hello folks
+T 1512268378 18<20DataDrake18>	hi
+T 1512268664 18<24Spic18>	how is it going tonight
+T 1512268665 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512268682 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512268879 24*	Krennic has quit (Remote host closed the connection)
+T 1512268916 24*	cmiles74 has quit (Ping timeout: 260 seconds)
+T 1512269062 24*	bharat has quit (Quit: bharat)
+T 1512269380 23*	childsgeo (~childsgeo@97-115-193-29.tcso.qwest.net23) has joined
+T 1512269381 23*	childsgeo_ (~childsgeo@97-115-193-29.tcso.qwest.net23) has joined
+T 1512269452 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512269480 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512269669 23*	EbonJaeger (~EbonJaege@2604:6000:6ec1:200::223) has joined
+T 1512270239 24*	tschan has quit (Ping timeout: 248 seconds)
+T 1512270532 23*	tschan (~tschan@p5B32DAA5.dip0.t-ipconnect.de23) has joined
+T 1512270625 24*	andril has quit (Ping timeout: 248 seconds)
+T 1512270922 23*	cowsay_ (~cowsay@gateway/vpn/privateinternetaccess/cowsay23) has joined
+T 1512270922 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512270950 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512271086 24*	cowsay has quit (Ping timeout: 260 seconds)
+T 1512271165 23*	george_ (~george@79.114.191.20623) has joined
+T 1512271283 23*	[Bruce] (~chris@ip72-209-209-86.dc.dc.cox.net23) has joined
+T 1512271378 24*	[Bruce] has quit (Client Quit)
+T 1512271466 24*	george_ has quit (Quit: Konversation terminated!)
+T 1512271481 23*	george_ (~george@79.114.191.20623) has joined
+T 1512271522 24*	george_ has quit (Client Quit)
+T 1512271543 23*	george_ (~george@79.114.191.20623) has joined
+T 1512272021 24*	george_ has quit (Quit: Konversation terminated!)
+T 1512272022 24*	saptech has quit (Remote host closed the connection)
+T 1512272056 23*	saptech (~saptech@unaffiliated/saptech23) has joined
+T 1512274033 24*	_shamloc has quit (Quit: Leaving)
+T 1512274172 23*	jake__ (~jake@71-13-27-237.dhcp.dlth.mn.charter.com23) has joined
+T 1512274320 24*	jake__ has quit (Client Quit)
+T 1512274362 24*	santi has quit (Ping timeout: 260 seconds)
+T 1512274974 23*	edney (~edney@177.82.183.23723) has joined
+T 1512274992 18<22edney18>	Hello there solus people hehehe
+T 1512275017 18<22edney18>	Mannnn this irc channel is now much bigger than the last time i came here
+T 1512275018 18<22edney18>	lol
+T 1512275042 18<22edney18>	feel very very happy to see that the distro is becomming more popular, because you guys do deserve it!
+T 1512275079 18<22edney18>	my issues with nvidia optimus are gone after the last update you guys are better than all other devs! i love your work!
+T 1512275098 24*	edney has quit (Client Quit)
+T 1512275352 23*	jake__ (~jake@71-13-27-237.dhcp.dlth.mn.charter.com23) has joined
+T 1512275417 24*	broken6r has quit (Remote host closed the connection)
+T 1512275475 24*	jake__ has quit (Remote host closed the connection)
+T 1512275562 24*	mmstick has quit (Quit: mmstick)
+T 1512275584 23*	jrusso (~jrusso@71-13-27-237.dhcp.dlth.mn.charter.com23) has joined
+T 1512275612 18<24jrusso18>	after i install nvidia drivers and reboot, i am greeted by a flickering text based login screen
+T 1512275647 18<24jrusso18>	after about 2-5 minutes it stops flickering and i can finally login (text-only though)
+T 1512275707 18<24jrusso18>	cat /var/log/Xorg.0.log returns "no device detected" and "no screens found(EE)"
+T 1512276155 23*	bretaa (~bretaa@209.6.129.15023) has joined
+T 1512276192 23*	jrusso_ (~Jake@71-13-27-237.dhcp.dlth.mn.charter.com23) has joined
+T 1512276240 18<29jrusso_18>	i was able to get back into graphic env by removing nvidia drivers, reinstalling nouveau and clr-boot-manager update
+T 1512276240 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512276256 18<29jrusso_18>	but I want to use propietary driver
+T 1512276261 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512276319 24*	jrusso has quit (Ping timeout: 248 seconds)
+T 1512276447 24*	jrusso_ has quit (Remote host closed the connection)
+T 1512276542 24*	netlar has quit (Ping timeout: 255 seconds)
+T 1512276726 23*	limbo416 (~limbo416@206.220.188.7023) has joined
+T 1512276749 24*	ZachBacon has quit (Quit: ZNC 1.6.5 - http://znc.in)
+T 1512276750 24*	cybre has quit (Quit: Gone)
+T 1512276750 24*	bacon_bot has quit (Quit: Closing)
+T 1512276786 23*	bacon_bot (~sopel@104.145.239.7123) has joined
+T 1512276791 23*	ZachBacon (~thecanadi@104.145.239.7123) has joined
+T 1512276829 23*	mmstick (~mmstick@pool-173-67-194-170.clppva.fios.verizon.net23) has joined
+T 1512276879 23*	cybre (~cybre@104.145.239.7123) has joined
+T 1512276903 24*	28cybre is now known as 18Guest5350
+T 1512276949 23*	radagast (~radagast@n1-43-23-180.mas2.nsw.optusnet.com.au23) has joined
+T 1512277069 24*	28DataDrake is now known as 18DataDrake|zzz
+T 1512277257 18<22limbo41618>	are there any existing GnuPG clients already in to repos in addition to Seahorse?
+T 1512277273 18<22limbo41618>	along the lines of GPA or kleopatra?
+T 1512277346 23*	zwiebi (~zwiebi@5400CA15.dsl.pool.telekom.hu23) has joined
+T 1512277347 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512277364 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512278268 23*	broken6r (~broken6r@104.153.185.18323) has joined
+T 1512278336 24*	28Namine is now known as 18PipeItToDevNull
+T 1512278443 23*	shenchen (~hash@cn.cogenda.com23) has joined
+T 1512278443 24*	bezzibuzz has quit (Read error: Connection reset by peer)
+T 1512278467 23*	bezzibuzz (~bezzibuzz@c83-254-132-201.bredband.comhem.se23) has joined
+T 1512278618 23*	Stupendoussteve (~Stupendou@fedora/scuba23) has joined
+T 1512278853 24*	TheSpy0 has quit (Read error: Connection reset by peer)
+T 1512278871 24*	broken6r has quit (Remote host closed the connection)
+T 1512279139 24*	mmstick has quit (Quit: mmstick)
+T 1512279322 Python interface unloaded
+T 1512279322 FiSHLiM plugin unloaded

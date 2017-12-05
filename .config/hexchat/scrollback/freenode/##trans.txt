@@ -14,3 +14,9 @@ T 1512248138 22*	Topic for 22##trans set by 26JMcAfreak!~JMcAfreak@unaffili
 T 1512256450 24*	28Velinir is now known as 18Rivelin
 T 1512256451 24*	Rivelin has quit (Changing host)
 T 1512256451 23*	Rivelin (~Velinir@unaffiliated/xyln23) has joined
+T 1512261903 23*	Naia (~theriwolf@unaffiliated/werewolf23) has joined
+T 1512264357 23*	Zero420 (569226ea@gateway/web/freenode/ip.86.146.38.23423) has joined
+T 1512264368 24*	Zero420 (569226ea@gateway/web/freenode/ip.86.146.38.23424) has left
+T 1512264513 24*	Rivelin has quit (Ping timeout: 248 seconds)
+T 1512264588 24*	Naia has quit (Quit: awoo)
+T 1512264668 23*	Velinir (~Velinir@109.181.221.5023) has joined

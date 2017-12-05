@@ -57,3 +57,8 @@ T 1512248138 22*	Topic for 22##abgilpqt+ set by 26Euforia (24Sat Apr  9 0
 T 1512248138 -18ChanServ-	[##abgilpqt+] Read https://abgilpqt.github.io/ before talking. | This channel is a safe space! | If you miss the message from ]o[ (because of umode +g), /msg ]o[ herald default ##abgilpqt+
 T 1512248138 22*	Channel 22##abgilpqt+ url: 24https://abgilpqt.github.io/
 T 1512248139 -18]o[-	[##abgilpqt+] Our pronouns can be read from https://gist.github.com/Mikaela/0b7b534bfbc4efe1a8ec9aea5c3fd2cd
+T 1512261923 -18]o[/22##abgilpqt+-	goodbyetohalos — Goodbye to Halos - 01.158 — <http://www.goodbyetohalos.com/comic/01158>
+T 1512262049 24*	ankh has quit (Ping timeout: 248 seconds)
+T 1512262465 23*	ankh (~Liam@xplr-96-44-106-9.xplornet.com23) has joined
+T 1512262465 22*	26ChanServ gives channel operator status to 18ankh
+T 1512272419 24*	GridCube has quit (Quit: Leaving)
