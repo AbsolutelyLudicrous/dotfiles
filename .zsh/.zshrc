@@ -95,17 +95,17 @@ alias grep='grep --color'
 alias ssh='ssh -v'
 alias clear='clear && source $ZDOTDIR/.zshrc'	#pretends we have a new terminal
 alias df='df -h'
-alias 'maven'='mvn'
-alias 'v'='nvim'
+alias maven=mvn
+alias v='nvim'
 alias vim='nvim'
 alias vi='nvim'
 alias emacs='nvim' #Muahahahahaahhaahaahahahaahhahaa!
-alias 'fuck'='sudo $(fc -ln -1)';alias 'redo'='sudo $(fc -ln -1)'
+alias fuck='sudo $(fc -ln -1)';alias redo='sudo $(fc -ln -1)'
 alias vlock="echo fucked up for now, don\'t try it"
-alias 'py'='python'
-alias 'py3'='python3'
-alias 'book'='book=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd $book'
-alias 'j'='nvim $HOME/Documents/journals/$(date +%Y%m%B)/$(date +%d) +'	# | easy journalling of daily events, to make my therapist happy
+alias py='python'
+alias py3='python3'
+alias book='book=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd $book'
+alias j='nvim $HOME/Documents/journals/$(date +%Y%m%B)/$(date +%d).md +'	# | easy journalling of daily events, to make my therapist happy
 alias c="clear"	#one-character clearing					# | haha, that was a joke; therapy is hella expensive
 alias rm="rm -i"
 
