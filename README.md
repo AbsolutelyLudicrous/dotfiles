@@ -1,6 +1,9 @@
 # dotfiles
 # ~/.*
 
-Know all those nifty hidden files that determine cool behaviour?  That's this repo.  Meant to work on GNOME/Budgie Desktops, but should work across all ZSHes and Neovims.
+Know all those nifty hidden files that determine cool behaviour?
+That's this repo.
+Designed to work OOTB on Budgie, requires little configuration on other DEs.
+Has cool Neovim and Conky stuff, too.
 
-Clone this into your `$HOME`, `ln` a a bunch of guff, and you'll be good to go.
+Just run the `installer.sh` and you'll be good to go.
