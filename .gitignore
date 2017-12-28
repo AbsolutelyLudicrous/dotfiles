@@ -18,10 +18,16 @@
 
 \.config/autostart/
 
-\.config/Atom
+\.config/Atom/
 
-\.config/vivaldi
+\.config/vivaldi/
 
-\.config/rtv
+\.config/rtv/
 
-\.config/unity3d
+\.config/unity3d/
+
+\.config/Wire/
+
+\.config/tox/
+
+\.config/Signal/

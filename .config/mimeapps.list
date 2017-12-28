@@ -155,3 +155,4 @@ image/x-xcf=gimp.desktop;feh.desktop;
 application/xml=nvim.desktop;org.gnome.gedit.desktop;feh.desktop;chromium.desktop;
 application/x-desktop=nvim.desktop;
 application/octet-stream=org.gnome.gedit.desktop;
+application/zip=org.gnome.FileRoller.desktop;
