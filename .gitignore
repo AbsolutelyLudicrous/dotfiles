@@ -31,3 +31,9 @@
 \.config/tox/
 
 \.config/Signal/
+
+\.config/google-chrome/
+
+\.config/Tomahawk/
+
+\.config/VirtualBox/

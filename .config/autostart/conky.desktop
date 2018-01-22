@@ -1,6 +1,6 @@
 [Desktop Entry]
 Type=Application
-Exec=sh "/home/masondanne/.conky/conky-startup.sh"
+Exec=sh "/home/danne/.conky/conky-startup.sh"
 Hidden=false
 NoDisplay=false
 X-GNOME-Autostart-enabled=true

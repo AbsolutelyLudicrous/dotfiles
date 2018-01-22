@@ -18,7 +18,9 @@ if dein#load_state('/home/danne/.config/dein')
   call dein#add('vim-airline/vim-airline-themes')	"Themes for airline
 
   call dein#add('Shougo/neco-syntax')			"Fancy multi-language completion
- "call dein#add('zchee/deoplete-jedi')			"Python! TODO unfuckulate it
+  call dein#add('zchee/deoplete-jedi')			"deoplete bridge
+  call dein#add('davidhalter/jedi')			"supports deoplete-jedi
+  call dein#add('zchee/deoplete-jedi')			"Python! TODO unfuckulate it
   call dein#add('fszymanski/deoplete-emoji')		"Because emojis aren't prevalent enough
    call deoplete#custom#set('emoji', 'filetypes', ['gitcommit','markdown','rst','plaintext'])
   call dein#add('airblade/vim-gitgutter')
@@ -40,9 +42,9 @@ endif
 syntax enable
 
 " If you want to install not installed plugins on startup.
-if dein#check_install()
-  call dein#install()
-endif
+""" if dein#check_install()
+"""   call dein#install()
+""" endif
 
 "End dein Scripts-------------------------
 

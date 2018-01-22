@@ -1,6 +1,6 @@
 sleep 0s
 killall conky
-cd "/home/masondanne/.conky/Conky Seamodmasonmod"
-conky -c "/home/masondanne/.conky/Conky Seamodmasonmod/conky_seamodsolusmod" &
-cd "/home/masondanne/.conky/Gotham"
-conky -c "/home/masondanne/.conky/Gotham/Gotham" &
+cd "/home/danne/.conky/Conky Seamod-Dannemod"
+conky -c "/home/danne/.conky/Conky Seamod-Dannemod/conky_seamodsolusmod" &
+cd "/home/danne/.conky/Gotham"
+conky -c "/home/danne/.conky/Gotham/Gotham" &
