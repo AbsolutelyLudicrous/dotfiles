@@ -67,8 +67,8 @@ function termopen () {
 	\clear					#for some reason, the zshrc likes to run twice. //TODO not be lazy and fix that, instead of just pushing the problem off to the side
 	\rm $ZDOTDIR/zshrcopenlog		#remove a previous logfile
 	sleep 0.3				#needed because tilda likes to 'open' at 80*24 and then resize itself
-	ps -p $(ps -p $$ -o ppid=) o args= >> $ZDOTDIR/zshrcopenlog	#get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
-	determinal 
+	ps -p $(ps -p $$ -o ppid=) o args= >> $ZDOTDIR/zshrcopenlog	# | get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
+	determinal 							# | Doesn't work in BSDland, so that sucks.
 	userlandCompat
 	genericTermOpen
 	echo $(date): terminal open finished >> $ZDOTDIR/zshrcopenlog
@@ -106,8 +106,9 @@ alias py='python'
 alias py3='python3'
 alias book='book=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd $book'
 alias j='nvim $HOME/Documents/journals/$(date +%Y%m%B)/$(date +%d).md +'	# | easy journalling of daily events, to make my therapist happy
-alias c="clear"	#one-character clearing					# | haha, that was a joke; therapy is hella expensive
-alias rm="rm -i"
+alias c="clear"	#one-character clearing						# | haha, that was a joke; therapy is hella expensive
+alias rm="rm -I"
+alias gaga="git add **; git commit -v"	#quickly git-commit everything in the current directory
 
 #environ vars
 export ZDOTDIR="$HOME/.zsh"		#where the heck we have our zsh dotfiles
