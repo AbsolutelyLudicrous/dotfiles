@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-DOTFILES=$HOME/docs/dotfiles	#default dotfiles install directory
+DOTFILES=$HOME/dotfiles	#default dotfiles install directory
 
 echo Running bootstrap script AS ROOT
 echo The bootstrapper ensures that all required dependencies are installer

@@ -119,7 +119,7 @@ plugins=(git catimg)
 
 #sourcing shenaninigans
 #add zsh aliases
-source $ZDOTDIR/.zshalises 2>> $dump
+source $ZDOTDIR/.zshaliases 2>> $dump
 
 #add OMZSH ricing
 source $ZSH/oh-my-zsh.sh 2>> $dump
