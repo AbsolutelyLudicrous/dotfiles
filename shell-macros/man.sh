@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/usr/bin/env sh
 #Colored manpages
 #Credit goes to
 #https://github.com/da-edra/dotfiles 

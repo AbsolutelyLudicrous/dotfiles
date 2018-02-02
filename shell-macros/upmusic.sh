@@ -1,9 +1,10 @@
-#!/bin/bash
+#!/usr/bin/env sh
 #redownload music playlist
 #WARNING takes fucking forever
-mkdir ~/Music/downloaded_tempdir
-cd ~/Music/downloaded_tempdir
-youtube-dl \https://www.youtube.com/playlist\?list=PLU6u2aLdEBuPExeao8eRyo_MglZ_J0dpp
+CURDIR=$(pwd)	#get our current directory
+mkdir $HOME/Music/downloaded_tempdir
+cd $HOME/Music/downloaded_tempdir
+youtube-dl https://www.youtube.com/playlist\?list=$PLAYLIST_UUID
 	 --yes-playlist\
 	 --no-call-home\
 	 --ignore-config\
@@ -11,9 +12,9 @@ youtube-dl \https://www.youtube.com/playlist\?list=PLU6u2aLdEBuPExeao8eRyo_MglZ_
 	 --verbose
 	# --embed-thumbnail - screwed for now
 cp ../0\ convert.sh .
-./0\ convert.sh
-mv --no-clobber ./* --target ../
+./0\ convert.sh	#run a conversion script
+mv --no-clobber ./*mp3 --target ../
 cd ..
 rm --recursive downloaded_tempdir
 echo \'Music placed in $USER/Music.\'
-cd
+cd $CURDIR	#go back to out current directory
