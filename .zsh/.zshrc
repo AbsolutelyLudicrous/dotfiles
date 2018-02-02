@@ -86,26 +86,6 @@ function ghci () {
 	ghci -fno-warn-tabs $@
 	\rm -r $HOME/.ghc";}	#it's dumb that ghci doesn't have an off switch for its history
 
-#aliases
-alias grep='grep --color'
-alias ssh='ssh -v'
-alias clear='clear && source $ZDOTDIR/.zshrc'	#pretends we have a new terminal
-alias df='df -h'
-alias maven=mvn
-alias v='nvim'
-alias vim='nvim'
-alias vi='nvim'
-alias emacs='nvim' #Muahahahahaahhaahaahahahaahhahaa!
-alias fuck='sudo $(fc -ln -1)';alias redo='sudo $(fc -ln -1)'
-alias vlock="echo fucked up for now, don\'t try it"
-alias py='python'
-alias py3='python3'
-alias book='book=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd $book'
-alias j='nvim $HOME/$DOCS/journals/$(date +%Y%m%B)/$(date +%d).md +'	# | easy journalling of daily events, to make my therapist happy
-alias c="clear"	#one-character clearing						# | haha, that was a joke; therapy is hella expensive
-alias rm="rm -I"
-alias gaga="git add **; git commit -v"	#quickly git-commit everything in the current directory
-
 #environ vars
 export ZDOTDIR="$HOME/.zsh"		#where the heck we have our zsh dotfiles
 export HISTFILE=$ZDOTDIR/zhistory	#where the heck our zshhistory is stored
@@ -138,11 +118,17 @@ PATH=$PATH+":$HOME/dotfiles/bin"
 plugins=(git catimg)
 
 #sourcing shenaninigans
+#add zsh aliases
+source $ZDOTDIR/.zshalises 2>> $dump
+
+#add OMZSH ricing
 source $ZSH/oh-my-zsh.sh 2>> $dump
 
+#fish-style autosuggestions
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>> $dump
 source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh 2>> $dump
 
+#in-shell syntaxt highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>> $dump
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>> $dump
 source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>> $dump
