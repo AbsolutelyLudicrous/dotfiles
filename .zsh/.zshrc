@@ -1,8 +1,11 @@
 #buncha nonsense functions up here, the real zshrc begins around line 80
 
+DEBUG=false
+dump=/dev/null	#location to throw all our garbage at, set to $ZDOTDIR/zshrcopenlog for debugging
+
 function bigTermOpen () {
 	#run when we open a 'large' terminal
-	echo $(date): opening large terminal >> $ZDOTDIR/zshrcopenlog
+	if $DEBUG; then; echo $(date): opening large terminal >> $ZDOTDIR/zshrcopenlog;fi
 	export ZSH_THEME='agnoster'
 	repeat 8 echo
 	neofetch
@@ -10,14 +13,14 @@ function bigTermOpen () {
 
 function smallTermOpen () {
 	#run when we open a 'small' terminal
-	echo $(date):  opening small terminal >> $ZDOTDIR/zshrcopenlog
+	if $DEBUG; then; echo $(date):  opening small terminal >> $ZDOTDIR/zshrcopenlog;fi
 	export ZSH_THEME='amuse'
-	ufetch || top -n 1  | head -n 5
+	ufetch 2>> $dump || top -n 1  | head -n 5
 }
 
 function eclipseTermOpen () {
 	#run when we're in Eclipse's terminal
-	echo $(date): opening eclipse terminal >> $ZDOTDIR/zshrcopenlog
+	if $DEBUG; then; echo $(date): opening eclipse terminal >> $ZDOTDIR/zshrcopenlog;fi
 	export ZSH_THEME='amuse'
 	cd $HOME/Documents/workspaces/javaWorkspace
 }
@@ -26,38 +29,39 @@ function determinal () {
 	#determines which terminal open functions to call
 	width=$(tput cols)	#tput is weird
 	height=$(tput lines)
-	echo $(date): w:$width, h:$height >> $ZDOTDIR/zshrcopenlog
+	if $DEBUG; then; echo $(date): w:$width, h:$height >> $ZDOTDIR/zshrcopenlog;fi
 
-	neofetch | grep -o -ie 'java' > /dev/null; 
-	if [[ ($? -eq 0) ]];then;
-		echo $(date): chose eclipse terminal >> $ZDOTDIR/zshrcopenlog
-		eclipseTermOpen;fi;
+	# neofetch | grep -o -ie 'java' > $dump; 
+	# if [[ ($? -eq 0) ]];then;
+	# 	echo $(date): chose eclipse terminal >> $ZDOTDIR/zshrcopenlog
+	# 	eclipseTermOpen;fi;
 
 	if [[ (height -ge 32) && (width -ge 128) ]];then;
-		echo $(date): chose big terminal >> $ZDOTDIR/zshrcopenlog
-		bigTermOpen;fi;
-	if [[ (height -lt 32) && (width -lt 128) ]];then;
-		echo $(date): chose small terminal >> $ZDOTDIR/zshrcopenlog
+		if $DEBUG; then; echo $(date): chose big terminal >> $ZDOTDIR/zshrcopenlog;fi
+		bigTermOpen;
+	# if [[ (height -lt 32) && (width -lt 128) ]];then;
+	else;
+		if $DEBUG; then; echo $(date): chose small terminal >> $ZDOTDIR/zshrcopenlog;fi
 		smallTermOpen;fi;
 }
 
 function userlandCompat () {
 	#gives us the correct alias for ls, aliases neofetch to screenfetch on non-neofetch systems
 	#//TODO make this functionalprogrammingier and return an alias, not directly manipulate the alias
-	echo $(date): choosing ls-alias >> $ZDOTDIR/zshrcopenlog
-	uname -a | grep -o -ie 'bsd' -o -ie 'darwin' > /dev/null
+	if $DEBUG; then; echo $(date): choosing ls-alias >> $ZDOTDIR/zshrcopenlog;fi
+	uname -a | grep -o -ie 'bsd' -o -ie 'darwin' > $dump
 	if [[ ($? -eq 0) ]];then;	#if we're on the bsd box
-		echo $(date): chose bsd ls-aliases >> $ZDOTDIR/zshrcopenlog
+		if $DEBUG; then; echo $(date): chose bsd ls-aliases >> $ZDOTDIR/zshrcopenlog;fi
 		alias ls="ls -aG";	#equivalent to --all --color or -a --color
 	else;				#if we're on the linux box(es)
-		echo $(date): chose linux ls-aliases >> $ZDOTDIR/zshrcopenlog
+		if $DEBUG; then; echo $(date): chose linux ls-aliases >> $ZDOTDIR/zshrcopenlog;fi
 		alias ls="ls --all --color";fi;
-	neofetch > /dev/null || alias 'neofetch'='screenfetch -p'	#not all systems have neofetch, so we set it to screenfetch instead
+	# neofetch > $dump || alias 'neofetch'='screenfetch -p'	#not all systems have neofetch, so we set it to screenfetch instead
 }
 
 function genericTermOpen () {
 	#should get run everytime, greets the user
-	echo $(date): performing generic terminal open >> $ZDOTDIR/zshrcopenlog
+	if $DEBUG; then; echo $(date): performing generic terminal open >> $ZDOTDIR/zshrcopenlog;fi
 	echo 'Welcome, '$USER
 	echo 'The time is currently '$(date)
 }
@@ -65,15 +69,14 @@ function genericTermOpen () {
 function termopen () {
 	#calls all the other terminal opener functions
 	\clear					#for some reason, the zshrc likes to run twice. //TODO not be lazy and fix that, instead of just pushing the problem off to the side
-	\rm $ZDOTDIR/zshrcopenlog		#remove a previous logfile
+	\rm $ZDOTDIR/zshrcopenlog 2>> $dump		#remove a previous logfile
 	sleep 0.3				#needed because tilda likes to 'open' at 80*24 and then resize itself
-	ps -p $(ps -p $$ -o ppid=) o args= >> $ZDOTDIR/zshrcopenlog	# | get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
-	determinal 							# | Doesn't work in BSDland, so that sucks.
+	if $DEBUG; then; ps -p $(ps -p $$ -o ppid=) -o args= >> $ZDOTDIR/zshrcopenlog;fi	#get terminal name, courtesy of https://askubuntu.com/questions/476641/how-can-i-get-the-name-of-the-current-terminal-from-command-line
+	determinal
 	userlandCompat
 	genericTermOpen
-	echo $(date): terminal open finished >> $ZDOTDIR/zshrcopenlog
-	echo ''>> $ZDOTDIR/zshrcopenlog		#adds a newline for better read flow
-	#rm $ZDOTDIR/zshrcopenlog		#if we don't want to debug the terminal
+	if $DEBUG; then; echo $(date): terminal open finished >> $ZDOTDIR/zshrcopenlog;fi
+	if $DEBUG; then; echo ''>> $ZDOTDIR/zshrcopenlog;fi	#adds a newline for better read flow
 }
 termopen
 
@@ -105,7 +108,7 @@ alias vlock="echo fucked up for now, don\'t try it"
 alias py='python'
 alias py3='python3'
 alias book='book=$(pwd)'	#bookmarking util, set a bookmark with 'book', switch to that bookmark with 'cd $book'
-alias j='nvim $HOME/Documents/journals/$(date +%Y%m%B)/$(date +%d).md +'	# | easy journalling of daily events, to make my therapist happy
+alias j='nvim $HOME/$DOCS/journals/$(date +%Y%m%B)/$(date +%d).md +'	# | easy journalling of daily events, to make my therapist happy
 alias c="clear"	#one-character clearing						# | haha, that was a joke; therapy is hella expensive
 alias rm="rm -I"
 alias gaga="git add **; git commit -v"	#quickly git-commit everything in the current directory
@@ -119,6 +122,8 @@ export ZSH=$ZDOTDIR/.oh-my-zsh		#path to OMZSH install
 export UPDATE_ZSH_DAYS=32		#update OMZSH every 32 days
 export PAGER=less			#less is more
 export ATOM_HOME=$HOME/.config/Atom	#motherfucking atom not conforming to the xdg base spec
+export PLAYLIST_UUID=PLU6u2aLdEBuPExeao8eRyo_MglZ_J0dpp	#the unique ID of our music playlist
+export DOCS=docs			#location of Documents folder
 ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=32	#how many lines of zhistory should be read
 CASE_SENSITIVE='false'			#do we use case-sensitive completion
 HYPHEN_INSENSITIVE='true'		#don't differentiate between hyphens and underscores
@@ -133,37 +138,21 @@ nb='⚨'	#I feel like I might have to type this a lot
 setopt interactivecomments
 setopt dotglob
 
-#functions
-SHELL_MACRO_LOCATION=$HOME/Documents/dotfiles/shell-macros	#set this to wherever you cloned these macros
-function open()		{ $SHELL_MACRO_LOCATION/open.sh $@;		};
-function upmusic()	{ $SHELL_MACRO_LOCATION/upmusic.sh $@;		};
-function man()		{ $SHELL_MACRO_LOCATION/man.sh $@;		};
-function muse()		{ $SHELL_MACRO_LOCATION/muse.sh $@;		};alias 'music'='muse'
-function brightset()	{ $SHELL_MACRO_LOCATION/brightset.sh $@;	};alias 'bs'='brightset'
-function brightdown()	{ $SHELL_MACRO_LOCATION/brightdown.sh $@;	};alias 'bd'='brightdown'
-function brightup()	{ $SHELL_MACRO_LOCATION/brightup.sh $@;		};alias 'bu'='brightup'
-function dadjoke()	{ $SHELL_MACRO_LOCATION/dadjoke.sh $@;		};alias 'dj'='dadjoke'
-function termdate()	{ $SHELL_MACRO_LOCATION/termdate.sh $@;		};alias 'td'='termdate'
-function FIXME()	{ $SHELL_MACRO_LOCATION/FIXME.sh $@;		};
+#path additions
+PATH=$PATH+":$HOME/dotfiles/bin"
 
 #plugins; may be added to $ZDOTDIR/.oh-my-zsh/custom/plugins/
 plugins=(git catimg)
 
 #sourcing shenaninigans
-source $ZSH/oh-my-zsh.sh
-uname -a | grep --ignore-case arch > /dev/null
-if [[ $? -eq 0 ]];then
-	source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh	#fish-style autocompletion, available from https://github.com/zsh-users/zsh-autosuggestions
-else
-	source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh	#when we aren't in Arch
-fi
+source $ZSH/oh-my-zsh.sh 2>> $dump
 
-(pkg info | grep --ignore-case zsh-syntax-highlighting) &> /dev/null
-if [[ $? -eq 0 ]];then
-	source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-else
-	source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh
-fi
+source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>> $dump
+source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh 2>> $dump
+
+source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>> $dump
+source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>> $dump
+source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>> $dump
 
 #directory-change hook, courtesy of https://stackoverflow.com/questions/17051123/source-a-file-in-zsh-when-entering-a-directory
 autoload -U add-zsh-hook
