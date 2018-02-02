@@ -18,13 +18,6 @@ function smallTermOpen () {
 	ufetch 2>> $dump || top -n 1  | head -n 5
 }
 
-function eclipseTermOpen () {
-	#run when we're in Eclipse's terminal
-	if $DEBUG; then; echo $(date): opening eclipse terminal >> $ZDOTDIR/zshrcopenlog;fi
-	export ZSH_THEME='amuse'
-	cd $HOME/Documents/workspaces/javaWorkspace
-}
-
 function determinal () {
 	#determines which terminal open functions to call
 	width=$(tput cols)	#tput is weird
