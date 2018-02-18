@@ -14,3 +14,4 @@ alias j='nvim $HOME/$DOCS/journals/$(date +%Y%m%B)/$(date +%d).md +'    #
 alias c="clear" #one-character clearing                                   
 alias rm="rm -I"
 alias gaga="git add **; git commit -v"  #quickly git-commit everything in 
+alias kdecli="kdeconnect-cli"	#just a faster way of using kdeconnect from the command line

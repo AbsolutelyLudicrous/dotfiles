@@ -4,7 +4,7 @@
 CURDIR=$(pwd)	#get our current directory
 mkdir $HOME/Music/downloaded_tempdir
 cd $HOME/Music/downloaded_tempdir
-youtube-dl https://www.youtube.com/playlist\?list=$PLAYLIST_UUID
+youtube-dl https://www.youtube.com/playlist\?list=$PLAYLIST_UUID\
 	 --yes-playlist\
 	 --no-call-home\
 	 --ignore-config\
