@@ -1,39 +1,8 @@
-\.config/*chrom*	#No chromiums!
-
-\.config/GitKraken/
-
-\.config/pulse/
-
-\.config/libreoffice/
-
 \.zsh/zhistory
-
 \.zsh/zshrcopenlog
-
-\.config/dein/
-
-\.config/nvim/backups/
-
-\.config/gnome-pie/gnome-pie\.log
-
-\.config/autostart/
-
-\.config/Atom/
-
-\.config/vivaldi/
-
-\.config/rtv/
-
-\.config/unity3d/
-
-\.config/Wire/
-
-\.config/tox/
-
-\.config/Signal/
-
-\.config/google-chrome/
-
-\.config/Tomahawk/
-
-\.config/VirtualBox/
+\.config
+	#honestly it's just a pain making sure no sensitive data gets stuck on github, we can sync these with on the local network with rsync
+!\.config/nvim/
+#but we DO want to include some things
+	\.config/nvim/backups/
+		#just not all of those some things
