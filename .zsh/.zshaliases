@@ -1,7 +1,6 @@
 #aliases
 alias grep='grep --color'
 alias ssh='ssh -v'
-alias clear='clear && source $ZDOTDIR/.zshrc'   #pretends we have a new te
 alias df='df -h'
 alias maven=mvn
 alias v='nvim'

@@ -53,4 +53,14 @@
       </metadata>
     </info>
   </bookmark>
+  <bookmark href="sftp://danne@10.0.1.78/" added="2018-03-06T05:58:56Z" modified="2018-03-06T05:58:56Z" visited="2018-03-06T05:58:56Z">
+    <title>/ on 10.0.1.78</title>
+    <info>
+      <metadata owner="http://freedesktop.org">
+        <bookmark:applications>
+          <bookmark:application name="nautilus" exec="&apos;nautilus %u&apos;" modified="2018-03-06T05:58:56Z" count="1"/>
+        </bookmark:applications>
+      </metadata>
+    </info>
+  </bookmark>
 </xbel>

@@ -15,7 +15,7 @@ function smallTermOpen () {
 	#run when we open a 'small' terminal
 	if $DEBUG; then; echo $(date):  opening small terminal >> $ZDOTDIR/zshrcopenlog;fi
 	export ZSH_THEME='amuse'
-	ufetch 2>> $dump || top -n 1  | head -n 5
+	ufetch 2>> $dump	#on the off chance we have ufetch installed
 }
 
 function determinal () {
@@ -86,34 +86,12 @@ function ghci () {
 	ghci -fno-warn-tabs $@
 	\rm -r $HOME/.ghc";}	#it's dumb that ghci doesn't have an off switch for its history
 
-#environ vars
-export ZDOTDIR="$HOME/.zsh"		#where the heck we have our zsh dotfiles
-export HISTFILE=$ZDOTDIR/zhistory	#where the heck our zshhistory is stored
-export EDITOR=nvim			#editor
-export VISUAL=nvim			#editor
-export ZSH=$ZDOTDIR/.oh-my-zsh		#path to OMZSH install
-export UPDATE_ZSH_DAYS=32		#update OMZSH every 32 days
-export PAGER=less			#less is more
-export ATOM_HOME=$HOME/.config/Atom	#motherfucking atom not conforming to the xdg base spec
-export PLAYLIST_UUID=PLU6u2aLdEBuM9rIqFJnmgfWQtng47Wa1D	#the unique ID of our music playlist
-export DOCS=docs			#location of Documents folder
-ZSH_AUTOSUGGEST_BUFFER_MAX_SIZE=32	#how many lines of zhistory should be read
-CASE_SENSITIVE='false'			#do we use case-sensitive completion
-HYPHEN_INSENSITIVE='true'		#don't differentiate between hyphens and underscores
-DISABLE_AUTO_UPDATE='false'		#continue to auto-update OMZSH
-DISABLE_LS_COLORS='true'		#removes a preconfigured alias, we want to use our own
-ENABLE_CORRECTION='true'		#enable command autocorrect
-COMPLETION_WAITING_DOTS='true'		#give us small red dots while waiting for tab completion
-HIST_STAMPS='dd.mm.yyyy'		#date format
-kdedev='3cfe9a26dcaa3f71'		#ID of my cellphone as determined by KDEConnect, used for running kdeconnect-cli
-nb='⚨'	#I feel like I might have to type this a lot
-
 #options
 setopt interactivecomments
 setopt dotglob
 
 #path additions
-PATH=$PATH+":$HOME/dotfiles/bin"
+PATH="$PATH:$HOME/dotfiles/bin"
 
 #plugins; may be added to $ZDOTDIR/.oh-my-zsh/custom/plugins/
 plugins=(git catimg)
@@ -129,7 +107,7 @@ source $ZSH/oh-my-zsh.sh 2>> $dump
 source /usr/share/zsh/plugins/zsh-autosuggestions/zsh-autosuggestions.zsh 2>> $dump
 source $ZDOTDIR/zsh-autosuggestions/zsh-autosuggestions.zsh 2>> $dump
 
-#in-shell syntaxt highlighting
+#in-shell syntax highlighting
 source /usr/local/share/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>> $dump
 source /usr/share/zsh/plugins/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>> $dump
 source $ZDOTDIR/zsh-syntax-highlighting/zsh-syntax-highlighting.zsh 2>> $dump
