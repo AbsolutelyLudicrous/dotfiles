@@ -2,7 +2,10 @@
 \.zsh/zshrcopenlog
 \.config
 	#honestly it's just a pain making sure no sensitive data gets stuck on github, we can sync these with on the local network with rsync
-!\.config/nvim/
+#!\.config/nvim/
 #but we DO want to include some things
-	\.config/nvim/backups/
+	#\.config/nvim/backups/
 		#just not all of those some things
+
+#do NOT redistribute some third party apps I use
+third-party

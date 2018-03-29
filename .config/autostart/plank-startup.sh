@@ -1,1 +1,0 @@
-plank --name dock1 &

@@ -1,3 +1,0 @@
-T 1512248172 19*	Now talking on 22#traa
-T 1512248172 22*	26verne.freenode.net sets mode 24+n on 22#traa
-T 1512248172 22*	26verne.freenode.net sets mode 24+s on 22#traa
