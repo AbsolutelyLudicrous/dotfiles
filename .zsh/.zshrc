@@ -48,7 +48,7 @@ function userlandCompat () {
 		alias ls="ls -aG";	#equivalent to --all --color or -a --color
 	else;				#if we're on the linux box(es)
 		if $DEBUG; then; echo $(date): chose linux ls-aliases >> $ZDOTDIR/zshrcopenlog;fi
-		alias ls="ls --all --color";fi;
+		alias ls="ls --all --color --classify";fi;
 	# neofetch > $dump || alias 'neofetch'='screenfetch -p'	#not all systems have neofetch, so we set it to screenfetch instead
 }
 
